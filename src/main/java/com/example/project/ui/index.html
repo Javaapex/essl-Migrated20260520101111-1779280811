@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Open Attendance UI</title>
+  <style>body{font-family:Inter,system-ui,Arial;margin:40px;color:#333} a{color:#1f3c88}</style>
+</head>
+<body>
+  <h2>Attendance UI launcher</h2>
+  <p>This file is a convenience launcher — open the server-hosted UI instead of editing this file directly.</p>
+  <p>If your Spring Boot app is running locally, click the link below to open the served UI:</p>
+  <p><a id="uiLink" href="#">Open served UI</a></p>
+  <p>If you opened this file directly (file://), the app must be started and the UI served at <code>http://localhost:8081/</code>.</p>
+
+  <script>
+    (function(){
+      try {
+        // If this page is opened via file://, redirect to http://localhost:8081/
+        if (window.location && window.location.protocol === 'file:') {
+          var url = 'http://localhost:8081/';
+          document.getElementById('uiLink').href = url;
+          // Try to navigate automatically
+          window.location.href = url;
+          return;
+        }
+
+        // Otherwise, use same origin root
+        var origin = (window.location && window.location.origin) ? window.location.origin : '';
+        if (origin) {
+          var root = origin + '/';
+          document.getElementById('uiLink').href = root;
+          // If not already at root, navigate
+          if (!window.location.pathname || window.location.pathname === '/' || window.location.pathname.endsWith('index.html')) {
+            // stay
+          } else {
+            window.location.href = root;
+          }
+        }
+      } catch (e) {
+        // ignore
+      }
+    })();
+  </script>
+</body>
+</html>

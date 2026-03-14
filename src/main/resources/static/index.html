@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorim Technologies - Attendance Report</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0; padding:0; box-sizing:border-box;
+            font-family:'Inter', sans-serif;
+        }
+
+        body{
+            background:#eef2f7;
+            padding:25px;
+        }
+
+        .container{
+            max-width:1450px;
+            margin:0 auto;
+            min-height:92vh;
+        }
+
+        /* ------------------ TOP HEADER BAR ------------------ */
+        .top-bar{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            padding:18px 25px;
+            background:linear-gradient(135deg,#1f3c88,#3f63d6);
+            border-radius:14px;
+            box-shadow:0 6px 20px rgba(0,0,0,0.25);
+            margin-bottom:15px;
+            color:#fff;
+        }
+
+        .logo img{height:62px;}
+        .top-title{font-size:32px;font-weight:800;}
+
+        .time-box{
+            text-align:right;
+            font-size:18px;
+            font-weight:600;
+        }
+
+        /* ------------------ FORM SECTION ------------------ */
+        .form-section{
+            background:#fff;
+            padding:25px;
+            border-radius:14px;
+            margin-bottom:15px;
+            display:flex;
+            gap:25px;
+            flex-wrap:wrap;
+            box-shadow:0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .form-section input,
+        .form-section select{
+            padding:12px 16px;
+            border:1px solid #ccc;
+            border-radius:8px;
+            font-size:16px;
+            width:220px;
+            transition:0.25s;
+        }
+
+        .form-section input:focus,
+        .form-section select:focus{
+            border-color:#1f3c88;
+            box-shadow:0 0 10px rgba(31,60,136,0.25);
+        }
+
+        .form-section button{
+            padding:14px 30px;
+            background:#1f3c88;
+            border:none;
+            border-radius:8px;
+            color:white;
+            font-size:16px;
+            font-weight:700;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        .form-section button:hover{
+            background:#182f6b;
+            transform:scale(1.04);
+        }
+
+        .message{
+            font-size:20px;
+            font-weight:600;
+            margin-bottom:10px;
+            color:#1f3c88;
+        }
+
+        /* ------------------ TABLE ------------------ */
+        table{
+            width:100%;
+            border-collapse:collapse;
+            border-radius:14px;
+            overflow:hidden;
+            box-shadow:0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        th{
+            background:#1f3c88;
+            color:#fff;
+            padding:16px;
+            font-size:15px;
+        }
+
+        td{padding:14px 18px;text-align: center;}
+        tr:nth-child(even){background:#f2f5ff;}
+        tr:hover{background:#e4e9fa;}
+
+        .status-success{
+            background:#d4edda;
+            color:#155724;
+            padding:6px 12px;
+            border-radius:12px;
+            font-weight:700;
+        }
+
+        .status-failed{
+            background:#f8d7da;
+            color:#721c24;
+            padding:6px 12px;
+            border-radius:12px;
+            font-weight:700;
+        }
+
+        .pagination{
+            display:flex;
+            justify-content:center;
+            gap:10px;
+            margin-top:25px;
+        }
+
+        .pagination button{
+            padding:8px 15px;
+            border:1px solid #1f3c88;
+            background:white;
+            color:#1f3c88;
+            border-radius:8px;
+            font-weight:700;
+            cursor:pointer;
+        }
+
+        .pagination .active{
+            background:#1f3c88;
+            color:white;
+        }
+
+        .footer{
+            margin-top:25px;
+            text-align:center;
+            font-size:14px;
+            color:#444;
+        }
+
+        /* ------------------ MODALS ------------------ */
+        .modal-bg{
+            position:fixed;
+            top:0; left:0; right:0; bottom:0;
+            background:rgba(0,0,0,0.6);
+            display:none;
+            justify-content:center;
+            align-items:center;
+            animation:fadeIn 0.3s ease;
+        }
+
+        .modal-box{
+            background:white;
+            padding:35px;
+            border-radius:14px;
+            width:360px;
+            text-align:center;
+            box-shadow:0 10px 40px rgba(0,0,0,0.3);
+            animation:popIn 0.35s ease;
+        }
+
+        .modal-buttons{
+            margin-top:25px;
+            display:flex;
+            justify-content:center;
+            gap:20px;
+        }
+
+        #loadingModal .modal-box {
+    background:white;
+    border-radius:14px;
+    text-align:center;
+}
+
+        .btn-confirm{
+            background:#1f3c88;
+            color:#fff;
+            padding:10px 25px;
+            border:none;
+            border-radius:8px;
+            font-weight:700;
+            cursor:pointer;
+        }
+
+        .btn-cancel{
+            background:#c6c6c6;
+            padding:10px 25px;
+            border:none;
+            border-radius:8px;
+            font-weight:600;
+            cursor:pointer;
+        }
+
+        @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+        @keyframes popIn{from{transform:scale(0.8);}to{transform:scale(1);}}
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="top-bar">
+        <div class="logo"><img src="./Logo.jpeg" alt="Sorim Technologies logo"></div>
+        <div class="top-title">Attendance Report Log</div>
+        <div class="time-box" id="currentTime"></div>
+    </div>
+
+    <!-- LOADING POPUP -->
+    <div class="modal-bg" id="loadingModal">
+        <div class="modal-box" style="width:180px; padding:25px;">
+            <img src="loading.gif" alt="Loading..." style="width:70px; margin-bottom:15px;">
+            <h3>Loading...</h3>
+        </div>
+    </div>
+
+    <div class="message" style="margin-top:5px; font-size:18px; color:#333;">
+        Select date and type, then click the Send button to submit your report.
+    </div>
+
+    <div class="form-section">
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <label for="type">Type</label>
+            <select id="type">
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+            </select>
+        </div>
+
+        <div>
+            <label>&nbsp;</label>
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <div class="message">Recent Logs</div>
+
+    <table id="attendanceTable">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Summary</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div class="pagination" id="pagination"></div>
+
+    <!-- CONFIRMATION POPUP -->
+    <div class="modal-bg" id="confirmModal">
+        <div class="modal-box">
+            <h3>Are you sure you want to send report?</h3>
+            <div class="modal-buttons">
+                <button class="btn-confirm" id="confirmSend">Send</button>
+                <button class="btn-cancel" id="closeModal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUCCESS POPUP -->
+    <div class="modal-bg" id="successModal">
+        <div class="modal-box">
+            <h3 style="color:#28a745;">Successfully Sent!</h3>
+            <div class="modal-buttons">
+                <button class="btn-confirm" id="closeSuccess">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Powered by Sorim Technologies Pvt Ltd
+    </div>
+</div>
+
+
+<script>
+    // ------- Utility helpers -------
+    const API_BASE = '/api/attendance';
+    const pageSize = 5; // rows per page
+
+    function formatDateIso(d) {
+        // expects Date or ISO string
+        if (!d) return '';
+        const dt = (d instanceof Date) ? d : new Date(d);
+        const y = dt.getFullYear();
+        const m = String(dt.getMonth() + 1).padStart(2, '0');
+        const day = String(dt.getDate()).padStart(2, '0');
+        return `${y}-${m}-${day}`;
+    }
+
+    function showModal(id) { document.getElementById(id).style.display = 'flex'; }
+    function hideModal(id) { document.getElementById(id).style.display = 'none'; }
+
+    // ------- Elements -------
+    const modal = document.getElementById('confirmModal');
+    const successModal = document.getElementById('successModal');
+    const sendBtn = document.getElementById('sendBtn');
+    const confirmSend = document.getElementById('confirmSend');
+    const closeModal = document.getElementById('closeModal');
+    const closeSuccess = document.getElementById('closeSuccess');
+    const dateInput = document.getElementById('date');
+    const typeSelect = document.getElementById('type');
+    const tableBody = document.querySelector('#attendanceTable tbody');
+    const paginationEl = document.getElementById('pagination');
+
+    // live clock (kept)
+function updateClock() {
+    const now = new Date();
+    const day = now.toLocaleDateString('en-US', { weekday: 'long' });
+    const date = now.toLocaleDateString();
+    const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+
+    document.getElementById('currentTime').innerHTML =
+        `${day}<br>${date}<br>${time}`;
+}
+
+    setInterval(updateClock,1000);
+    updateClock();
+
+    // ------- State -------
+    let historyRows = []; // full history from server
+    let currentPage = 1;
+    // Polling config: how often to refresh history to pick up cron-created entries
+    const POLL_INTERVAL_MS = 15000; // 15 seconds (adjustable)
+    let pollTimer = null;
+    let isFetchingHistory = false;
+
+    // ------- Fetch history from server -------
+    async function fetchHistory() {
+        try {
+            // prevent overlapping fetches
+            if (isFetchingHistory) return;
+            isFetchingHistory = true;
+            const res = await fetch(`${API_BASE}/history`, { method: 'GET' });
+            if (!res.ok) throw new Error('Failed to load history: ' + res.status + ' ' + res.statusText);
+            const data = await res.json();
+            // data is array of {date,type,summary,status,timestamp}
+         historyRows = Array.isArray(data)
+    ? data.sort((a, b) => new Date(b.date) - new Date(a.date))
+    : [];
+
+            currentPage = 1;
+            updateTable();
+        } catch (err) {
+            console.error(err);
+            alert('Unable to load history: ' + err.message);
+        } finally {
+            isFetchingHistory = false;
+        }
+    }
+
+    function startPolling() {
+        // clear existing timer if any
+        if (pollTimer) clearInterval(pollTimer);
+        // don't poll when page is hidden to reduce load
+        pollTimer = setInterval(() => {
+            if (document.visibilityState === 'visible') {
+                fetchHistory();
+            }
+        }, POLL_INTERVAL_MS);
+    }
+
+    // ------- Send report (daily or weekly) -------
+    async function sendReport(selectedDate, type) {
+        const iso = formatDateIso(selectedDate);
+        try {
+            sendBtn.disabled = true;
+
+            let endpoint = '';
+            if (type === 'daily') {
+                endpoint = `${API_BASE}/send-email-html?date=${encodeURIComponent(iso)}&source=Manual`;
+            } else {
+                endpoint = `${API_BASE}/send-weekly-email-html?date=${encodeURIComponent(iso)}&source=Manual`;
+             }
+
+            const res = await fetch(endpoint, { method: 'GET' });
+            const contentType = res.headers.get('Content-Type') || '';
+            let payload;
+            if (contentType.includes('application/json')) payload = await res.json();
+            else payload = await res.text();
+
+            if (!res.ok) {
+                // create a failed entry in history by reloading server-side history
+                await fetchHistory();
+                throw new Error((payload && payload.message) ? payload.message : (typeof payload === 'string' ? payload : 'Send failed'));
+            }
+
+            // success — refresh history from server to pick up the new entry
+            await fetchHistory();
+            showModal('successModal');
+        } catch (err) {
+            console.error('Send failed', err);
+            alert('Send failed: ' + (err.message || err));
+            // refresh history so UI reflects server-side failures recorded by controller
+            await fetchHistory();
+        } finally {
+            sendBtn.disabled = false;
+            sendBtn.textContent = 'Send';
+        }
+    }
+
+    // ------- Table rendering & pagination -------
+    function updateTable() {
+        // clear
+        tableBody.innerHTML = '';
+        const start = (currentPage - 1) * pageSize;
+        const pageRows = historyRows.slice(start, start + pageSize);
+
+        for (const r of pageRows) {
+            const tr = document.createElement('tr');
+            const dateTd = document.createElement('td');
+            dateTd.textContent = r.date || '';
+            const typeTd = document.createElement('td');
+            typeTd.textContent = r.type || '';
+            const summaryTd = document.createElement('td');
+            summaryTd.textContent = (typeof r.summary === 'number') ? r.summary : (r.summary || '');
+            const statusTd = document.createElement('td');
+            const span = document.createElement('span');
+            span.textContent = r.status || '';
+            if ((r.status || '').toLowerCase() === 'success') span.className = 'status-success';
+            else if ((r.status || '').toLowerCase() === 'failed') span.className = 'status-failed';
+            statusTd.appendChild(span);
+
+            tr.appendChild(dateTd);
+            tr.appendChild(typeTd);
+            tr.appendChild(summaryTd);
+            tr.appendChild(statusTd);
+            tableBody.appendChild(tr);
+        }
+
+        renderPagination();
+    }
+
+    function renderPagination() {
+        paginationEl.innerHTML = '';
+        const total = historyRows.length;
+        const pages = Math.max(1, Math.ceil(total / pageSize));
+
+        for (let i = 1; i <= pages; i++) {
+            const btn = document.createElement('button');
+            btn.textContent = i;
+            if (i === currentPage) btn.classList.add('active');
+            btn.onclick = () => { currentPage = i; updateTable(); };
+            paginationEl.appendChild(btn);
+        }
+    }
+
+    // ------- UI wiring -------
+    sendBtn.addEventListener('click', () => {
+        // validate date
+        const selected = dateInput.value;
+        if (!selected) {
+            alert('Please select a date');
+            return;
+        }
+        showModal('confirmModal');
+    });
+
+confirmSend.addEventListener('click', async () => {
+    hideModal('confirmModal');
+    showModal('loadingModal');  // show loader
+
+    const selected = dateInput.value;
+    const type = typeSelect.value || 'daily';
+
+    await sendReport(selected, type);
+
+    hideModal('loadingModal');  // hide loader
+    showModal('successModal');  // show success popup
+});
+
+    closeModal.addEventListener('click', () => hideModal('confirmModal'));
+    closeSuccess.addEventListener('click', () => hideModal('successModal'));
+
+    // load initial data
+    (function init() {
+        // set default date to today
+        dateInput.value = formatDateIso(new Date());
+        fetchHistory();
+        startPolling();
+    })();
+</script>
+
+</body>
+</html>

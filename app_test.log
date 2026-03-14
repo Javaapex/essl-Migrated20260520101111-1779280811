@@ -1,0 +1,3519 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.0)
+
+2025-11-26T11:20:01.592+05:30  INFO 16928 --- [           main] com.example.project.ProjectApplication   : Starting ProjectApplication v0.0.1-SNAPSHOT using Java 25.0.1 with PID 16928 (E:\Abi\project\project\target\project-0.0.1-SNAPSHOT.jar started by user in E:\Abi\project\project)
+2025-11-26T11:20:01.601+05:30  INFO 16928 --- [           main] com.example.project.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-26T11:20:03.319+05:30  INFO 16928 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2025-11-26T11:20:03.350+05:30  INFO 16928 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-26T11:20:03.351+05:30  INFO 16928 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-26T11:20:03.439+05:30  INFO 16928 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1700 ms
+2025-11-26T11:20:04.099+05:30  INFO 16928 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2025-11-26T11:20:04.118+05:30  INFO 16928 --- [           main] com.example.project.ProjectApplication   : Started ProjectApplication in 3.299 seconds (process running for 4.414)
+2025-11-26T11:21:03.325+05:30  INFO 16928 --- [nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-26T11:21:03.326+05:30  INFO 16928 --- [nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-26T11:21:03.329+05:30  INFO 16928 --- [nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+SOAP Response:
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetTransactionsLogResponse xmlns="http://tempuri.org/"><GetTransactionsLogResult>Logs Count:222</GetTransactionsLogResult><strDataList>1	2025-11-25 08:38:10	in
+1	2025-11-25 10:33:47	out
+1	2025-11-25 10:41:50	in
+1	2025-11-25 10:48:16	out
+1	2025-11-25 10:49:06	out
+1	2025-11-25 11:04:33	in
+1	2025-11-25 13:19:50	out
+1	2025-11-25 13:56:38	in
+1	2025-11-25 15:26:45	out
+1	2025-11-25 15:32:33	in
+1	2025-11-25 16:03:04	out
+1	2025-11-25 16:25:13	in
+10	2025-11-25 10:12:36	in
+10	2025-11-25 11:29:15	out
+10	2025-11-25 12:19:03	in
+10	2025-11-25 13:42:00	out
+10	2025-11-25 14:10:10	in
+10	2025-11-25 16:06:54	in
+1001	2025-11-25 09:46:56	in
+1001	2025-11-25 10:16:47	out
+1001	2025-11-25 10:19:59	in
+1001	2025-11-25 11:11:33	out
+1001	2025-11-25 11:13:50	in
+1001	2025-11-25 12:06:49	out
+1001	2025-11-25 12:08:27	in
+1001	2025-11-25 13:18:36	out
+1001	2025-11-25 13:20:29	in
+1001	2025-11-25 14:35:07	out
+1001	2025-11-25 14:35:37	in
+1001	2025-11-25 15:08:23	in
+1001	2025-11-25 16:30:37	out
+1001	2025-11-25 16:31:12	in
+1002	2025-11-25 07:25:31	in
+1002	2025-11-25 08:35:43	out
+1002	2025-11-25 08:56:46	in
+1002	2025-11-25 09:19:32	out
+1002	2025-11-25 09:19:40	in
+1002	2025-11-25 09:30:05	out
+1002	2025-11-25 09:31:45	in
+1002	2025-11-25 09:41:59	out
+1002	2025-11-25 09:45:18	in
+1002	2025-11-25 09:53:07	in
+1002	2025-11-25 10:02:20	out
+1002	2025-11-25 10:14:22	in
+1002	2025-11-25 10:34:33	out
+1002	2025-11-25 10:42:50	in
+1002	2025-11-25 10:46:55	out
+1002	2025-11-25 10:51:33	in
+1002	2025-11-25 10:52:00	out
+1002	2025-11-25 10:53:40	in
+1002	2025-11-25 10:54:22	out
+1002	2025-11-25 10:57:19	in
+1002	2025-11-25 11:04:37	in
+1002	2025-11-25 11:09:08	out
+1002	2025-11-25 11:14:45	out
+1002	2025-11-25 11:16:03	in
+1002	2025-11-25 11:16:36	out
+1002	2025-11-25 11:17:40	in
+1002	2025-11-25 11:17:56	out
+1002	2025-11-25 11:27:01	out
+1002	2025-11-25 11:29:03	in
+1002	2025-11-25 11:43:09	out
+1002	2025-11-25 11:44:12	in
+1002	2025-11-25 11:44:37	out
+1002	2025-11-25 11:46:04	in
+1002	2025-11-25 11:48:16	out
+1002	2025-11-25 11:49:15	in
+1002	2025-11-25 11:49:32	out
+1002	2025-11-25 12:14:18	in
+1002	2025-11-25 12:14:51	out
+1002	2025-11-25 12:29:11	in
+1002	2025-11-25 12:37:19	in
+1002	2025-11-25 12:41:22	out
+1002	2025-11-25 13:05:31	in
+1002	2025-11-25 13:08:06	out
+1002	2025-11-25 13:29:56	in
+1002	2025-11-25 14:05:25	out
+1002	2025-11-25 15:03:55	in
+1002	2025-11-25 15:04:18	out
+1002	2025-11-25 15:09:08	in
+1002	2025-11-25 15:30:21	in
+1002	2025-11-25 15:36:16	out
+1002	2025-11-25 15:37:26	in
+1002	2025-11-25 15:38:18	out
+1002	2025-11-25 16:02:45	in
+1002	2025-11-25 16:39:53	out
+1002	2025-11-25 16:48:19	in
+1003	2025-11-25 07:36:41	in
+1004	2025-11-25 08:29:11	in
+1004	2025-11-25 11:00:10	out
+1004	2025-11-25 11:00:36	in
+1004	2025-11-25 12:35:53	out
+1004	2025-11-25 12:53:16	in
+1004	2025-11-25 13:49:39	out
+1004	2025-11-25 15:27:02	in
+1004	2025-11-25 16:39:30	out
+1006	2025-11-25 10:31:23	in
+1006	2025-11-25 11:17:23	out
+1006	2025-11-25 11:36:39	in
+1006	2025-11-25 13:03:44	out
+1009	2025-11-25 13:05:18	in
+1009	2025-11-25 13:16:57	out
+1009	2025-11-25 14:37:40	out
+1009	2025-11-25 14:41:53	in
+12	2025-11-25 08:37:29	in
+12	2025-11-25 10:48:28	out
+12	2025-11-25 11:00:59	in
+12	2025-11-25 13:56:41	in
+12	2025-11-25 14:39:42	out
+12	2025-11-25 14:43:45	in
+12	2025-11-25 16:23:16	out
+13	2025-11-25 14:07:40	in
+13	2025-11-25 14:29:08	out
+13	2025-11-25 16:21:04	out
+14	2025-11-25 10:09:18	in
+14	2025-11-25 10:47:01	out
+14	2025-11-25 11:01:03	in
+14	2025-11-25 11:01:38	out
+14	2025-11-25 11:04:41	in
+14	2025-11-25 12:18:35	out
+14	2025-11-25 12:31:57	in
+14	2025-11-25 13:21:02	out
+14	2025-11-25 13:26:22	in
+14	2025-11-25 14:35:11	out
+14	2025-11-25 15:06:32	in
+14	2025-11-25 16:01:40	out
+14	2025-11-25 16:21:24	in
+14	2025-11-25 16:23:50	out
+14	2025-11-25 16:26:28	in
+15	2025-11-25 10:55:27	in
+15	2025-11-25 13:34:43	out
+15	2025-11-25 13:39:01	in
+15	2025-11-25 13:41:55	out
+15	2025-11-25 14:10:05	in
+15	2025-11-25 14:42:35	out
+15	2025-11-25 14:44:58	in
+15	2025-11-25 15:57:45	out
+15	2025-11-25 16:03:19	in
+15	2025-11-25 16:07:44	out
+16	2025-11-25 09:12:43	in
+16	2025-11-25 09:24:12	out
+16	2025-11-25 09:29:15	in
+16	2025-11-25 09:29:18	in
+16	2025-11-25 10:47:16	out
+16	2025-11-25 10:47:56	out
+16	2025-11-25 11:04:28	in
+16	2025-11-25 13:20:35	out
+16	2025-11-25 13:56:15	in
+16	2025-11-25 16:02:59	out
+16	2025-11-25 16:04:57	in
+16	2025-11-25 16:06:04	out
+16	2025-11-25 16:13:27	in
+16	2025-11-25 16:16:00	out
+16	2025-11-25 16:25:09	in
+2	2025-11-25 08:38:15	in
+2	2025-11-25 09:48:09	out
+2	2025-11-25 09:50:11	in
+2	2025-11-25 11:20:46	out
+2	2025-11-25 11:28:30	in
+2	2025-11-25 13:20:03	out
+2	2025-11-25 13:56:34	in
+2	2025-11-25 15:17:13	out
+2	2025-11-25 15:25:11	in
+21	2025-11-25 09:20:04	in
+21	2025-11-25 10:47:28	out
+21	2025-11-25 10:47:40	out
+21	2025-11-25 11:04:23	in
+21	2025-11-25 13:20:56	out
+21	2025-11-25 13:56:27	in
+21	2025-11-25 16:02:55	out
+21	2025-11-25 16:05:08	in
+21	2025-11-25 16:06:01	out
+21	2025-11-25 16:07:33	in
+21	2025-11-25 16:08:04	out
+21	2025-11-25 16:13:21	in
+21	2025-11-25 16:15:48	out
+21	2025-11-25 16:25:03	in
+30	2025-11-25 10:49:42	in
+30	2025-11-25 11:29:43	out
+30	2025-11-25 11:36:56	in
+30	2025-11-25 13:19:54	out
+30	2025-11-25 13:56:23	in
+30	2025-11-25 15:48:30	out
+30	2025-11-25 15:49:40	in
+30	2025-11-25 15:54:18	out
+30	2025-11-25 16:00:42	in
+30	2025-11-25 16:23:06	out
+5	2025-11-25 09:12:38	in
+5	2025-11-25 11:03:00	out
+5	2025-11-25 11:18:39	out
+5	2025-11-25 11:25:21	in
+5	2025-11-25 11:57:59	out
+5	2025-11-25 12:29:14	out
+5	2025-11-25 12:31:44	out
+5	2025-11-25 13:18:07	out
+5	2025-11-25 13:20:54	out
+5	2025-11-25 13:58:05	in
+5	2025-11-25 14:38:11	in
+5	2025-11-25 14:53:39	in
+5	2025-11-25 16:47:24	out
+7	2025-11-25 09:00:20	in
+7	2025-11-25 10:08:12	out
+7	2025-11-25 10:13:33	in
+7	2025-11-25 10:47:45	out
+7	2025-11-25 11:06:59	in
+7	2025-11-25 13:19:59	out
+7	2025-11-25 13:56:21	in
+7	2025-11-25 15:55:41	out
+7	2025-11-25 16:04:41	in
+7	2025-11-25 16:25:16	in
+7	2025-11-25 16:25:18	in
+8	2025-11-25 08:29:06	in
+8	2025-11-25 09:01:01	out
+8	2025-11-25 09:03:07	in
+8	2025-11-25 10:06:41	out
+8	2025-11-25 10:09:24	in
+8	2025-11-25 11:18:23	out
+8	2025-11-25 11:28:33	in
+8	2025-11-25 13:19:45	out
+8	2025-11-25 13:56:44	in
+8	2025-11-25 14:58:10	out
+8	2025-11-25 15:02:24	in
+</strDataList></GetTransactionsLogResponse></soap:Body></soap:Envelope>
+SOAP Response fetched for date: 2025-11-25
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetTransactionsLogResponse xmlns="http://tempuri.org/"><GetTransactionsLogResult>Logs Count:222</GetTransactionsLogResult><strDataList>1	2025-11-25 08:38:10	in
+1	2025-11-25 10:33:47	out
+1	2025-11-25 10:41:50	in
+1	2025-11-25 10:48:16	out
+1	2025-11-25 10:49:06	out
+1	2025-11-25 11:04:33	in
+1	2025-11-25 13:19:50	out
+1	2025-11-25 13:56:38	in
+1	2025-11-25 15:26:45	out
+1	2025-11-25 15:32:33	in
+1	2025-11-25 16:03:04	out
+1	2025-11-25 16:25:13	in
+10	2025-11-25 10:12:36	in
+10	2025-11-25 11:29:15	out
+10	2025-11-25 12:19:03	in
+10	2025-11-25 13:42:00	out
+10	2025-11-25 14:10:10	in
+10	2025-11-25 16:06:54	in
+1001	2025-11-25 09:46:56	in
+1001	2025-11-25 10:16:47	out
+1001	2025-11-25 10:19:59	in
+1001	2025-11-25 11:11:33	out
+1001	2025-11-25 11:13:50	in
+1001	2025-11-25 12:06:49	out
+1001	2025-11-25 12:08:27	in
+1001	2025-11-25 13:18:36	out
+1001	2025-11-25 13:20:29	in
+1001	2025-11-25 14:35:07	out
+1001	2025-11-25 14:35:37	in
+1001	2025-11-25 15:08:23	in
+1001	2025-11-25 16:30:37	out
+1001	2025-11-25 16:31:12	in
+1002	2025-11-25 07:25:31	in
+1002	2025-11-25 08:35:43	out
+1002	2025-11-25 08:56:46	in
+1002	2025-11-25 09:19:32	out
+1002	2025-11-25 09:19:40	in
+1002	2025-11-25 09:30:05	out
+1002	2025-11-25 09:31:45	in
+1002	2025-11-25 09:41:59	out
+1002	2025-11-25 09:45:18	in
+1002	2025-11-25 09:53:07	in
+1002	2025-11-25 10:02:20	out
+1002	2025-11-25 10:14:22	in
+1002	2025-11-25 10:34:33	out
+1002	2025-11-25 10:42:50	in
+1002	2025-11-25 10:46:55	out
+1002	2025-11-25 10:51:33	in
+1002	2025-11-25 10:52:00	out
+1002	2025-11-25 10:53:40	in
+1002	2025-11-25 10:54:22	out
+1002	2025-11-25 10:57:19	in
+1002	2025-11-25 11:04:37	in
+1002	2025-11-25 11:09:08	out
+1002	2025-11-25 11:14:45	out
+1002	2025-11-25 11:16:03	in
+1002	2025-11-25 11:16:36	out
+1002	2025-11-25 11:17:40	in
+1002	2025-11-25 11:17:56	out
+1002	2025-11-25 11:27:01	out
+1002	2025-11-25 11:29:03	in
+1002	2025-11-25 11:43:09	out
+1002	2025-11-25 11:44:12	in
+1002	2025-11-25 11:44:37	out
+1002	2025-11-25 11:46:04	in
+1002	2025-11-25 11:48:16	out
+1002	2025-11-25 11:49:15	in
+1002	2025-11-25 11:49:32	out
+1002	2025-11-25 12:14:18	in
+1002	2025-11-25 12:14:51	out
+1002	2025-11-25 12:29:11	in
+1002	2025-11-25 12:37:19	in
+1002	2025-11-25 12:41:22	out
+1002	2025-11-25 13:05:31	in
+1002	2025-11-25 13:08:06	out
+1002	2025-11-25 13:29:56	in
+1002	2025-11-25 14:05:25	out
+1002	2025-11-25 15:03:55	in
+1002	2025-11-25 15:04:18	out
+1002	2025-11-25 15:09:08	in
+1002	2025-11-25 15:30:21	in
+1002	2025-11-25 15:36:16	out
+1002	2025-11-25 15:37:26	in
+1002	2025-11-25 15:38:18	out
+1002	2025-11-25 16:02:45	in
+1002	2025-11-25 16:39:53	out
+1002	2025-11-25 16:48:19	in
+1003	2025-11-25 07:36:41	in
+1004	2025-11-25 08:29:11	in
+1004	2025-11-25 11:00:10	out
+1004	2025-11-25 11:00:36	in
+1004	2025-11-25 12:35:53	out
+1004	2025-11-25 12:53:16	in
+1004	2025-11-25 13:49:39	out
+1004	2025-11-25 15:27:02	in
+1004	2025-11-25 16:39:30	out
+1006	2025-11-25 10:31:23	in
+1006	2025-11-25 11:17:23	out
+1006	2025-11-25 11:36:39	in
+1006	2025-11-25 13:03:44	out
+1009	2025-11-25 13:05:18	in
+1009	2025-11-25 13:16:57	out
+1009	2025-11-25 14:37:40	out
+1009	2025-11-25 14:41:53	in
+12	2025-11-25 08:37:29	in
+12	2025-11-25 10:48:28	out
+12	2025-11-25 11:00:59	in
+12	2025-11-25 13:56:41	in
+12	2025-11-25 14:39:42	out
+12	2025-11-25 14:43:45	in
+12	2025-11-25 16:23:16	out
+13	2025-11-25 14:07:40	in
+13	2025-11-25 14:29:08	out
+13	2025-11-25 16:21:04	out
+14	2025-11-25 10:09:18	in
+14	2025-11-25 10:47:01	out
+14	2025-11-25 11:01:03	in
+14	2025-11-25 11:01:38	out
+14	2025-11-25 11:04:41	in
+14	2025-11-25 12:18:35	out
+14	2025-11-25 12:31:57	in
+14	2025-11-25 13:21:02	out
+14	2025-11-25 13:26:22	in
+14	2025-11-25 14:35:11	out
+14	2025-11-25 15:06:32	in
+14	2025-11-25 16:01:40	out
+14	2025-11-25 16:21:24	in
+14	2025-11-25 16:23:50	out
+14	2025-11-25 16:26:28	in
+15	2025-11-25 10:55:27	in
+15	2025-11-25 13:34:43	out
+15	2025-11-25 13:39:01	in
+15	2025-11-25 13:41:55	out
+15	2025-11-25 14:10:05	in
+15	2025-11-25 14:42:35	out
+15	2025-11-25 14:44:58	in
+15	2025-11-25 15:57:45	out
+15	2025-11-25 16:03:19	in
+15	2025-11-25 16:07:44	out
+16	2025-11-25 09:12:43	in
+16	2025-11-25 09:24:12	out
+16	2025-11-25 09:29:15	in
+16	2025-11-25 09:29:18	in
+16	2025-11-25 10:47:16	out
+16	2025-11-25 10:47:56	out
+16	2025-11-25 11:04:28	in
+16	2025-11-25 13:20:35	out
+16	2025-11-25 13:56:15	in
+16	2025-11-25 16:02:59	out
+16	2025-11-25 16:04:57	in
+16	2025-11-25 16:06:04	out
+16	2025-11-25 16:13:27	in
+16	2025-11-25 16:16:00	out
+16	2025-11-25 16:25:09	in
+2	2025-11-25 08:38:15	in
+2	2025-11-25 09:48:09	out
+2	2025-11-25 09:50:11	in
+2	2025-11-25 11:20:46	out
+2	2025-11-25 11:28:30	in
+2	2025-11-25 13:20:03	out
+2	2025-11-25 13:56:34	in
+2	2025-11-25 15:17:13	out
+2	2025-11-25 15:25:11	in
+21	2025-11-25 09:20:04	in
+21	2025-11-25 10:47:28	out
+21	2025-11-25 10:47:40	out
+21	2025-11-25 11:04:23	in
+21	2025-11-25 13:20:56	out
+21	2025-11-25 13:56:27	in
+21	2025-11-25 16:02:55	out
+21	2025-11-25 16:05:08	in
+21	2025-11-25 16:06:01	out
+21	2025-11-25 16:07:33	in
+21	2025-11-25 16:08:04	out
+21	2025-11-25 16:13:21	in
+21	2025-11-25 16:15:48	out
+21	2025-11-25 16:25:03	in
+30	2025-11-25 10:49:42	in
+30	2025-11-25 11:29:43	out
+30	2025-11-25 11:36:56	in
+30	2025-11-25 13:19:54	out
+30	2025-11-25 13:56:23	in
+30	2025-11-25 15:48:30	out
+30	2025-11-25 15:49:40	in
+30	2025-11-25 15:54:18	out
+30	2025-11-25 16:00:42	in
+30	2025-11-25 16:23:06	out
+5	2025-11-25 09:12:38	in
+5	2025-11-25 11:03:00	out
+5	2025-11-25 11:18:39	out
+5	2025-11-25 11:25:21	in
+5	2025-11-25 11:57:59	out
+5	2025-11-25 12:29:14	out
+5	2025-11-25 12:31:44	out
+5	2025-11-25 13:18:07	out
+5	2025-11-25 13:20:54	out
+5	2025-11-25 13:58:05	in
+5	2025-11-25 14:38:11	in
+5	2025-11-25 14:53:39	in
+5	2025-11-25 16:47:24	out
+7	2025-11-25 09:00:20	in
+7	2025-11-25 10:08:12	out
+7	2025-11-25 10:13:33	in
+7	2025-11-25 10:47:45	out
+7	2025-11-25 11:06:59	in
+7	2025-11-25 13:19:59	out
+7	2025-11-25 13:56:21	in
+7	2025-11-25 15:55:41	out
+7	2025-11-25 16:04:41	in
+7	2025-11-25 16:25:16	in
+7	2025-11-25 16:25:18	in
+8	2025-11-25 08:29:06	in
+8	2025-11-25 09:01:01	out
+8	2025-11-25 09:03:07	in
+8	2025-11-25 10:06:41	out
+8	2025-11-25 10:09:24	in
+8	2025-11-25 11:18:23	out
+8	2025-11-25 11:28:33	in
+8	2025-11-25 13:19:45	out
+8	2025-11-25 13:56:44	in
+8	2025-11-25 14:58:10	out
+8	2025-11-25 15:02:24	in
+</strDataList></GetTransactionsLogResponse></soap:Body></soap:Envelope>
+Total raw SOAP records parsed: 221
+1 | 2025-11-25 10:33:47 | out
+1 | 2025-11-25 10:41:50 | in
+1 | 2025-11-25 10:48:16 | out
+1 | 2025-11-25 10:49:06 | out
+1 | 2025-11-25 11:04:33 | in
+1 | 2025-11-25 13:19:50 | out
+1 | 2025-11-25 13:56:38 | in
+1 | 2025-11-25 15:26:45 | out
+1 | 2025-11-25 15:32:33 | in
+1 | 2025-11-25 16:03:04 | out
+1 | 2025-11-25 16:25:13 | in
+10 | 2025-11-25 10:12:36 | in
+10 | 2025-11-25 11:29:15 | out
+10 | 2025-11-25 12:19:03 | in
+10 | 2025-11-25 13:42:00 | out
+10 | 2025-11-25 14:10:10 | in
+10 | 2025-11-25 16:06:54 | in
+1001 | 2025-11-25 09:46:56 | in
+1001 | 2025-11-25 10:16:47 | out
+1001 | 2025-11-25 10:19:59 | in
+1001 | 2025-11-25 11:11:33 | out
+1001 | 2025-11-25 11:13:50 | in
+1001 | 2025-11-25 12:06:49 | out
+1001 | 2025-11-25 12:08:27 | in
+1001 | 2025-11-25 13:18:36 | out
+1001 | 2025-11-25 13:20:29 | in
+1001 | 2025-11-25 14:35:07 | out
+1001 | 2025-11-25 14:35:37 | in
+1001 | 2025-11-25 15:08:23 | in
+1001 | 2025-11-25 16:30:37 | out
+1001 | 2025-11-25 16:31:12 | in
+1002 | 2025-11-25 07:25:31 | in
+1002 | 2025-11-25 08:35:43 | out
+1002 | 2025-11-25 08:56:46 | in
+1002 | 2025-11-25 09:19:32 | out
+1002 | 2025-11-25 09:19:40 | in
+1002 | 2025-11-25 09:30:05 | out
+1002 | 2025-11-25 09:31:45 | in
+1002 | 2025-11-25 09:41:59 | out
+1002 | 2025-11-25 09:45:18 | in
+1002 | 2025-11-25 09:53:07 | in
+1002 | 2025-11-25 10:02:20 | out
+1002 | 2025-11-25 10:14:22 | in
+1002 | 2025-11-25 10:34:33 | out
+1002 | 2025-11-25 10:42:50 | in
+1002 | 2025-11-25 10:46:55 | out
+1002 | 2025-11-25 10:51:33 | in
+1002 | 2025-11-25 10:52:00 | out
+1002 | 2025-11-25 10:53:40 | in
+1002 | 2025-11-25 10:54:22 | out
+1002 | 2025-11-25 10:57:19 | in
+1002 | 2025-11-25 11:04:37 | in
+1002 | 2025-11-25 11:09:08 | out
+1002 | 2025-11-25 11:14:45 | out
+1002 | 2025-11-25 11:16:03 | in
+1002 | 2025-11-25 11:16:36 | out
+1002 | 2025-11-25 11:17:40 | in
+1002 | 2025-11-25 11:17:56 | out
+1002 | 2025-11-25 11:27:01 | out
+1002 | 2025-11-25 11:29:03 | in
+1002 | 2025-11-25 11:43:09 | out
+1002 | 2025-11-25 11:44:12 | in
+1002 | 2025-11-25 11:44:37 | out
+1002 | 2025-11-25 11:46:04 | in
+1002 | 2025-11-25 11:48:16 | out
+1002 | 2025-11-25 11:49:15 | in
+1002 | 2025-11-25 11:49:32 | out
+1002 | 2025-11-25 12:14:18 | in
+1002 | 2025-11-25 12:14:51 | out
+1002 | 2025-11-25 12:29:11 | in
+1002 | 2025-11-25 12:37:19 | in
+1002 | 2025-11-25 12:41:22 | out
+1002 | 2025-11-25 13:05:31 | in
+1002 | 2025-11-25 13:08:06 | out
+1002 | 2025-11-25 13:29:56 | in
+1002 | 2025-11-25 14:05:25 | out
+1002 | 2025-11-25 15:03:55 | in
+1002 | 2025-11-25 15:04:18 | out
+1002 | 2025-11-25 15:09:08 | in
+1002 | 2025-11-25 15:30:21 | in
+1002 | 2025-11-25 15:36:16 | out
+1002 | 2025-11-25 15:37:26 | in
+1002 | 2025-11-25 15:38:18 | out
+1002 | 2025-11-25 16:02:45 | in
+1002 | 2025-11-25 16:39:53 | out
+1002 | 2025-11-25 16:48:19 | in
+1003 | 2025-11-25 07:36:41 | in
+1004 | 2025-11-25 08:29:11 | in
+1004 | 2025-11-25 11:00:10 | out
+1004 | 2025-11-25 11:00:36 | in
+1004 | 2025-11-25 12:35:53 | out
+1004 | 2025-11-25 12:53:16 | in
+1004 | 2025-11-25 13:49:39 | out
+1004 | 2025-11-25 15:27:02 | in
+1004 | 2025-11-25 16:39:30 | out
+1006 | 2025-11-25 10:31:23 | in
+1006 | 2025-11-25 11:17:23 | out
+1006 | 2025-11-25 11:36:39 | in
+1006 | 2025-11-25 13:03:44 | out
+1009 | 2025-11-25 13:05:18 | in
+1009 | 2025-11-25 13:16:57 | out
+1009 | 2025-11-25 14:37:40 | out
+1009 | 2025-11-25 14:41:53 | in
+12 | 2025-11-25 08:37:29 | in
+12 | 2025-11-25 10:48:28 | out
+12 | 2025-11-25 11:00:59 | in
+12 | 2025-11-25 13:56:41 | in
+12 | 2025-11-25 14:39:42 | out
+12 | 2025-11-25 14:43:45 | in
+12 | 2025-11-25 16:23:16 | out
+13 | 2025-11-25 14:07:40 | in
+13 | 2025-11-25 14:29:08 | out
+13 | 2025-11-25 16:21:04 | out
+14 | 2025-11-25 10:09:18 | in
+14 | 2025-11-25 10:47:01 | out
+14 | 2025-11-25 11:01:03 | in
+14 | 2025-11-25 11:01:38 | out
+14 | 2025-11-25 11:04:41 | in
+14 | 2025-11-25 12:18:35 | out
+14 | 2025-11-25 12:31:57 | in
+14 | 2025-11-25 13:21:02 | out
+14 | 2025-11-25 13:26:22 | in
+14 | 2025-11-25 14:35:11 | out
+14 | 2025-11-25 15:06:32 | in
+14 | 2025-11-25 16:01:40 | out
+14 | 2025-11-25 16:21:24 | in
+14 | 2025-11-25 16:23:50 | out
+14 | 2025-11-25 16:26:28 | in
+15 | 2025-11-25 10:55:27 | in
+15 | 2025-11-25 13:34:43 | out
+15 | 2025-11-25 13:39:01 | in
+15 | 2025-11-25 13:41:55 | out
+15 | 2025-11-25 14:10:05 | in
+15 | 2025-11-25 14:42:35 | out
+15 | 2025-11-25 14:44:58 | in
+15 | 2025-11-25 15:57:45 | out
+15 | 2025-11-25 16:03:19 | in
+15 | 2025-11-25 16:07:44 | out
+16 | 2025-11-25 09:12:43 | in
+16 | 2025-11-25 09:24:12 | out
+16 | 2025-11-25 09:29:15 | in
+16 | 2025-11-25 09:29:18 | in
+16 | 2025-11-25 10:47:16 | out
+16 | 2025-11-25 10:47:56 | out
+16 | 2025-11-25 11:04:28 | in
+16 | 2025-11-25 13:20:35 | out
+16 | 2025-11-25 13:56:15 | in
+16 | 2025-11-25 16:02:59 | out
+16 | 2025-11-25 16:04:57 | in
+16 | 2025-11-25 16:06:04 | out
+16 | 2025-11-25 16:13:27 | in
+16 | 2025-11-25 16:16:00 | out
+16 | 2025-11-25 16:25:09 | in
+2 | 2025-11-25 08:38:15 | in
+2 | 2025-11-25 09:48:09 | out
+2 | 2025-11-25 09:50:11 | in
+2 | 2025-11-25 11:20:46 | out
+2 | 2025-11-25 11:28:30 | in
+2 | 2025-11-25 13:20:03 | out
+2 | 2025-11-25 13:56:34 | in
+2 | 2025-11-25 15:17:13 | out
+2 | 2025-11-25 15:25:11 | in
+21 | 2025-11-25 09:20:04 | in
+21 | 2025-11-25 10:47:28 | out
+21 | 2025-11-25 10:47:40 | out
+21 | 2025-11-25 11:04:23 | in
+21 | 2025-11-25 13:20:56 | out
+21 | 2025-11-25 13:56:27 | in
+21 | 2025-11-25 16:02:55 | out
+21 | 2025-11-25 16:05:08 | in
+21 | 2025-11-25 16:06:01 | out
+21 | 2025-11-25 16:07:33 | in
+21 | 2025-11-25 16:08:04 | out
+21 | 2025-11-25 16:13:21 | in
+21 | 2025-11-25 16:15:48 | out
+21 | 2025-11-25 16:25:03 | in
+30 | 2025-11-25 10:49:42 | in
+30 | 2025-11-25 11:29:43 | out
+30 | 2025-11-25 11:36:56 | in
+30 | 2025-11-25 13:19:54 | out
+30 | 2025-11-25 13:56:23 | in
+30 | 2025-11-25 15:48:30 | out
+30 | 2025-11-25 15:49:40 | in
+30 | 2025-11-25 15:54:18 | out
+30 | 2025-11-25 16:00:42 | in
+30 | 2025-11-25 16:23:06 | out
+5 | 2025-11-25 09:12:38 | in
+5 | 2025-11-25 11:03:00 | out
+5 | 2025-11-25 11:18:39 | out
+5 | 2025-11-25 11:25:21 | in
+5 | 2025-11-25 11:57:59 | out
+5 | 2025-11-25 12:29:14 | out
+5 | 2025-11-25 12:31:44 | out
+5 | 2025-11-25 13:18:07 | out
+5 | 2025-11-25 13:20:54 | out
+5 | 2025-11-25 13:58:05 | in
+5 | 2025-11-25 14:38:11 | in
+5 | 2025-11-25 14:53:39 | in
+5 | 2025-11-25 16:47:24 | out
+7 | 2025-11-25 09:00:20 | in
+7 | 2025-11-25 10:08:12 | out
+7 | 2025-11-25 10:13:33 | in
+7 | 2025-11-25 10:47:45 | out
+7 | 2025-11-25 11:06:59 | in
+7 | 2025-11-25 13:19:59 | out
+7 | 2025-11-25 13:56:21 | in
+7 | 2025-11-25 15:55:41 | out
+7 | 2025-11-25 16:04:41 | in
+7 | 2025-11-25 16:25:16 | in
+7 | 2025-11-25 16:25:18 | in
+8 | 2025-11-25 08:29:06 | in
+8 | 2025-11-25 09:01:01 | out
+8 | 2025-11-25 09:03:07 | in
+8 | 2025-11-25 10:06:41 | out
+8 | 2025-11-25 10:09:24 | in
+8 | 2025-11-25 11:18:23 | out
+8 | 2025-11-25 11:28:33 | in
+8 | 2025-11-25 13:19:45 | out
+8 | 2025-11-25 13:56:44 | in
+8 | 2025-11-25 14:58:10 | out
+8 | 2025-11-25 15:02:24 | in
+Added to group: UserId=1, TimeStamp=2025-11-25 10:33:47, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 10:41:50, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 10:48:16, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 10:49:06, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 11:04:33, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 13:19:50, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 13:56:38, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 15:26:45, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 15:32:33, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 16:03:04, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 16:25:13, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 10:12:36, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 11:29:15, Direction=out
+Added to group: UserId=10, TimeStamp=2025-11-25 12:19:03, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 13:42:00, Direction=out
+Added to group: UserId=10, TimeStamp=2025-11-25 14:10:10, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 16:06:54, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 09:46:56, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 10:16:47, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 10:19:59, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 11:11:33, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 11:13:50, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 12:06:49, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 12:08:27, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 13:18:36, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 13:20:29, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 14:35:07, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 14:35:37, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 15:08:23, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 16:30:37, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 16:31:12, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 07:25:31, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 08:35:43, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 08:56:46, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:19:32, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:19:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:30:05, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:31:45, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:41:59, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:45:18, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:53:07, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:02:20, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:14:22, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:34:33, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:42:50, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:46:55, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:51:33, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:52:00, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:53:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:54:22, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:57:19, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:04:37, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:09:08, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:14:45, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:16:03, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:16:36, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:17:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:17:56, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:27:01, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:29:03, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:43:09, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:44:12, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:44:37, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:46:04, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:48:16, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:49:15, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:49:32, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:14:18, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:14:51, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:29:11, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:37:19, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:41:22, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:05:31, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:08:06, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:29:56, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 14:05:25, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:03:55, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:04:18, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:09:08, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:30:21, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:36:16, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:37:26, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:38:18, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:02:45, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:39:53, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:48:19, Direction=in
+Added to group: UserId=1003, TimeStamp=2025-11-25 07:36:41, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 08:29:11, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 11:00:10, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 11:00:36, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 12:35:53, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 12:53:16, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 13:49:39, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 15:27:02, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 16:39:30, Direction=out
+Added to group: UserId=1006, TimeStamp=2025-11-25 10:31:23, Direction=in
+Added to group: UserId=1006, TimeStamp=2025-11-25 11:17:23, Direction=out
+Added to group: UserId=1006, TimeStamp=2025-11-25 11:36:39, Direction=in
+Added to group: UserId=1006, TimeStamp=2025-11-25 13:03:44, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 13:05:18, Direction=in
+Added to group: UserId=1009, TimeStamp=2025-11-25 13:16:57, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 14:37:40, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 14:41:53, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 08:37:29, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 10:48:28, Direction=out
+Added to group: UserId=12, TimeStamp=2025-11-25 11:00:59, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 13:56:41, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 14:39:42, Direction=out
+Added to group: UserId=12, TimeStamp=2025-11-25 14:43:45, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 16:23:16, Direction=out
+Added to group: UserId=13, TimeStamp=2025-11-25 14:07:40, Direction=in
+Added to group: UserId=13, TimeStamp=2025-11-25 14:29:08, Direction=out
+Added to group: UserId=13, TimeStamp=2025-11-25 16:21:04, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 10:09:18, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 10:47:01, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 11:01:03, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 11:01:38, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 11:04:41, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 12:18:35, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 12:31:57, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 13:21:02, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 13:26:22, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 14:35:11, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 15:06:32, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 16:01:40, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 16:21:24, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 16:23:50, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 16:26:28, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 10:55:27, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 13:34:43, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 13:39:01, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 13:41:55, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 14:10:05, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 14:42:35, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 14:44:58, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 15:57:45, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 16:03:19, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 16:07:44, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 09:12:43, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 09:24:12, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 09:29:15, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 09:29:18, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 10:47:16, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 10:47:56, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 11:04:28, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 13:20:35, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 13:56:15, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:02:59, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:04:57, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:06:04, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:13:27, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:16:00, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:25:09, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 08:38:15, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 09:48:09, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 09:50:11, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 11:20:46, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 11:28:30, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 13:20:03, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 13:56:34, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 15:17:13, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 15:25:11, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 09:20:04, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 10:47:28, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 10:47:40, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 11:04:23, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 13:20:56, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 13:56:27, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:02:55, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:05:08, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:06:01, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:07:33, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:08:04, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:13:21, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:15:48, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:25:03, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 10:49:42, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 11:29:43, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 11:36:56, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 13:19:54, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 13:56:23, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 15:48:30, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 15:49:40, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 15:54:18, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 16:00:42, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 16:23:06, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 09:12:38, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 11:03:00, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 11:18:39, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 11:25:21, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 11:57:59, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 12:29:14, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 12:31:44, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:18:07, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:20:54, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:58:05, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 14:38:11, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 14:53:39, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 16:47:24, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 09:00:20, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 10:08:12, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 10:13:33, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 10:47:45, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 11:06:59, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 13:19:59, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 13:56:21, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 15:55:41, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 16:04:41, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 16:25:16, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 16:25:18, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 08:29:06, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 09:01:01, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 09:03:07, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 10:06:41, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 10:09:24, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 11:18:23, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 11:28:33, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 13:19:45, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 13:56:44, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 14:58:10, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 15:02:24, Direction=in
+
+Logs for key 15_2025-11-25:
+  15 | 2025-11-25 10:55:27 | in
+  15 | 2025-11-25 13:34:43 | out
+  15 | 2025-11-25 13:39:01 | in
+  15 | 2025-11-25 13:41:55 | out
+  15 | 2025-11-25 14:10:05 | in
+  15 | 2025-11-25 14:42:35 | out
+  15 | 2025-11-25 14:44:58 | in
+  15 | 2025-11-25 15:57:45 | out
+  15 | 2025-11-25 16:03:19 | in
+  15 | 2025-11-25 16:07:44 | out
+User 15 IN times: [2025-11-25T10:55:27, 2025-11-25T13:39:01, 2025-11-25T14:10:05, 2025-11-25T14:44:58, 2025-11-25T16:03:19]
+User 15 OUT times: [2025-11-25T13:34:43, 2025-11-25T13:41:55, 2025-11-25T14:42:35, 2025-11-25T15:57:45, 2025-11-25T16:07:44]
+
+Logs for key 7_2025-11-25:
+  7 | 2025-11-25 09:00:20 | in
+  7 | 2025-11-25 10:08:12 | out
+  7 | 2025-11-25 10:13:33 | in
+  7 | 2025-11-25 10:47:45 | out
+  7 | 2025-11-25 11:06:59 | in
+  7 | 2025-11-25 13:19:59 | out
+  7 | 2025-11-25 13:56:21 | in
+  7 | 2025-11-25 15:55:41 | out
+  7 | 2025-11-25 16:04:41 | in
+  7 | 2025-11-25 16:25:16 | in
+  7 | 2025-11-25 16:25:18 | in
+User 7 IN times: [2025-11-25T09:00:20, 2025-11-25T10:13:33, 2025-11-25T11:06:59, 2025-11-25T13:56:21, 2025-11-25T16:04:41, 2025-11-25T16:25:16, 2025-11-25T16:25:18]
+User 7 OUT times: [2025-11-25T10:08:12, 2025-11-25T10:47:45, 2025-11-25T13:19:59, 2025-11-25T15:55:41]
+
+Logs for key 10_2025-11-25:
+  10 | 2025-11-25 10:12:36 | in
+  10 | 2025-11-25 11:29:15 | out
+  10 | 2025-11-25 12:19:03 | in
+  10 | 2025-11-25 13:42:00 | out
+  10 | 2025-11-25 14:10:10 | in
+  10 | 2025-11-25 16:06:54 | in
+User 10 IN times: [2025-11-25T10:12:36, 2025-11-25T12:19:03, 2025-11-25T14:10:10, 2025-11-25T16:06:54]
+User 10 OUT times: [2025-11-25T11:29:15, 2025-11-25T13:42]
+
+Logs for key 5_2025-11-25:
+  5 | 2025-11-25 09:12:38 | in
+  5 | 2025-11-25 11:03:00 | out
+  5 | 2025-11-25 11:18:39 | out
+  5 | 2025-11-25 11:25:21 | in
+  5 | 2025-11-25 11:57:59 | out
+  5 | 2025-11-25 12:29:14 | out
+  5 | 2025-11-25 12:31:44 | out
+  5 | 2025-11-25 13:18:07 | out
+  5 | 2025-11-25 13:20:54 | out
+  5 | 2025-11-25 13:58:05 | in
+  5 | 2025-11-25 14:38:11 | in
+  5 | 2025-11-25 14:53:39 | in
+  5 | 2025-11-25 16:47:24 | out
+User 5 IN times: [2025-11-25T09:12:38, 2025-11-25T11:25:21, 2025-11-25T13:58:05, 2025-11-25T14:38:11, 2025-11-25T14:53:39]
+User 5 OUT times: [2025-11-25T11:03, 2025-11-25T11:18:39, 2025-11-25T11:57:59, 2025-11-25T12:29:14, 2025-11-25T12:31:44, 2025-11-25T13:18:07, 2025-11-25T13:20:54, 2025-11-25T16:47:24]
+
+Logs for key 2_2025-11-25:
+  2 | 2025-11-25 08:38:15 | in
+  2 | 2025-11-25 09:48:09 | out
+  2 | 2025-11-25 09:50:11 | in
+  2 | 2025-11-25 11:20:46 | out
+  2 | 2025-11-25 11:28:30 | in
+  2 | 2025-11-25 13:20:03 | out
+  2 | 2025-11-25 13:56:34 | in
+  2 | 2025-11-25 15:17:13 | out
+  2 | 2025-11-25 15:25:11 | in
+User 2 IN times: [2025-11-25T08:38:15, 2025-11-25T09:50:11, 2025-11-25T11:28:30, 2025-11-25T13:56:34, 2025-11-25T15:25:11]
+User 2 OUT times: [2025-11-25T09:48:09, 2025-11-25T11:20:46, 2025-11-25T13:20:03, 2025-11-25T15:17:13]
+
+Logs for key 12_2025-11-25:
+  12 | 2025-11-25 08:37:29 | in
+  12 | 2025-11-25 10:48:28 | out
+  12 | 2025-11-25 11:00:59 | in
+  12 | 2025-11-25 13:56:41 | in
+  12 | 2025-11-25 14:39:42 | out
+  12 | 2025-11-25 14:43:45 | in
+  12 | 2025-11-25 16:23:16 | out
+User 12 IN times: [2025-11-25T08:37:29, 2025-11-25T11:00:59, 2025-11-25T13:56:41, 2025-11-25T14:43:45]
+User 12 OUT times: [2025-11-25T10:48:28, 2025-11-25T14:39:42, 2025-11-25T16:23:16]
+
+Logs for key 1001_2025-11-25:
+  1001 | 2025-11-25 09:46:56 | in
+  1001 | 2025-11-25 10:16:47 | out
+  1001 | 2025-11-25 10:19:59 | in
+  1001 | 2025-11-25 11:11:33 | out
+  1001 | 2025-11-25 11:13:50 | in
+  1001 | 2025-11-25 12:06:49 | out
+  1001 | 2025-11-25 12:08:27 | in
+  1001 | 2025-11-25 13:18:36 | out
+  1001 | 2025-11-25 13:20:29 | in
+  1001 | 2025-11-25 14:35:07 | out
+  1001 | 2025-11-25 14:35:37 | in
+  1001 | 2025-11-25 15:08:23 | in
+  1001 | 2025-11-25 16:30:37 | out
+  1001 | 2025-11-25 16:31:12 | in
+User 1001 IN times: [2025-11-25T09:46:56, 2025-11-25T10:19:59, 2025-11-25T11:13:50, 2025-11-25T12:08:27, 2025-11-25T13:20:29, 2025-11-25T14:35:37, 2025-11-25T15:08:23, 2025-11-25T16:31:12]
+User 1001 OUT times: [2025-11-25T10:16:47, 2025-11-25T11:11:33, 2025-11-25T12:06:49, 2025-11-25T13:18:36, 2025-11-25T14:35:07, 2025-11-25T16:30:37]
+
+Logs for key 30_2025-11-25:
+  30 | 2025-11-25 10:49:42 | in
+  30 | 2025-11-25 11:29:43 | out
+  30 | 2025-11-25 11:36:56 | in
+  30 | 2025-11-25 13:19:54 | out
+  30 | 2025-11-25 13:56:23 | in
+  30 | 2025-11-25 15:48:30 | out
+  30 | 2025-11-25 15:49:40 | in
+  30 | 2025-11-25 15:54:18 | out
+  30 | 2025-11-25 16:00:42 | in
+  30 | 2025-11-25 16:23:06 | out
+User 30 IN times: [2025-11-25T10:49:42, 2025-11-25T11:36:56, 2025-11-25T13:56:23, 2025-11-25T15:49:40, 2025-11-25T16:00:42]
+User 30 OUT times: [2025-11-25T11:29:43, 2025-11-25T13:19:54, 2025-11-25T15:48:30, 2025-11-25T15:54:18, 2025-11-25T16:23:06]
+
+Logs for key 1009_2025-11-25:
+  1009 | 2025-11-25 13:05:18 | in
+  1009 | 2025-11-25 13:16:57 | out
+  1009 | 2025-11-25 14:37:40 | out
+  1009 | 2025-11-25 14:41:53 | in
+User 1009 IN times: [2025-11-25T13:05:18, 2025-11-25T14:41:53]
+User 1009 OUT times: [2025-11-25T13:16:57, 2025-11-25T14:37:40]
+
+Logs for key 14_2025-11-25:
+  14 | 2025-11-25 10:09:18 | in
+  14 | 2025-11-25 10:47:01 | out
+  14 | 2025-11-25 11:01:03 | in
+  14 | 2025-11-25 11:01:38 | out
+  14 | 2025-11-25 11:04:41 | in
+  14 | 2025-11-25 12:18:35 | out
+  14 | 2025-11-25 12:31:57 | in
+  14 | 2025-11-25 13:21:02 | out
+  14 | 2025-11-25 13:26:22 | in
+  14 | 2025-11-25 14:35:11 | out
+  14 | 2025-11-25 15:06:32 | in
+  14 | 2025-11-25 16:01:40 | out
+  14 | 2025-11-25 16:21:24 | in
+  14 | 2025-11-25 16:23:50 | out
+  14 | 2025-11-25 16:26:28 | in
+User 14 IN times: [2025-11-25T10:09:18, 2025-11-25T11:01:03, 2025-11-25T11:04:41, 2025-11-25T12:31:57, 2025-11-25T13:26:22, 2025-11-25T15:06:32, 2025-11-25T16:21:24, 2025-11-25T16:26:28]
+User 14 OUT times: [2025-11-25T10:47:01, 2025-11-25T11:01:38, 2025-11-25T12:18:35, 2025-11-25T13:21:02, 2025-11-25T14:35:11, 2025-11-25T16:01:40, 2025-11-25T16:23:50]
+
+Logs for key 16_2025-11-25:
+  16 | 2025-11-25 09:12:43 | in
+  16 | 2025-11-25 09:24:12 | out
+  16 | 2025-11-25 09:29:15 | in
+  16 | 2025-11-25 09:29:18 | in
+  16 | 2025-11-25 10:47:16 | out
+  16 | 2025-11-25 10:47:56 | out
+  16 | 2025-11-25 11:04:28 | in
+  16 | 2025-11-25 13:20:35 | out
+  16 | 2025-11-25 13:56:15 | in
+  16 | 2025-11-25 16:02:59 | out
+  16 | 2025-11-25 16:04:57 | in
+  16 | 2025-11-25 16:06:04 | out
+  16 | 2025-11-25 16:13:27 | in
+  16 | 2025-11-25 16:16:00 | out
+  16 | 2025-11-25 16:25:09 | in
+User 16 IN times: [2025-11-25T09:12:43, 2025-11-25T09:29:15, 2025-11-25T09:29:18, 2025-11-25T11:04:28, 2025-11-25T13:56:15, 2025-11-25T16:04:57, 2025-11-25T16:13:27, 2025-11-25T16:25:09]
+User 16 OUT times: [2025-11-25T09:24:12, 2025-11-25T10:47:16, 2025-11-25T10:47:56, 2025-11-25T13:20:35, 2025-11-25T16:02:59, 2025-11-25T16:06:04, 2025-11-25T16:16]
+
+Logs for key 1003_2025-11-25:
+  1003 | 2025-11-25 07:36:41 | in
+User 1003 IN times: [2025-11-25T07:36:41]
+User 1003 OUT times: []
+
+Logs for key 8_2025-11-25:
+  8 | 2025-11-25 08:29:06 | in
+  8 | 2025-11-25 09:01:01 | out
+  8 | 2025-11-25 09:03:07 | in
+  8 | 2025-11-25 10:06:41 | out
+  8 | 2025-11-25 10:09:24 | in
+  8 | 2025-11-25 11:18:23 | out
+  8 | 2025-11-25 11:28:33 | in
+  8 | 2025-11-25 13:19:45 | out
+  8 | 2025-11-25 13:56:44 | in
+  8 | 2025-11-25 14:58:10 | out
+  8 | 2025-11-25 15:02:24 | in
+User 8 IN times: [2025-11-25T08:29:06, 2025-11-25T09:03:07, 2025-11-25T10:09:24, 2025-11-25T11:28:33, 2025-11-25T13:56:44, 2025-11-25T15:02:24]
+User 8 OUT times: [2025-11-25T09:01:01, 2025-11-25T10:06:41, 2025-11-25T11:18:23, 2025-11-25T13:19:45, 2025-11-25T14:58:10]
+
+Logs for key 1_2025-11-25:
+  1 | 2025-11-25 10:33:47 | out
+  1 | 2025-11-25 10:41:50 | in
+  1 | 2025-11-25 10:48:16 | out
+  1 | 2025-11-25 10:49:06 | out
+  1 | 2025-11-25 11:04:33 | in
+  1 | 2025-11-25 13:19:50 | out
+  1 | 2025-11-25 13:56:38 | in
+  1 | 2025-11-25 15:26:45 | out
+  1 | 2025-11-25 15:32:33 | in
+  1 | 2025-11-25 16:03:04 | out
+  1 | 2025-11-25 16:25:13 | in
+User 1 IN times: [2025-11-25T10:41:50, 2025-11-25T11:04:33, 2025-11-25T13:56:38, 2025-11-25T15:32:33, 2025-11-25T16:25:13]
+User 1 OUT times: [2025-11-25T10:33:47, 2025-11-25T10:48:16, 2025-11-25T10:49:06, 2025-11-25T13:19:50, 2025-11-25T15:26:45, 2025-11-25T16:03:04]
+
+Logs for key 13_2025-11-25:
+  13 | 2025-11-25 14:07:40 | in
+  13 | 2025-11-25 14:29:08 | out
+  13 | 2025-11-25 16:21:04 | out
+User 13 IN times: [2025-11-25T14:07:40]
+User 13 OUT times: [2025-11-25T14:29:08, 2025-11-25T16:21:04]
+
+Logs for key 1006_2025-11-25:
+  1006 | 2025-11-25 10:31:23 | in
+  1006 | 2025-11-25 11:17:23 | out
+  1006 | 2025-11-25 11:36:39 | in
+  1006 | 2025-11-25 13:03:44 | out
+User 1006 IN times: [2025-11-25T10:31:23, 2025-11-25T11:36:39]
+User 1006 OUT times: [2025-11-25T11:17:23, 2025-11-25T13:03:44]
+
+Logs for key 1002_2025-11-25:
+  1002 | 2025-11-25 07:25:31 | in
+  1002 | 2025-11-25 08:35:43 | out
+  1002 | 2025-11-25 08:56:46 | in
+  1002 | 2025-11-25 09:19:32 | out
+  1002 | 2025-11-25 09:19:40 | in
+  1002 | 2025-11-25 09:30:05 | out
+  1002 | 2025-11-25 09:31:45 | in
+  1002 | 2025-11-25 09:41:59 | out
+  1002 | 2025-11-25 09:45:18 | in
+  1002 | 2025-11-25 09:53:07 | in
+  1002 | 2025-11-25 10:02:20 | out
+  1002 | 2025-11-25 10:14:22 | in
+  1002 | 2025-11-25 10:34:33 | out
+  1002 | 2025-11-25 10:42:50 | in
+  1002 | 2025-11-25 10:46:55 | out
+  1002 | 2025-11-25 10:51:33 | in
+  1002 | 2025-11-25 10:52:00 | out
+  1002 | 2025-11-25 10:53:40 | in
+  1002 | 2025-11-25 10:54:22 | out
+  1002 | 2025-11-25 10:57:19 | in
+  1002 | 2025-11-25 11:04:37 | in
+  1002 | 2025-11-25 11:09:08 | out
+  1002 | 2025-11-25 11:14:45 | out
+  1002 | 2025-11-25 11:16:03 | in
+  1002 | 2025-11-25 11:16:36 | out
+  1002 | 2025-11-25 11:17:40 | in
+  1002 | 2025-11-25 11:17:56 | out
+  1002 | 2025-11-25 11:27:01 | out
+  1002 | 2025-11-25 11:29:03 | in
+  1002 | 2025-11-25 11:43:09 | out
+  1002 | 2025-11-25 11:44:12 | in
+  1002 | 2025-11-25 11:44:37 | out
+  1002 | 2025-11-25 11:46:04 | in
+  1002 | 2025-11-25 11:48:16 | out
+  1002 | 2025-11-25 11:49:15 | in
+  1002 | 2025-11-25 11:49:32 | out
+  1002 | 2025-11-25 12:14:18 | in
+  1002 | 2025-11-25 12:14:51 | out
+  1002 | 2025-11-25 12:29:11 | in
+  1002 | 2025-11-25 12:37:19 | in
+  1002 | 2025-11-25 12:41:22 | out
+  1002 | 2025-11-25 13:05:31 | in
+  1002 | 2025-11-25 13:08:06 | out
+  1002 | 2025-11-25 13:29:56 | in
+  1002 | 2025-11-25 14:05:25 | out
+  1002 | 2025-11-25 15:03:55 | in
+  1002 | 2025-11-25 15:04:18 | out
+  1002 | 2025-11-25 15:09:08 | in
+  1002 | 2025-11-25 15:30:21 | in
+  1002 | 2025-11-25 15:36:16 | out
+  1002 | 2025-11-25 15:37:26 | in
+  1002 | 2025-11-25 15:38:18 | out
+  1002 | 2025-11-25 16:02:45 | in
+  1002 | 2025-11-25 16:39:53 | out
+  1002 | 2025-11-25 16:48:19 | in
+User 1002 IN times: [2025-11-25T07:25:31, 2025-11-25T08:56:46, 2025-11-25T09:19:40, 2025-11-25T09:31:45, 2025-11-25T09:45:18, 2025-11-25T09:53:07, 2025-11-25T10:14:22, 2025-11-25T10:42:50, 2025-11-25T10:51:33, 2025-11-25T10:53:40, 2025-11-25T10:57:19, 2025-11-25T11:04:37, 2025-11-25T11:16:03, 2025-11-25T11:17:40, 2025-11-25T11:29:03, 2025-11-25T11:44:12, 2025-11-25T11:46:04, 2025-11-25T11:49:15, 2025-11-25T12:14:18, 2025-11-25T12:29:11, 2025-11-25T12:37:19, 2025-11-25T13:05:31, 2025-11-25T13:29:56, 2025-11-25T15:03:55, 2025-11-25T15:09:08, 2025-11-25T15:30:21, 2025-11-25T15:37:26, 2025-11-25T16:02:45, 2025-11-25T16:48:19]
+User 1002 OUT times: [2025-11-25T08:35:43, 2025-11-25T09:19:32, 2025-11-25T09:30:05, 2025-11-25T09:41:59, 2025-11-25T10:02:20, 2025-11-25T10:34:33, 2025-11-25T10:46:55, 2025-11-25T10:52, 2025-11-25T10:54:22, 2025-11-25T11:09:08, 2025-11-25T11:14:45, 2025-11-25T11:16:36, 2025-11-25T11:17:56, 2025-11-25T11:27:01, 2025-11-25T11:43:09, 2025-11-25T11:44:37, 2025-11-25T11:48:16, 2025-11-25T11:49:32, 2025-11-25T12:14:51, 2025-11-25T12:41:22, 2025-11-25T13:08:06, 2025-11-25T14:05:25, 2025-11-25T15:04:18, 2025-11-25T15:36:16, 2025-11-25T15:38:18, 2025-11-25T16:39:53]
+
+Logs for key 21_2025-11-25:
+  21 | 2025-11-25 09:20:04 | in
+  21 | 2025-11-25 10:47:28 | out
+  21 | 2025-11-25 10:47:40 | out
+  21 | 2025-11-25 11:04:23 | in
+  21 | 2025-11-25 13:20:56 | out
+  21 | 2025-11-25 13:56:27 | in
+  21 | 2025-11-25 16:02:55 | out
+  21 | 2025-11-25 16:05:08 | in
+  21 | 2025-11-25 16:06:01 | out
+  21 | 2025-11-25 16:07:33 | in
+  21 | 2025-11-25 16:08:04 | out
+  21 | 2025-11-25 16:13:21 | in
+  21 | 2025-11-25 16:15:48 | out
+  21 | 2025-11-25 16:25:03 | in
+User 21 IN times: [2025-11-25T09:20:04, 2025-11-25T11:04:23, 2025-11-25T13:56:27, 2025-11-25T16:05:08, 2025-11-25T16:07:33, 2025-11-25T16:13:21, 2025-11-25T16:25:03]
+User 21 OUT times: [2025-11-25T10:47:28, 2025-11-25T10:47:40, 2025-11-25T13:20:56, 2025-11-25T16:02:55, 2025-11-25T16:06:01, 2025-11-25T16:08:04, 2025-11-25T16:15:48]
+
+Logs for key 1004_2025-11-25:
+  1004 | 2025-11-25 08:29:11 | in
+  1004 | 2025-11-25 11:00:10 | out
+  1004 | 2025-11-25 11:00:36 | in
+  1004 | 2025-11-25 12:35:53 | out
+  1004 | 2025-11-25 12:53:16 | in
+  1004 | 2025-11-25 13:49:39 | out
+  1004 | 2025-11-25 15:27:02 | in
+  1004 | 2025-11-25 16:39:30 | out
+User 1004 IN times: [2025-11-25T08:29:11, 2025-11-25T11:00:36, 2025-11-25T12:53:16, 2025-11-25T15:27:02]
+User 1004 OUT times: [2025-11-25T11:00:10, 2025-11-25T12:35:53, 2025-11-25T13:49:39, 2025-11-25T16:39:30]
+
+Processed Attendance Records:
+15 | Unknown User | 2025-11-25T10:55:27 | 2025-11-25T16:07:44 | 4.4833333333333325
+7 | Unknown User | 2025-11-25T09:00:20 | 2025-11-25T15:55:41 | 5.883333333333334
+10 | AREDDULA NAVEEN KUMAR | 2025-11-25T10:12:36 | 2025-11-25T13:42 | 2.6333333333333333
+5 | Unknown User | 2025-11-25T09:12:38 | 2025-11-25T16:47:24 | -4.75
+2 | Gnanarathinam.C | 2025-11-25T08:38:15 | 2025-11-25T15:17:13 | 5.833333333333333
+12 | Unknown User | 2025-11-25T08:37:29 | 2025-11-25T16:23:16 | 8.233333333333333
+1001 | Senthil Kumar | 2025-11-25T09:46:56 | 2025-11-25T16:30:37 | 6.5166666666666675
+30 | Unknown User | 2025-11-25T10:49:42 | 2025-11-25T16:23:06 | 4.666666666666666
+1009 | Unknown User | 2025-11-25T13:05:18 | 2025-11-25T14:37:40 | 0.11666666666666665
+14 | Unknown User | 2025-11-25T10:09:18 | 2025-11-25T16:23:50 | 4.733333333333333
+16 | Unknown User | 2025-11-25T09:12:43 | 2025-11-25T16:16 | 7.2
+1003 | Unknown User | 2025-11-25T07:36:41 | null | 0.0
+8 | AAKASH P | 2025-11-25T08:29:06 | 2025-11-25T14:58:10 | 5.566666666666667
+1 | Gayathri V | 2025-11-25T10:41:50 | 2025-11-25T16:03:04 | -6.683333333333334
+13 | Unknown User | 2025-11-25T14:07:40 | 2025-11-25T16:21:04 | 0.35
+1006 | Unknown User | 2025-11-25T10:31:23 | 2025-11-25T13:03:44 | 2.216666666666667
+1002 | Unknown User | 2025-11-25T07:25:31 | 2025-11-25T16:39:53 | 10.116666666666667
+21 | Unknown User | 2025-11-25T09:20:04 | 2025-11-25T16:15:48 | 0.31666666666666665
+1004 | Unknown User | 2025-11-25T08:29:11 | 2025-11-25T16:39:30 | 6.216666666666667
+SOAP Response:
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetTransactionsLogResponse xmlns="http://tempuri.org/"><GetTransactionsLogResult>Logs Count:222</GetTransactionsLogResult><strDataList>1	2025-11-25 08:38:10	in
+1	2025-11-25 10:33:47	out
+1	2025-11-25 10:41:50	in
+1	2025-11-25 10:48:16	out
+1	2025-11-25 10:49:06	out
+1	2025-11-25 11:04:33	in
+1	2025-11-25 13:19:50	out
+1	2025-11-25 13:56:38	in
+1	2025-11-25 15:26:45	out
+1	2025-11-25 15:32:33	in
+1	2025-11-25 16:03:04	out
+1	2025-11-25 16:25:13	in
+10	2025-11-25 10:12:36	in
+10	2025-11-25 11:29:15	out
+10	2025-11-25 12:19:03	in
+10	2025-11-25 13:42:00	out
+10	2025-11-25 14:10:10	in
+10	2025-11-25 16:06:54	in
+1001	2025-11-25 09:46:56	in
+1001	2025-11-25 10:16:47	out
+1001	2025-11-25 10:19:59	in
+1001	2025-11-25 11:11:33	out
+1001	2025-11-25 11:13:50	in
+1001	2025-11-25 12:06:49	out
+1001	2025-11-25 12:08:27	in
+1001	2025-11-25 13:18:36	out
+1001	2025-11-25 13:20:29	in
+1001	2025-11-25 14:35:07	out
+1001	2025-11-25 14:35:37	in
+1001	2025-11-25 15:08:23	in
+1001	2025-11-25 16:30:37	out
+1001	2025-11-25 16:31:12	in
+1002	2025-11-25 07:25:31	in
+1002	2025-11-25 08:35:43	out
+1002	2025-11-25 08:56:46	in
+1002	2025-11-25 09:19:32	out
+1002	2025-11-25 09:19:40	in
+1002	2025-11-25 09:30:05	out
+1002	2025-11-25 09:31:45	in
+1002	2025-11-25 09:41:59	out
+1002	2025-11-25 09:45:18	in
+1002	2025-11-25 09:53:07	in
+1002	2025-11-25 10:02:20	out
+1002	2025-11-25 10:14:22	in
+1002	2025-11-25 10:34:33	out
+1002	2025-11-25 10:42:50	in
+1002	2025-11-25 10:46:55	out
+1002	2025-11-25 10:51:33	in
+1002	2025-11-25 10:52:00	out
+1002	2025-11-25 10:53:40	in
+1002	2025-11-25 10:54:22	out
+1002	2025-11-25 10:57:19	in
+1002	2025-11-25 11:04:37	in
+1002	2025-11-25 11:09:08	out
+1002	2025-11-25 11:14:45	out
+1002	2025-11-25 11:16:03	in
+1002	2025-11-25 11:16:36	out
+1002	2025-11-25 11:17:40	in
+1002	2025-11-25 11:17:56	out
+1002	2025-11-25 11:27:01	out
+1002	2025-11-25 11:29:03	in
+1002	2025-11-25 11:43:09	out
+1002	2025-11-25 11:44:12	in
+1002	2025-11-25 11:44:37	out
+1002	2025-11-25 11:46:04	in
+1002	2025-11-25 11:48:16	out
+1002	2025-11-25 11:49:15	in
+1002	2025-11-25 11:49:32	out
+1002	2025-11-25 12:14:18	in
+1002	2025-11-25 12:14:51	out
+1002	2025-11-25 12:29:11	in
+1002	2025-11-25 12:37:19	in
+1002	2025-11-25 12:41:22	out
+1002	2025-11-25 13:05:31	in
+1002	2025-11-25 13:08:06	out
+1002	2025-11-25 13:29:56	in
+1002	2025-11-25 14:05:25	out
+1002	2025-11-25 15:03:55	in
+1002	2025-11-25 15:04:18	out
+1002	2025-11-25 15:09:08	in
+1002	2025-11-25 15:30:21	in
+1002	2025-11-25 15:36:16	out
+1002	2025-11-25 15:37:26	in
+1002	2025-11-25 15:38:18	out
+1002	2025-11-25 16:02:45	in
+1002	2025-11-25 16:39:53	out
+1002	2025-11-25 16:48:19	in
+1003	2025-11-25 07:36:41	in
+1004	2025-11-25 08:29:11	in
+1004	2025-11-25 11:00:10	out
+1004	2025-11-25 11:00:36	in
+1004	2025-11-25 12:35:53	out
+1004	2025-11-25 12:53:16	in
+1004	2025-11-25 13:49:39	out
+1004	2025-11-25 15:27:02	in
+1004	2025-11-25 16:39:30	out
+1006	2025-11-25 10:31:23	in
+1006	2025-11-25 11:17:23	out
+1006	2025-11-25 11:36:39	in
+1006	2025-11-25 13:03:44	out
+1009	2025-11-25 13:05:18	in
+1009	2025-11-25 13:16:57	out
+1009	2025-11-25 14:37:40	out
+1009	2025-11-25 14:41:53	in
+12	2025-11-25 08:37:29	in
+12	2025-11-25 10:48:28	out
+12	2025-11-25 11:00:59	in
+12	2025-11-25 13:56:41	in
+12	2025-11-25 14:39:42	out
+12	2025-11-25 14:43:45	in
+12	2025-11-25 16:23:16	out
+13	2025-11-25 14:07:40	in
+13	2025-11-25 14:29:08	out
+13	2025-11-25 16:21:04	out
+14	2025-11-25 10:09:18	in
+14	2025-11-25 10:47:01	out
+14	2025-11-25 11:01:03	in
+14	2025-11-25 11:01:38	out
+14	2025-11-25 11:04:41	in
+14	2025-11-25 12:18:35	out
+14	2025-11-25 12:31:57	in
+14	2025-11-25 13:21:02	out
+14	2025-11-25 13:26:22	in
+14	2025-11-25 14:35:11	out
+14	2025-11-25 15:06:32	in
+14	2025-11-25 16:01:40	out
+14	2025-11-25 16:21:24	in
+14	2025-11-25 16:23:50	out
+14	2025-11-25 16:26:28	in
+15	2025-11-25 10:55:27	in
+15	2025-11-25 13:34:43	out
+15	2025-11-25 13:39:01	in
+15	2025-11-25 13:41:55	out
+15	2025-11-25 14:10:05	in
+15	2025-11-25 14:42:35	out
+15	2025-11-25 14:44:58	in
+15	2025-11-25 15:57:45	out
+15	2025-11-25 16:03:19	in
+15	2025-11-25 16:07:44	out
+16	2025-11-25 09:12:43	in
+16	2025-11-25 09:24:12	out
+16	2025-11-25 09:29:15	in
+16	2025-11-25 09:29:18	in
+16	2025-11-25 10:47:16	out
+16	2025-11-25 10:47:56	out
+16	2025-11-25 11:04:28	in
+16	2025-11-25 13:20:35	out
+16	2025-11-25 13:56:15	in
+16	2025-11-25 16:02:59	out
+16	2025-11-25 16:04:57	in
+16	2025-11-25 16:06:04	out
+16	2025-11-25 16:13:27	in
+16	2025-11-25 16:16:00	out
+16	2025-11-25 16:25:09	in
+2	2025-11-25 08:38:15	in
+2	2025-11-25 09:48:09	out
+2	2025-11-25 09:50:11	in
+2	2025-11-25 11:20:46	out
+2	2025-11-25 11:28:30	in
+2	2025-11-25 13:20:03	out
+2	2025-11-25 13:56:34	in
+2	2025-11-25 15:17:13	out
+2	2025-11-25 15:25:11	in
+21	2025-11-25 09:20:04	in
+21	2025-11-25 10:47:28	out
+21	2025-11-25 10:47:40	out
+21	2025-11-25 11:04:23	in
+21	2025-11-25 13:20:56	out
+21	2025-11-25 13:56:27	in
+21	2025-11-25 16:02:55	out
+21	2025-11-25 16:05:08	in
+21	2025-11-25 16:06:01	out
+21	2025-11-25 16:07:33	in
+21	2025-11-25 16:08:04	out
+21	2025-11-25 16:13:21	in
+21	2025-11-25 16:15:48	out
+21	2025-11-25 16:25:03	in
+30	2025-11-25 10:49:42	in
+30	2025-11-25 11:29:43	out
+30	2025-11-25 11:36:56	in
+30	2025-11-25 13:19:54	out
+30	2025-11-25 13:56:23	in
+30	2025-11-25 15:48:30	out
+30	2025-11-25 15:49:40	in
+30	2025-11-25 15:54:18	out
+30	2025-11-25 16:00:42	in
+30	2025-11-25 16:23:06	out
+5	2025-11-25 09:12:38	in
+5	2025-11-25 11:03:00	out
+5	2025-11-25 11:18:39	out
+5	2025-11-25 11:25:21	in
+5	2025-11-25 11:57:59	out
+5	2025-11-25 12:29:14	out
+5	2025-11-25 12:31:44	out
+5	2025-11-25 13:18:07	out
+5	2025-11-25 13:20:54	out
+5	2025-11-25 13:58:05	in
+5	2025-11-25 14:38:11	in
+5	2025-11-25 14:53:39	in
+5	2025-11-25 16:47:24	out
+7	2025-11-25 09:00:20	in
+7	2025-11-25 10:08:12	out
+7	2025-11-25 10:13:33	in
+7	2025-11-25 10:47:45	out
+7	2025-11-25 11:06:59	in
+7	2025-11-25 13:19:59	out
+7	2025-11-25 13:56:21	in
+7	2025-11-25 15:55:41	out
+7	2025-11-25 16:04:41	in
+7	2025-11-25 16:25:16	in
+7	2025-11-25 16:25:18	in
+8	2025-11-25 08:29:06	in
+8	2025-11-25 09:01:01	out
+8	2025-11-25 09:03:07	in
+8	2025-11-25 10:06:41	out
+8	2025-11-25 10:09:24	in
+8	2025-11-25 11:18:23	out
+8	2025-11-25 11:28:33	in
+8	2025-11-25 13:19:45	out
+8	2025-11-25 13:56:44	in
+8	2025-11-25 14:58:10	out
+8	2025-11-25 15:02:24	in
+</strDataList></GetTransactionsLogResponse></soap:Body></soap:Envelope>
+Added to group: UserId=1, TimeStamp=2025-11-25 10:33:47, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 10:41:50, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 10:48:16, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 10:49:06, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 11:04:33, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 13:19:50, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 13:56:38, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 15:26:45, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 15:32:33, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 16:03:04, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 16:25:13, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 10:12:36, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 11:29:15, Direction=out
+Added to group: UserId=10, TimeStamp=2025-11-25 12:19:03, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 13:42:00, Direction=out
+Added to group: UserId=10, TimeStamp=2025-11-25 14:10:10, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 16:06:54, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 09:46:56, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 10:16:47, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 10:19:59, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 11:11:33, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 11:13:50, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 12:06:49, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 12:08:27, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 13:18:36, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 13:20:29, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 14:35:07, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 14:35:37, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 15:08:23, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 16:30:37, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 16:31:12, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 07:25:31, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 08:35:43, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 08:56:46, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:19:32, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:19:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:30:05, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:31:45, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:41:59, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:45:18, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:53:07, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:02:20, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:14:22, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:34:33, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:42:50, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:46:55, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:51:33, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:52:00, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:53:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:54:22, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:57:19, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:04:37, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:09:08, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:14:45, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:16:03, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:16:36, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:17:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:17:56, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:27:01, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:29:03, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:43:09, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:44:12, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:44:37, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:46:04, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:48:16, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:49:15, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:49:32, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:14:18, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:14:51, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:29:11, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:37:19, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:41:22, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:05:31, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:08:06, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:29:56, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 14:05:25, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:03:55, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:04:18, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:09:08, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:30:21, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:36:16, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:37:26, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:38:18, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:02:45, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:39:53, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:48:19, Direction=in
+Added to group: UserId=1003, TimeStamp=2025-11-25 07:36:41, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 08:29:11, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 11:00:10, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 11:00:36, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 12:35:53, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 12:53:16, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 13:49:39, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 15:27:02, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 16:39:30, Direction=out
+Added to group: UserId=1006, TimeStamp=2025-11-25 10:31:23, Direction=in
+Added to group: UserId=1006, TimeStamp=2025-11-25 11:17:23, Direction=out
+Added to group: UserId=1006, TimeStamp=2025-11-25 11:36:39, Direction=in
+Added to group: UserId=1006, TimeStamp=2025-11-25 13:03:44, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 13:05:18, Direction=in
+Added to group: UserId=1009, TimeStamp=2025-11-25 13:16:57, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 14:37:40, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 14:41:53, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 08:37:29, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 10:48:28, Direction=out
+Added to group: UserId=12, TimeStamp=2025-11-25 11:00:59, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 13:56:41, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 14:39:42, Direction=out
+Added to group: UserId=12, TimeStamp=2025-11-25 14:43:45, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 16:23:16, Direction=out
+Added to group: UserId=13, TimeStamp=2025-11-25 14:07:40, Direction=in
+Added to group: UserId=13, TimeStamp=2025-11-25 14:29:08, Direction=out
+Added to group: UserId=13, TimeStamp=2025-11-25 16:21:04, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 10:09:18, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 10:47:01, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 11:01:03, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 11:01:38, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 11:04:41, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 12:18:35, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 12:31:57, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 13:21:02, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 13:26:22, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 14:35:11, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 15:06:32, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 16:01:40, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 16:21:24, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 16:23:50, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 16:26:28, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 10:55:27, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 13:34:43, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 13:39:01, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 13:41:55, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 14:10:05, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 14:42:35, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 14:44:58, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 15:57:45, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 16:03:19, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 16:07:44, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 09:12:43, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 09:24:12, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 09:29:15, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 09:29:18, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 10:47:16, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 10:47:56, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 11:04:28, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 13:20:35, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 13:56:15, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:02:59, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:04:57, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:06:04, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:13:27, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:16:00, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:25:09, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 08:38:15, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 09:48:09, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 09:50:11, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 11:20:46, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 11:28:30, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 13:20:03, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 13:56:34, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 15:17:13, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 15:25:11, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 09:20:04, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 10:47:28, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 10:47:40, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 11:04:23, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 13:20:56, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 13:56:27, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:02:55, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:05:08, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:06:01, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:07:33, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:08:04, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:13:21, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:15:48, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:25:03, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 10:49:42, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 11:29:43, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 11:36:56, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 13:19:54, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 13:56:23, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 15:48:30, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 15:49:40, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 15:54:18, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 16:00:42, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 16:23:06, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 09:12:38, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 11:03:00, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 11:18:39, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 11:25:21, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 11:57:59, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 12:29:14, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 12:31:44, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:18:07, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:20:54, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:58:05, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 14:38:11, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 14:53:39, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 16:47:24, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 09:00:20, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 10:08:12, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 10:13:33, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 10:47:45, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 11:06:59, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 13:19:59, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 13:56:21, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 15:55:41, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 16:04:41, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 16:25:16, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 16:25:18, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 08:29:06, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 09:01:01, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 09:03:07, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 10:06:41, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 10:09:24, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 11:18:23, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 11:28:33, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 13:19:45, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 13:56:44, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 14:58:10, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 15:02:24, Direction=in
+
+Logs for key 15_2025-11-25:
+  15 | 2025-11-25 10:55:27 | in
+  15 | 2025-11-25 13:34:43 | out
+  15 | 2025-11-25 13:39:01 | in
+  15 | 2025-11-25 13:41:55 | out
+  15 | 2025-11-25 14:10:05 | in
+  15 | 2025-11-25 14:42:35 | out
+  15 | 2025-11-25 14:44:58 | in
+  15 | 2025-11-25 15:57:45 | out
+  15 | 2025-11-25 16:03:19 | in
+  15 | 2025-11-25 16:07:44 | out
+User 15 IN times: [2025-11-25T10:55:27, 2025-11-25T13:39:01, 2025-11-25T14:10:05, 2025-11-25T14:44:58, 2025-11-25T16:03:19]
+User 15 OUT times: [2025-11-25T13:34:43, 2025-11-25T13:41:55, 2025-11-25T14:42:35, 2025-11-25T15:57:45, 2025-11-25T16:07:44]
+
+Logs for key 7_2025-11-25:
+  7 | 2025-11-25 09:00:20 | in
+  7 | 2025-11-25 10:08:12 | out
+  7 | 2025-11-25 10:13:33 | in
+  7 | 2025-11-25 10:47:45 | out
+  7 | 2025-11-25 11:06:59 | in
+  7 | 2025-11-25 13:19:59 | out
+  7 | 2025-11-25 13:56:21 | in
+  7 | 2025-11-25 15:55:41 | out
+  7 | 2025-11-25 16:04:41 | in
+  7 | 2025-11-25 16:25:16 | in
+  7 | 2025-11-25 16:25:18 | in
+User 7 IN times: [2025-11-25T09:00:20, 2025-11-25T10:13:33, 2025-11-25T11:06:59, 2025-11-25T13:56:21, 2025-11-25T16:04:41, 2025-11-25T16:25:16, 2025-11-25T16:25:18]
+User 7 OUT times: [2025-11-25T10:08:12, 2025-11-25T10:47:45, 2025-11-25T13:19:59, 2025-11-25T15:55:41]
+
+Logs for key 10_2025-11-25:
+  10 | 2025-11-25 10:12:36 | in
+  10 | 2025-11-25 11:29:15 | out
+  10 | 2025-11-25 12:19:03 | in
+  10 | 2025-11-25 13:42:00 | out
+  10 | 2025-11-25 14:10:10 | in
+  10 | 2025-11-25 16:06:54 | in
+User 10 IN times: [2025-11-25T10:12:36, 2025-11-25T12:19:03, 2025-11-25T14:10:10, 2025-11-25T16:06:54]
+User 10 OUT times: [2025-11-25T11:29:15, 2025-11-25T13:42]
+
+Logs for key 5_2025-11-25:
+  5 | 2025-11-25 09:12:38 | in
+  5 | 2025-11-25 11:03:00 | out
+  5 | 2025-11-25 11:18:39 | out
+  5 | 2025-11-25 11:25:21 | in
+  5 | 2025-11-25 11:57:59 | out
+  5 | 2025-11-25 12:29:14 | out
+  5 | 2025-11-25 12:31:44 | out
+  5 | 2025-11-25 13:18:07 | out
+  5 | 2025-11-25 13:20:54 | out
+  5 | 2025-11-25 13:58:05 | in
+  5 | 2025-11-25 14:38:11 | in
+  5 | 2025-11-25 14:53:39 | in
+  5 | 2025-11-25 16:47:24 | out
+User 5 IN times: [2025-11-25T09:12:38, 2025-11-25T11:25:21, 2025-11-25T13:58:05, 2025-11-25T14:38:11, 2025-11-25T14:53:39]
+User 5 OUT times: [2025-11-25T11:03, 2025-11-25T11:18:39, 2025-11-25T11:57:59, 2025-11-25T12:29:14, 2025-11-25T12:31:44, 2025-11-25T13:18:07, 2025-11-25T13:20:54, 2025-11-25T16:47:24]
+
+Logs for key 2_2025-11-25:
+  2 | 2025-11-25 08:38:15 | in
+  2 | 2025-11-25 09:48:09 | out
+  2 | 2025-11-25 09:50:11 | in
+  2 | 2025-11-25 11:20:46 | out
+  2 | 2025-11-25 11:28:30 | in
+  2 | 2025-11-25 13:20:03 | out
+  2 | 2025-11-25 13:56:34 | in
+  2 | 2025-11-25 15:17:13 | out
+  2 | 2025-11-25 15:25:11 | in
+User 2 IN times: [2025-11-25T08:38:15, 2025-11-25T09:50:11, 2025-11-25T11:28:30, 2025-11-25T13:56:34, 2025-11-25T15:25:11]
+User 2 OUT times: [2025-11-25T09:48:09, 2025-11-25T11:20:46, 2025-11-25T13:20:03, 2025-11-25T15:17:13]
+
+Logs for key 12_2025-11-25:
+  12 | 2025-11-25 08:37:29 | in
+  12 | 2025-11-25 10:48:28 | out
+  12 | 2025-11-25 11:00:59 | in
+  12 | 2025-11-25 13:56:41 | in
+  12 | 2025-11-25 14:39:42 | out
+  12 | 2025-11-25 14:43:45 | in
+  12 | 2025-11-25 16:23:16 | out
+User 12 IN times: [2025-11-25T08:37:29, 2025-11-25T11:00:59, 2025-11-25T13:56:41, 2025-11-25T14:43:45]
+User 12 OUT times: [2025-11-25T10:48:28, 2025-11-25T14:39:42, 2025-11-25T16:23:16]
+
+Logs for key 1001_2025-11-25:
+  1001 | 2025-11-25 09:46:56 | in
+  1001 | 2025-11-25 10:16:47 | out
+  1001 | 2025-11-25 10:19:59 | in
+  1001 | 2025-11-25 11:11:33 | out
+  1001 | 2025-11-25 11:13:50 | in
+  1001 | 2025-11-25 12:06:49 | out
+  1001 | 2025-11-25 12:08:27 | in
+  1001 | 2025-11-25 13:18:36 | out
+  1001 | 2025-11-25 13:20:29 | in
+  1001 | 2025-11-25 14:35:07 | out
+  1001 | 2025-11-25 14:35:37 | in
+  1001 | 2025-11-25 15:08:23 | in
+  1001 | 2025-11-25 16:30:37 | out
+  1001 | 2025-11-25 16:31:12 | in
+User 1001 IN times: [2025-11-25T09:46:56, 2025-11-25T10:19:59, 2025-11-25T11:13:50, 2025-11-25T12:08:27, 2025-11-25T13:20:29, 2025-11-25T14:35:37, 2025-11-25T15:08:23, 2025-11-25T16:31:12]
+User 1001 OUT times: [2025-11-25T10:16:47, 2025-11-25T11:11:33, 2025-11-25T12:06:49, 2025-11-25T13:18:36, 2025-11-25T14:35:07, 2025-11-25T16:30:37]
+
+Logs for key 30_2025-11-25:
+  30 | 2025-11-25 10:49:42 | in
+  30 | 2025-11-25 11:29:43 | out
+  30 | 2025-11-25 11:36:56 | in
+  30 | 2025-11-25 13:19:54 | out
+  30 | 2025-11-25 13:56:23 | in
+  30 | 2025-11-25 15:48:30 | out
+  30 | 2025-11-25 15:49:40 | in
+  30 | 2025-11-25 15:54:18 | out
+  30 | 2025-11-25 16:00:42 | in
+  30 | 2025-11-25 16:23:06 | out
+User 30 IN times: [2025-11-25T10:49:42, 2025-11-25T11:36:56, 2025-11-25T13:56:23, 2025-11-25T15:49:40, 2025-11-25T16:00:42]
+User 30 OUT times: [2025-11-25T11:29:43, 2025-11-25T13:19:54, 2025-11-25T15:48:30, 2025-11-25T15:54:18, 2025-11-25T16:23:06]
+
+Logs for key 1009_2025-11-25:
+  1009 | 2025-11-25 13:05:18 | in
+  1009 | 2025-11-25 13:16:57 | out
+  1009 | 2025-11-25 14:37:40 | out
+  1009 | 2025-11-25 14:41:53 | in
+User 1009 IN times: [2025-11-25T13:05:18, 2025-11-25T14:41:53]
+User 1009 OUT times: [2025-11-25T13:16:57, 2025-11-25T14:37:40]
+
+Logs for key 14_2025-11-25:
+  14 | 2025-11-25 10:09:18 | in
+  14 | 2025-11-25 10:47:01 | out
+  14 | 2025-11-25 11:01:03 | in
+  14 | 2025-11-25 11:01:38 | out
+  14 | 2025-11-25 11:04:41 | in
+  14 | 2025-11-25 12:18:35 | out
+  14 | 2025-11-25 12:31:57 | in
+  14 | 2025-11-25 13:21:02 | out
+  14 | 2025-11-25 13:26:22 | in
+  14 | 2025-11-25 14:35:11 | out
+  14 | 2025-11-25 15:06:32 | in
+  14 | 2025-11-25 16:01:40 | out
+  14 | 2025-11-25 16:21:24 | in
+  14 | 2025-11-25 16:23:50 | out
+  14 | 2025-11-25 16:26:28 | in
+User 14 IN times: [2025-11-25T10:09:18, 2025-11-25T11:01:03, 2025-11-25T11:04:41, 2025-11-25T12:31:57, 2025-11-25T13:26:22, 2025-11-25T15:06:32, 2025-11-25T16:21:24, 2025-11-25T16:26:28]
+User 14 OUT times: [2025-11-25T10:47:01, 2025-11-25T11:01:38, 2025-11-25T12:18:35, 2025-11-25T13:21:02, 2025-11-25T14:35:11, 2025-11-25T16:01:40, 2025-11-25T16:23:50]
+
+Logs for key 16_2025-11-25:
+  16 | 2025-11-25 09:12:43 | in
+  16 | 2025-11-25 09:24:12 | out
+  16 | 2025-11-25 09:29:15 | in
+  16 | 2025-11-25 09:29:18 | in
+  16 | 2025-11-25 10:47:16 | out
+  16 | 2025-11-25 10:47:56 | out
+  16 | 2025-11-25 11:04:28 | in
+  16 | 2025-11-25 13:20:35 | out
+  16 | 2025-11-25 13:56:15 | in
+  16 | 2025-11-25 16:02:59 | out
+  16 | 2025-11-25 16:04:57 | in
+  16 | 2025-11-25 16:06:04 | out
+  16 | 2025-11-25 16:13:27 | in
+  16 | 2025-11-25 16:16:00 | out
+  16 | 2025-11-25 16:25:09 | in
+User 16 IN times: [2025-11-25T09:12:43, 2025-11-25T09:29:15, 2025-11-25T09:29:18, 2025-11-25T11:04:28, 2025-11-25T13:56:15, 2025-11-25T16:04:57, 2025-11-25T16:13:27, 2025-11-25T16:25:09]
+User 16 OUT times: [2025-11-25T09:24:12, 2025-11-25T10:47:16, 2025-11-25T10:47:56, 2025-11-25T13:20:35, 2025-11-25T16:02:59, 2025-11-25T16:06:04, 2025-11-25T16:16]
+
+Logs for key 1003_2025-11-25:
+  1003 | 2025-11-25 07:36:41 | in
+User 1003 IN times: [2025-11-25T07:36:41]
+User 1003 OUT times: []
+
+Logs for key 8_2025-11-25:
+  8 | 2025-11-25 08:29:06 | in
+  8 | 2025-11-25 09:01:01 | out
+  8 | 2025-11-25 09:03:07 | in
+  8 | 2025-11-25 10:06:41 | out
+  8 | 2025-11-25 10:09:24 | in
+  8 | 2025-11-25 11:18:23 | out
+  8 | 2025-11-25 11:28:33 | in
+  8 | 2025-11-25 13:19:45 | out
+  8 | 2025-11-25 13:56:44 | in
+  8 | 2025-11-25 14:58:10 | out
+  8 | 2025-11-25 15:02:24 | in
+User 8 IN times: [2025-11-25T08:29:06, 2025-11-25T09:03:07, 2025-11-25T10:09:24, 2025-11-25T11:28:33, 2025-11-25T13:56:44, 2025-11-25T15:02:24]
+User 8 OUT times: [2025-11-25T09:01:01, 2025-11-25T10:06:41, 2025-11-25T11:18:23, 2025-11-25T13:19:45, 2025-11-25T14:58:10]
+
+Logs for key 1_2025-11-25:
+  1 | 2025-11-25 10:33:47 | out
+  1 | 2025-11-25 10:41:50 | in
+  1 | 2025-11-25 10:48:16 | out
+  1 | 2025-11-25 10:49:06 | out
+  1 | 2025-11-25 11:04:33 | in
+  1 | 2025-11-25 13:19:50 | out
+  1 | 2025-11-25 13:56:38 | in
+  1 | 2025-11-25 15:26:45 | out
+  1 | 2025-11-25 15:32:33 | in
+  1 | 2025-11-25 16:03:04 | out
+  1 | 2025-11-25 16:25:13 | in
+User 1 IN times: [2025-11-25T10:41:50, 2025-11-25T11:04:33, 2025-11-25T13:56:38, 2025-11-25T15:32:33, 2025-11-25T16:25:13]
+User 1 OUT times: [2025-11-25T10:33:47, 2025-11-25T10:48:16, 2025-11-25T10:49:06, 2025-11-25T13:19:50, 2025-11-25T15:26:45, 2025-11-25T16:03:04]
+
+Logs for key 13_2025-11-25:
+  13 | 2025-11-25 14:07:40 | in
+  13 | 2025-11-25 14:29:08 | out
+  13 | 2025-11-25 16:21:04 | out
+User 13 IN times: [2025-11-25T14:07:40]
+User 13 OUT times: [2025-11-25T14:29:08, 2025-11-25T16:21:04]
+
+Logs for key 1006_2025-11-25:
+  1006 | 2025-11-25 10:31:23 | in
+  1006 | 2025-11-25 11:17:23 | out
+  1006 | 2025-11-25 11:36:39 | in
+  1006 | 2025-11-25 13:03:44 | out
+User 1006 IN times: [2025-11-25T10:31:23, 2025-11-25T11:36:39]
+User 1006 OUT times: [2025-11-25T11:17:23, 2025-11-25T13:03:44]
+
+Logs for key 1002_2025-11-25:
+  1002 | 2025-11-25 07:25:31 | in
+  1002 | 2025-11-25 08:35:43 | out
+  1002 | 2025-11-25 08:56:46 | in
+  1002 | 2025-11-25 09:19:32 | out
+  1002 | 2025-11-25 09:19:40 | in
+  1002 | 2025-11-25 09:30:05 | out
+  1002 | 2025-11-25 09:31:45 | in
+  1002 | 2025-11-25 09:41:59 | out
+  1002 | 2025-11-25 09:45:18 | in
+  1002 | 2025-11-25 09:53:07 | in
+  1002 | 2025-11-25 10:02:20 | out
+  1002 | 2025-11-25 10:14:22 | in
+  1002 | 2025-11-25 10:34:33 | out
+  1002 | 2025-11-25 10:42:50 | in
+  1002 | 2025-11-25 10:46:55 | out
+  1002 | 2025-11-25 10:51:33 | in
+  1002 | 2025-11-25 10:52:00 | out
+  1002 | 2025-11-25 10:53:40 | in
+  1002 | 2025-11-25 10:54:22 | out
+  1002 | 2025-11-25 10:57:19 | in
+  1002 | 2025-11-25 11:04:37 | in
+  1002 | 2025-11-25 11:09:08 | out
+  1002 | 2025-11-25 11:14:45 | out
+  1002 | 2025-11-25 11:16:03 | in
+  1002 | 2025-11-25 11:16:36 | out
+  1002 | 2025-11-25 11:17:40 | in
+  1002 | 2025-11-25 11:17:56 | out
+  1002 | 2025-11-25 11:27:01 | out
+  1002 | 2025-11-25 11:29:03 | in
+  1002 | 2025-11-25 11:43:09 | out
+  1002 | 2025-11-25 11:44:12 | in
+  1002 | 2025-11-25 11:44:37 | out
+  1002 | 2025-11-25 11:46:04 | in
+  1002 | 2025-11-25 11:48:16 | out
+  1002 | 2025-11-25 11:49:15 | in
+  1002 | 2025-11-25 11:49:32 | out
+  1002 | 2025-11-25 12:14:18 | in
+  1002 | 2025-11-25 12:14:51 | out
+  1002 | 2025-11-25 12:29:11 | in
+  1002 | 2025-11-25 12:37:19 | in
+  1002 | 2025-11-25 12:41:22 | out
+  1002 | 2025-11-25 13:05:31 | in
+  1002 | 2025-11-25 13:08:06 | out
+  1002 | 2025-11-25 13:29:56 | in
+  1002 | 2025-11-25 14:05:25 | out
+  1002 | 2025-11-25 15:03:55 | in
+  1002 | 2025-11-25 15:04:18 | out
+  1002 | 2025-11-25 15:09:08 | in
+  1002 | 2025-11-25 15:30:21 | in
+  1002 | 2025-11-25 15:36:16 | out
+  1002 | 2025-11-25 15:37:26 | in
+  1002 | 2025-11-25 15:38:18 | out
+  1002 | 2025-11-25 16:02:45 | in
+  1002 | 2025-11-25 16:39:53 | out
+  1002 | 2025-11-25 16:48:19 | in
+User 1002 IN times: [2025-11-25T07:25:31, 2025-11-25T08:56:46, 2025-11-25T09:19:40, 2025-11-25T09:31:45, 2025-11-25T09:45:18, 2025-11-25T09:53:07, 2025-11-25T10:14:22, 2025-11-25T10:42:50, 2025-11-25T10:51:33, 2025-11-25T10:53:40, 2025-11-25T10:57:19, 2025-11-25T11:04:37, 2025-11-25T11:16:03, 2025-11-25T11:17:40, 2025-11-25T11:29:03, 2025-11-25T11:44:12, 2025-11-25T11:46:04, 2025-11-25T11:49:15, 2025-11-25T12:14:18, 2025-11-25T12:29:11, 2025-11-25T12:37:19, 2025-11-25T13:05:31, 2025-11-25T13:29:56, 2025-11-25T15:03:55, 2025-11-25T15:09:08, 2025-11-25T15:30:21, 2025-11-25T15:37:26, 2025-11-25T16:02:45, 2025-11-25T16:48:19]
+User 1002 OUT times: [2025-11-25T08:35:43, 2025-11-25T09:19:32, 2025-11-25T09:30:05, 2025-11-25T09:41:59, 2025-11-25T10:02:20, 2025-11-25T10:34:33, 2025-11-25T10:46:55, 2025-11-25T10:52, 2025-11-25T10:54:22, 2025-11-25T11:09:08, 2025-11-25T11:14:45, 2025-11-25T11:16:36, 2025-11-25T11:17:56, 2025-11-25T11:27:01, 2025-11-25T11:43:09, 2025-11-25T11:44:37, 2025-11-25T11:48:16, 2025-11-25T11:49:32, 2025-11-25T12:14:51, 2025-11-25T12:41:22, 2025-11-25T13:08:06, 2025-11-25T14:05:25, 2025-11-25T15:04:18, 2025-11-25T15:36:16, 2025-11-25T15:38:18, 2025-11-25T16:39:53]
+
+Logs for key 21_2025-11-25:
+  21 | 2025-11-25 09:20:04 | in
+  21 | 2025-11-25 10:47:28 | out
+  21 | 2025-11-25 10:47:40 | out
+  21 | 2025-11-25 11:04:23 | in
+  21 | 2025-11-25 13:20:56 | out
+  21 | 2025-11-25 13:56:27 | in
+  21 | 2025-11-25 16:02:55 | out
+  21 | 2025-11-25 16:05:08 | in
+  21 | 2025-11-25 16:06:01 | out
+  21 | 2025-11-25 16:07:33 | in
+  21 | 2025-11-25 16:08:04 | out
+  21 | 2025-11-25 16:13:21 | in
+  21 | 2025-11-25 16:15:48 | out
+  21 | 2025-11-25 16:25:03 | in
+User 21 IN times: [2025-11-25T09:20:04, 2025-11-25T11:04:23, 2025-11-25T13:56:27, 2025-11-25T16:05:08, 2025-11-25T16:07:33, 2025-11-25T16:13:21, 2025-11-25T16:25:03]
+User 21 OUT times: [2025-11-25T10:47:28, 2025-11-25T10:47:40, 2025-11-25T13:20:56, 2025-11-25T16:02:55, 2025-11-25T16:06:01, 2025-11-25T16:08:04, 2025-11-25T16:15:48]
+
+Logs for key 1004_2025-11-25:
+  1004 | 2025-11-25 08:29:11 | in
+  1004 | 2025-11-25 11:00:10 | out
+  1004 | 2025-11-25 11:00:36 | in
+  1004 | 2025-11-25 12:35:53 | out
+  1004 | 2025-11-25 12:53:16 | in
+  1004 | 2025-11-25 13:49:39 | out
+  1004 | 2025-11-25 15:27:02 | in
+  1004 | 2025-11-25 16:39:30 | out
+User 1004 IN times: [2025-11-25T08:29:11, 2025-11-25T11:00:36, 2025-11-25T12:53:16, 2025-11-25T15:27:02]
+User 1004 OUT times: [2025-11-25T11:00:10, 2025-11-25T12:35:53, 2025-11-25T13:49:39, 2025-11-25T16:39:30]
+
+Processed Attendance Records:
+15 | Unknown User | 2025-11-25T10:55:27 | 2025-11-25T16:07:44 | 4.4833333333333325
+7 | Unknown User | 2025-11-25T09:00:20 | 2025-11-25T15:55:41 | 5.883333333333334
+10 | AREDDULA NAVEEN KUMAR | 2025-11-25T10:12:36 | 2025-11-25T13:42 | 2.6333333333333333
+5 | Unknown User | 2025-11-25T09:12:38 | 2025-11-25T16:47:24 | -4.75
+2 | Gnanarathinam.C | 2025-11-25T08:38:15 | 2025-11-25T15:17:13 | 5.833333333333333
+12 | Unknown User | 2025-11-25T08:37:29 | 2025-11-25T16:23:16 | 8.233333333333333
+1001 | Senthil Kumar | 2025-11-25T09:46:56 | 2025-11-25T16:30:37 | 6.5166666666666675
+30 | Unknown User | 2025-11-25T10:49:42 | 2025-11-25T16:23:06 | 4.666666666666666
+1009 | Unknown User | 2025-11-25T13:05:18 | 2025-11-25T14:37:40 | 0.11666666666666665
+14 | Unknown User | 2025-11-25T10:09:18 | 2025-11-25T16:23:50 | 4.733333333333333
+16 | Unknown User | 2025-11-25T09:12:43 | 2025-11-25T16:16 | 7.2
+1003 | Unknown User | 2025-11-25T07:36:41 | null | 0.0
+8 | AAKASH P | 2025-11-25T08:29:06 | 2025-11-25T14:58:10 | 5.566666666666667
+1 | Gayathri V | 2025-11-25T10:41:50 | 2025-11-25T16:03:04 | -6.683333333333334
+13 | Unknown User | 2025-11-25T14:07:40 | 2025-11-25T16:21:04 | 0.35
+1006 | Unknown User | 2025-11-25T10:31:23 | 2025-11-25T13:03:44 | 2.216666666666667
+1002 | Unknown User | 2025-11-25T07:25:31 | 2025-11-25T16:39:53 | 10.116666666666667
+21 | Unknown User | 2025-11-25T09:20:04 | 2025-11-25T16:15:48 | 0.31666666666666665
+1004 | Unknown User | 2025-11-25T08:29:11 | 2025-11-25T16:39:30 | 6.216666666666667
+SOAP Response:
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetTransactionsLogResponse xmlns="http://tempuri.org/"><GetTransactionsLogResult>Logs Count:222</GetTransactionsLogResult><strDataList>1	2025-11-25 08:38:10	in
+1	2025-11-25 10:33:47	out
+1	2025-11-25 10:41:50	in
+1	2025-11-25 10:48:16	out
+1	2025-11-25 10:49:06	out
+1	2025-11-25 11:04:33	in
+1	2025-11-25 13:19:50	out
+1	2025-11-25 13:56:38	in
+1	2025-11-25 15:26:45	out
+1	2025-11-25 15:32:33	in
+1	2025-11-25 16:03:04	out
+1	2025-11-25 16:25:13	in
+10	2025-11-25 10:12:36	in
+10	2025-11-25 11:29:15	out
+10	2025-11-25 12:19:03	in
+10	2025-11-25 13:42:00	out
+10	2025-11-25 14:10:10	in
+10	2025-11-25 16:06:54	in
+1001	2025-11-25 09:46:56	in
+1001	2025-11-25 10:16:47	out
+1001	2025-11-25 10:19:59	in
+1001	2025-11-25 11:11:33	out
+1001	2025-11-25 11:13:50	in
+1001	2025-11-25 12:06:49	out
+1001	2025-11-25 12:08:27	in
+1001	2025-11-25 13:18:36	out
+1001	2025-11-25 13:20:29	in
+1001	2025-11-25 14:35:07	out
+1001	2025-11-25 14:35:37	in
+1001	2025-11-25 15:08:23	in
+1001	2025-11-25 16:30:37	out
+1001	2025-11-25 16:31:12	in
+1002	2025-11-25 07:25:31	in
+1002	2025-11-25 08:35:43	out
+1002	2025-11-25 08:56:46	in
+1002	2025-11-25 09:19:32	out
+1002	2025-11-25 09:19:40	in
+1002	2025-11-25 09:30:05	out
+1002	2025-11-25 09:31:45	in
+1002	2025-11-25 09:41:59	out
+1002	2025-11-25 09:45:18	in
+1002	2025-11-25 09:53:07	in
+1002	2025-11-25 10:02:20	out
+1002	2025-11-25 10:14:22	in
+1002	2025-11-25 10:34:33	out
+1002	2025-11-25 10:42:50	in
+1002	2025-11-25 10:46:55	out
+1002	2025-11-25 10:51:33	in
+1002	2025-11-25 10:52:00	out
+1002	2025-11-25 10:53:40	in
+1002	2025-11-25 10:54:22	out
+1002	2025-11-25 10:57:19	in
+1002	2025-11-25 11:04:37	in
+1002	2025-11-25 11:09:08	out
+1002	2025-11-25 11:14:45	out
+1002	2025-11-25 11:16:03	in
+1002	2025-11-25 11:16:36	out
+1002	2025-11-25 11:17:40	in
+1002	2025-11-25 11:17:56	out
+1002	2025-11-25 11:27:01	out
+1002	2025-11-25 11:29:03	in
+1002	2025-11-25 11:43:09	out
+1002	2025-11-25 11:44:12	in
+1002	2025-11-25 11:44:37	out
+1002	2025-11-25 11:46:04	in
+1002	2025-11-25 11:48:16	out
+1002	2025-11-25 11:49:15	in
+1002	2025-11-25 11:49:32	out
+1002	2025-11-25 12:14:18	in
+1002	2025-11-25 12:14:51	out
+1002	2025-11-25 12:29:11	in
+1002	2025-11-25 12:37:19	in
+1002	2025-11-25 12:41:22	out
+1002	2025-11-25 13:05:31	in
+1002	2025-11-25 13:08:06	out
+1002	2025-11-25 13:29:56	in
+1002	2025-11-25 14:05:25	out
+1002	2025-11-25 15:03:55	in
+1002	2025-11-25 15:04:18	out
+1002	2025-11-25 15:09:08	in
+1002	2025-11-25 15:30:21	in
+1002	2025-11-25 15:36:16	out
+1002	2025-11-25 15:37:26	in
+1002	2025-11-25 15:38:18	out
+1002	2025-11-25 16:02:45	in
+1002	2025-11-25 16:39:53	out
+1002	2025-11-25 16:48:19	in
+1003	2025-11-25 07:36:41	in
+1004	2025-11-25 08:29:11	in
+1004	2025-11-25 11:00:10	out
+1004	2025-11-25 11:00:36	in
+1004	2025-11-25 12:35:53	out
+1004	2025-11-25 12:53:16	in
+1004	2025-11-25 13:49:39	out
+1004	2025-11-25 15:27:02	in
+1004	2025-11-25 16:39:30	out
+1006	2025-11-25 10:31:23	in
+1006	2025-11-25 11:17:23	out
+1006	2025-11-25 11:36:39	in
+1006	2025-11-25 13:03:44	out
+1009	2025-11-25 13:05:18	in
+1009	2025-11-25 13:16:57	out
+1009	2025-11-25 14:37:40	out
+1009	2025-11-25 14:41:53	in
+12	2025-11-25 08:37:29	in
+12	2025-11-25 10:48:28	out
+12	2025-11-25 11:00:59	in
+12	2025-11-25 13:56:41	in
+12	2025-11-25 14:39:42	out
+12	2025-11-25 14:43:45	in
+12	2025-11-25 16:23:16	out
+13	2025-11-25 14:07:40	in
+13	2025-11-25 14:29:08	out
+13	2025-11-25 16:21:04	out
+14	2025-11-25 10:09:18	in
+14	2025-11-25 10:47:01	out
+14	2025-11-25 11:01:03	in
+14	2025-11-25 11:01:38	out
+14	2025-11-25 11:04:41	in
+14	2025-11-25 12:18:35	out
+14	2025-11-25 12:31:57	in
+14	2025-11-25 13:21:02	out
+14	2025-11-25 13:26:22	in
+14	2025-11-25 14:35:11	out
+14	2025-11-25 15:06:32	in
+14	2025-11-25 16:01:40	out
+14	2025-11-25 16:21:24	in
+14	2025-11-25 16:23:50	out
+14	2025-11-25 16:26:28	in
+15	2025-11-25 10:55:27	in
+15	2025-11-25 13:34:43	out
+15	2025-11-25 13:39:01	in
+15	2025-11-25 13:41:55	out
+15	2025-11-25 14:10:05	in
+15	2025-11-25 14:42:35	out
+15	2025-11-25 14:44:58	in
+15	2025-11-25 15:57:45	out
+15	2025-11-25 16:03:19	in
+15	2025-11-25 16:07:44	out
+16	2025-11-25 09:12:43	in
+16	2025-11-25 09:24:12	out
+16	2025-11-25 09:29:15	in
+16	2025-11-25 09:29:18	in
+16	2025-11-25 10:47:16	out
+16	2025-11-25 10:47:56	out
+16	2025-11-25 11:04:28	in
+16	2025-11-25 13:20:35	out
+16	2025-11-25 13:56:15	in
+16	2025-11-25 16:02:59	out
+16	2025-11-25 16:04:57	in
+16	2025-11-25 16:06:04	out
+16	2025-11-25 16:13:27	in
+16	2025-11-25 16:16:00	out
+16	2025-11-25 16:25:09	in
+2	2025-11-25 08:38:15	in
+2	2025-11-25 09:48:09	out
+2	2025-11-25 09:50:11	in
+2	2025-11-25 11:20:46	out
+2	2025-11-25 11:28:30	in
+2	2025-11-25 13:20:03	out
+2	2025-11-25 13:56:34	in
+2	2025-11-25 15:17:13	out
+2	2025-11-25 15:25:11	in
+21	2025-11-25 09:20:04	in
+21	2025-11-25 10:47:28	out
+21	2025-11-25 10:47:40	out
+21	2025-11-25 11:04:23	in
+21	2025-11-25 13:20:56	out
+21	2025-11-25 13:56:27	in
+21	2025-11-25 16:02:55	out
+21	2025-11-25 16:05:08	in
+21	2025-11-25 16:06:01	out
+21	2025-11-25 16:07:33	in
+21	2025-11-25 16:08:04	out
+21	2025-11-25 16:13:21	in
+21	2025-11-25 16:15:48	out
+21	2025-11-25 16:25:03	in
+30	2025-11-25 10:49:42	in
+30	2025-11-25 11:29:43	out
+30	2025-11-25 11:36:56	in
+30	2025-11-25 13:19:54	out
+30	2025-11-25 13:56:23	in
+30	2025-11-25 15:48:30	out
+30	2025-11-25 15:49:40	in
+30	2025-11-25 15:54:18	out
+30	2025-11-25 16:00:42	in
+30	2025-11-25 16:23:06	out
+5	2025-11-25 09:12:38	in
+5	2025-11-25 11:03:00	out
+5	2025-11-25 11:18:39	out
+5	2025-11-25 11:25:21	in
+5	2025-11-25 11:57:59	out
+5	2025-11-25 12:29:14	out
+5	2025-11-25 12:31:44	out
+5	2025-11-25 13:18:07	out
+5	2025-11-25 13:20:54	out
+5	2025-11-25 13:58:05	in
+5	2025-11-25 14:38:11	in
+5	2025-11-25 14:53:39	in
+5	2025-11-25 16:47:24	out
+7	2025-11-25 09:00:20	in
+7	2025-11-25 10:08:12	out
+7	2025-11-25 10:13:33	in
+7	2025-11-25 10:47:45	out
+7	2025-11-25 11:06:59	in
+7	2025-11-25 13:19:59	out
+7	2025-11-25 13:56:21	in
+7	2025-11-25 15:55:41	out
+7	2025-11-25 16:04:41	in
+7	2025-11-25 16:25:16	in
+7	2025-11-25 16:25:18	in
+8	2025-11-25 08:29:06	in
+8	2025-11-25 09:01:01	out
+8	2025-11-25 09:03:07	in
+8	2025-11-25 10:06:41	out
+8	2025-11-25 10:09:24	in
+8	2025-11-25 11:18:23	out
+8	2025-11-25 11:28:33	in
+8	2025-11-25 13:19:45	out
+8	2025-11-25 13:56:44	in
+8	2025-11-25 14:58:10	out
+8	2025-11-25 15:02:24	in
+</strDataList></GetTransactionsLogResponse></soap:Body></soap:Envelope>
+Added to group: UserId=1, TimeStamp=2025-11-25 10:33:47, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 10:41:50, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 10:48:16, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 10:49:06, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 11:04:33, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 13:19:50, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 13:56:38, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 15:26:45, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 15:32:33, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 16:03:04, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 16:25:13, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 10:12:36, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 11:29:15, Direction=out
+Added to group: UserId=10, TimeStamp=2025-11-25 12:19:03, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 13:42:00, Direction=out
+Added to group: UserId=10, TimeStamp=2025-11-25 14:10:10, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 16:06:54, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 09:46:56, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 10:16:47, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 10:19:59, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 11:11:33, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 11:13:50, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 12:06:49, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 12:08:27, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 13:18:36, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 13:20:29, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 14:35:07, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 14:35:37, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 15:08:23, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 16:30:37, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 16:31:12, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 07:25:31, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 08:35:43, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 08:56:46, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:19:32, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:19:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:30:05, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:31:45, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:41:59, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:45:18, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:53:07, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:02:20, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:14:22, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:34:33, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:42:50, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:46:55, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:51:33, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:52:00, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:53:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:54:22, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:57:19, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:04:37, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:09:08, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:14:45, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:16:03, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:16:36, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:17:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:17:56, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:27:01, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:29:03, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:43:09, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:44:12, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:44:37, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:46:04, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:48:16, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:49:15, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:49:32, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:14:18, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:14:51, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:29:11, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:37:19, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:41:22, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:05:31, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:08:06, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:29:56, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 14:05:25, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:03:55, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:04:18, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:09:08, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:30:21, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:36:16, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:37:26, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:38:18, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:02:45, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:39:53, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:48:19, Direction=in
+Added to group: UserId=1003, TimeStamp=2025-11-25 07:36:41, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 08:29:11, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 11:00:10, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 11:00:36, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 12:35:53, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 12:53:16, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 13:49:39, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 15:27:02, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 16:39:30, Direction=out
+Added to group: UserId=1006, TimeStamp=2025-11-25 10:31:23, Direction=in
+Added to group: UserId=1006, TimeStamp=2025-11-25 11:17:23, Direction=out
+Added to group: UserId=1006, TimeStamp=2025-11-25 11:36:39, Direction=in
+Added to group: UserId=1006, TimeStamp=2025-11-25 13:03:44, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 13:05:18, Direction=in
+Added to group: UserId=1009, TimeStamp=2025-11-25 13:16:57, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 14:37:40, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 14:41:53, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 08:37:29, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 10:48:28, Direction=out
+Added to group: UserId=12, TimeStamp=2025-11-25 11:00:59, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 13:56:41, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 14:39:42, Direction=out
+Added to group: UserId=12, TimeStamp=2025-11-25 14:43:45, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 16:23:16, Direction=out
+Added to group: UserId=13, TimeStamp=2025-11-25 14:07:40, Direction=in
+Added to group: UserId=13, TimeStamp=2025-11-25 14:29:08, Direction=out
+Added to group: UserId=13, TimeStamp=2025-11-25 16:21:04, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 10:09:18, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 10:47:01, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 11:01:03, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 11:01:38, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 11:04:41, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 12:18:35, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 12:31:57, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 13:21:02, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 13:26:22, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 14:35:11, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 15:06:32, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 16:01:40, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 16:21:24, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 16:23:50, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 16:26:28, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 10:55:27, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 13:34:43, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 13:39:01, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 13:41:55, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 14:10:05, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 14:42:35, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 14:44:58, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 15:57:45, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 16:03:19, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 16:07:44, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 09:12:43, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 09:24:12, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 09:29:15, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 09:29:18, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 10:47:16, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 10:47:56, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 11:04:28, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 13:20:35, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 13:56:15, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:02:59, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:04:57, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:06:04, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:13:27, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:16:00, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:25:09, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 08:38:15, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 09:48:09, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 09:50:11, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 11:20:46, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 11:28:30, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 13:20:03, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 13:56:34, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 15:17:13, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 15:25:11, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 09:20:04, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 10:47:28, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 10:47:40, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 11:04:23, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 13:20:56, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 13:56:27, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:02:55, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:05:08, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:06:01, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:07:33, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:08:04, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:13:21, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:15:48, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:25:03, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 10:49:42, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 11:29:43, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 11:36:56, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 13:19:54, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 13:56:23, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 15:48:30, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 15:49:40, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 15:54:18, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 16:00:42, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 16:23:06, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 09:12:38, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 11:03:00, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 11:18:39, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 11:25:21, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 11:57:59, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 12:29:14, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 12:31:44, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:18:07, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:20:54, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:58:05, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 14:38:11, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 14:53:39, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 16:47:24, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 09:00:20, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 10:08:12, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 10:13:33, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 10:47:45, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 11:06:59, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 13:19:59, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 13:56:21, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 15:55:41, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 16:04:41, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 16:25:16, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 16:25:18, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 08:29:06, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 09:01:01, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 09:03:07, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 10:06:41, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 10:09:24, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 11:18:23, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 11:28:33, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 13:19:45, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 13:56:44, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 14:58:10, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 15:02:24, Direction=in
+
+Logs for key 15_2025-11-25:
+  15 | 2025-11-25 10:55:27 | in
+  15 | 2025-11-25 13:34:43 | out
+  15 | 2025-11-25 13:39:01 | in
+  15 | 2025-11-25 13:41:55 | out
+  15 | 2025-11-25 14:10:05 | in
+  15 | 2025-11-25 14:42:35 | out
+  15 | 2025-11-25 14:44:58 | in
+  15 | 2025-11-25 15:57:45 | out
+  15 | 2025-11-25 16:03:19 | in
+  15 | 2025-11-25 16:07:44 | out
+User 15 IN times: [2025-11-25T10:55:27, 2025-11-25T13:39:01, 2025-11-25T14:10:05, 2025-11-25T14:44:58, 2025-11-25T16:03:19]
+User 15 OUT times: [2025-11-25T13:34:43, 2025-11-25T13:41:55, 2025-11-25T14:42:35, 2025-11-25T15:57:45, 2025-11-25T16:07:44]
+
+Logs for key 7_2025-11-25:
+  7 | 2025-11-25 09:00:20 | in
+  7 | 2025-11-25 10:08:12 | out
+  7 | 2025-11-25 10:13:33 | in
+  7 | 2025-11-25 10:47:45 | out
+  7 | 2025-11-25 11:06:59 | in
+  7 | 2025-11-25 13:19:59 | out
+  7 | 2025-11-25 13:56:21 | in
+  7 | 2025-11-25 15:55:41 | out
+  7 | 2025-11-25 16:04:41 | in
+  7 | 2025-11-25 16:25:16 | in
+  7 | 2025-11-25 16:25:18 | in
+User 7 IN times: [2025-11-25T09:00:20, 2025-11-25T10:13:33, 2025-11-25T11:06:59, 2025-11-25T13:56:21, 2025-11-25T16:04:41, 2025-11-25T16:25:16, 2025-11-25T16:25:18]
+User 7 OUT times: [2025-11-25T10:08:12, 2025-11-25T10:47:45, 2025-11-25T13:19:59, 2025-11-25T15:55:41]
+
+Logs for key 10_2025-11-25:
+  10 | 2025-11-25 10:12:36 | in
+  10 | 2025-11-25 11:29:15 | out
+  10 | 2025-11-25 12:19:03 | in
+  10 | 2025-11-25 13:42:00 | out
+  10 | 2025-11-25 14:10:10 | in
+  10 | 2025-11-25 16:06:54 | in
+User 10 IN times: [2025-11-25T10:12:36, 2025-11-25T12:19:03, 2025-11-25T14:10:10, 2025-11-25T16:06:54]
+User 10 OUT times: [2025-11-25T11:29:15, 2025-11-25T13:42]
+
+Logs for key 5_2025-11-25:
+  5 | 2025-11-25 09:12:38 | in
+  5 | 2025-11-25 11:03:00 | out
+  5 | 2025-11-25 11:18:39 | out
+  5 | 2025-11-25 11:25:21 | in
+  5 | 2025-11-25 11:57:59 | out
+  5 | 2025-11-25 12:29:14 | out
+  5 | 2025-11-25 12:31:44 | out
+  5 | 2025-11-25 13:18:07 | out
+  5 | 2025-11-25 13:20:54 | out
+  5 | 2025-11-25 13:58:05 | in
+  5 | 2025-11-25 14:38:11 | in
+  5 | 2025-11-25 14:53:39 | in
+  5 | 2025-11-25 16:47:24 | out
+User 5 IN times: [2025-11-25T09:12:38, 2025-11-25T11:25:21, 2025-11-25T13:58:05, 2025-11-25T14:38:11, 2025-11-25T14:53:39]
+User 5 OUT times: [2025-11-25T11:03, 2025-11-25T11:18:39, 2025-11-25T11:57:59, 2025-11-25T12:29:14, 2025-11-25T12:31:44, 2025-11-25T13:18:07, 2025-11-25T13:20:54, 2025-11-25T16:47:24]
+
+Logs for key 2_2025-11-25:
+  2 | 2025-11-25 08:38:15 | in
+  2 | 2025-11-25 09:48:09 | out
+  2 | 2025-11-25 09:50:11 | in
+  2 | 2025-11-25 11:20:46 | out
+  2 | 2025-11-25 11:28:30 | in
+  2 | 2025-11-25 13:20:03 | out
+  2 | 2025-11-25 13:56:34 | in
+  2 | 2025-11-25 15:17:13 | out
+  2 | 2025-11-25 15:25:11 | in
+User 2 IN times: [2025-11-25T08:38:15, 2025-11-25T09:50:11, 2025-11-25T11:28:30, 2025-11-25T13:56:34, 2025-11-25T15:25:11]
+User 2 OUT times: [2025-11-25T09:48:09, 2025-11-25T11:20:46, 2025-11-25T13:20:03, 2025-11-25T15:17:13]
+
+Logs for key 12_2025-11-25:
+  12 | 2025-11-25 08:37:29 | in
+  12 | 2025-11-25 10:48:28 | out
+  12 | 2025-11-25 11:00:59 | in
+  12 | 2025-11-25 13:56:41 | in
+  12 | 2025-11-25 14:39:42 | out
+  12 | 2025-11-25 14:43:45 | in
+  12 | 2025-11-25 16:23:16 | out
+User 12 IN times: [2025-11-25T08:37:29, 2025-11-25T11:00:59, 2025-11-25T13:56:41, 2025-11-25T14:43:45]
+User 12 OUT times: [2025-11-25T10:48:28, 2025-11-25T14:39:42, 2025-11-25T16:23:16]
+
+Logs for key 1001_2025-11-25:
+  1001 | 2025-11-25 09:46:56 | in
+  1001 | 2025-11-25 10:16:47 | out
+  1001 | 2025-11-25 10:19:59 | in
+  1001 | 2025-11-25 11:11:33 | out
+  1001 | 2025-11-25 11:13:50 | in
+  1001 | 2025-11-25 12:06:49 | out
+  1001 | 2025-11-25 12:08:27 | in
+  1001 | 2025-11-25 13:18:36 | out
+  1001 | 2025-11-25 13:20:29 | in
+  1001 | 2025-11-25 14:35:07 | out
+  1001 | 2025-11-25 14:35:37 | in
+  1001 | 2025-11-25 15:08:23 | in
+  1001 | 2025-11-25 16:30:37 | out
+  1001 | 2025-11-25 16:31:12 | in
+User 1001 IN times: [2025-11-25T09:46:56, 2025-11-25T10:19:59, 2025-11-25T11:13:50, 2025-11-25T12:08:27, 2025-11-25T13:20:29, 2025-11-25T14:35:37, 2025-11-25T15:08:23, 2025-11-25T16:31:12]
+User 1001 OUT times: [2025-11-25T10:16:47, 2025-11-25T11:11:33, 2025-11-25T12:06:49, 2025-11-25T13:18:36, 2025-11-25T14:35:07, 2025-11-25T16:30:37]
+
+Logs for key 30_2025-11-25:
+  30 | 2025-11-25 10:49:42 | in
+  30 | 2025-11-25 11:29:43 | out
+  30 | 2025-11-25 11:36:56 | in
+  30 | 2025-11-25 13:19:54 | out
+  30 | 2025-11-25 13:56:23 | in
+  30 | 2025-11-25 15:48:30 | out
+  30 | 2025-11-25 15:49:40 | in
+  30 | 2025-11-25 15:54:18 | out
+  30 | 2025-11-25 16:00:42 | in
+  30 | 2025-11-25 16:23:06 | out
+User 30 IN times: [2025-11-25T10:49:42, 2025-11-25T11:36:56, 2025-11-25T13:56:23, 2025-11-25T15:49:40, 2025-11-25T16:00:42]
+User 30 OUT times: [2025-11-25T11:29:43, 2025-11-25T13:19:54, 2025-11-25T15:48:30, 2025-11-25T15:54:18, 2025-11-25T16:23:06]
+
+Logs for key 1009_2025-11-25:
+  1009 | 2025-11-25 13:05:18 | in
+  1009 | 2025-11-25 13:16:57 | out
+  1009 | 2025-11-25 14:37:40 | out
+  1009 | 2025-11-25 14:41:53 | in
+User 1009 IN times: [2025-11-25T13:05:18, 2025-11-25T14:41:53]
+User 1009 OUT times: [2025-11-25T13:16:57, 2025-11-25T14:37:40]
+
+Logs for key 14_2025-11-25:
+  14 | 2025-11-25 10:09:18 | in
+  14 | 2025-11-25 10:47:01 | out
+  14 | 2025-11-25 11:01:03 | in
+  14 | 2025-11-25 11:01:38 | out
+  14 | 2025-11-25 11:04:41 | in
+  14 | 2025-11-25 12:18:35 | out
+  14 | 2025-11-25 12:31:57 | in
+  14 | 2025-11-25 13:21:02 | out
+  14 | 2025-11-25 13:26:22 | in
+  14 | 2025-11-25 14:35:11 | out
+  14 | 2025-11-25 15:06:32 | in
+  14 | 2025-11-25 16:01:40 | out
+  14 | 2025-11-25 16:21:24 | in
+  14 | 2025-11-25 16:23:50 | out
+  14 | 2025-11-25 16:26:28 | in
+User 14 IN times: [2025-11-25T10:09:18, 2025-11-25T11:01:03, 2025-11-25T11:04:41, 2025-11-25T12:31:57, 2025-11-25T13:26:22, 2025-11-25T15:06:32, 2025-11-25T16:21:24, 2025-11-25T16:26:28]
+User 14 OUT times: [2025-11-25T10:47:01, 2025-11-25T11:01:38, 2025-11-25T12:18:35, 2025-11-25T13:21:02, 2025-11-25T14:35:11, 2025-11-25T16:01:40, 2025-11-25T16:23:50]
+
+Logs for key 16_2025-11-25:
+  16 | 2025-11-25 09:12:43 | in
+  16 | 2025-11-25 09:24:12 | out
+  16 | 2025-11-25 09:29:15 | in
+  16 | 2025-11-25 09:29:18 | in
+  16 | 2025-11-25 10:47:16 | out
+  16 | 2025-11-25 10:47:56 | out
+  16 | 2025-11-25 11:04:28 | in
+  16 | 2025-11-25 13:20:35 | out
+  16 | 2025-11-25 13:56:15 | in
+  16 | 2025-11-25 16:02:59 | out
+  16 | 2025-11-25 16:04:57 | in
+  16 | 2025-11-25 16:06:04 | out
+  16 | 2025-11-25 16:13:27 | in
+  16 | 2025-11-25 16:16:00 | out
+  16 | 2025-11-25 16:25:09 | in
+User 16 IN times: [2025-11-25T09:12:43, 2025-11-25T09:29:15, 2025-11-25T09:29:18, 2025-11-25T11:04:28, 2025-11-25T13:56:15, 2025-11-25T16:04:57, 2025-11-25T16:13:27, 2025-11-25T16:25:09]
+User 16 OUT times: [2025-11-25T09:24:12, 2025-11-25T10:47:16, 2025-11-25T10:47:56, 2025-11-25T13:20:35, 2025-11-25T16:02:59, 2025-11-25T16:06:04, 2025-11-25T16:16]
+
+Logs for key 1003_2025-11-25:
+  1003 | 2025-11-25 07:36:41 | in
+User 1003 IN times: [2025-11-25T07:36:41]
+User 1003 OUT times: []
+
+Logs for key 8_2025-11-25:
+  8 | 2025-11-25 08:29:06 | in
+  8 | 2025-11-25 09:01:01 | out
+  8 | 2025-11-25 09:03:07 | in
+  8 | 2025-11-25 10:06:41 | out
+  8 | 2025-11-25 10:09:24 | in
+  8 | 2025-11-25 11:18:23 | out
+  8 | 2025-11-25 11:28:33 | in
+  8 | 2025-11-25 13:19:45 | out
+  8 | 2025-11-25 13:56:44 | in
+  8 | 2025-11-25 14:58:10 | out
+  8 | 2025-11-25 15:02:24 | in
+User 8 IN times: [2025-11-25T08:29:06, 2025-11-25T09:03:07, 2025-11-25T10:09:24, 2025-11-25T11:28:33, 2025-11-25T13:56:44, 2025-11-25T15:02:24]
+User 8 OUT times: [2025-11-25T09:01:01, 2025-11-25T10:06:41, 2025-11-25T11:18:23, 2025-11-25T13:19:45, 2025-11-25T14:58:10]
+
+Logs for key 1_2025-11-25:
+  1 | 2025-11-25 10:33:47 | out
+  1 | 2025-11-25 10:41:50 | in
+  1 | 2025-11-25 10:48:16 | out
+  1 | 2025-11-25 10:49:06 | out
+  1 | 2025-11-25 11:04:33 | in
+  1 | 2025-11-25 13:19:50 | out
+  1 | 2025-11-25 13:56:38 | in
+  1 | 2025-11-25 15:26:45 | out
+  1 | 2025-11-25 15:32:33 | in
+  1 | 2025-11-25 16:03:04 | out
+  1 | 2025-11-25 16:25:13 | in
+User 1 IN times: [2025-11-25T10:41:50, 2025-11-25T11:04:33, 2025-11-25T13:56:38, 2025-11-25T15:32:33, 2025-11-25T16:25:13]
+User 1 OUT times: [2025-11-25T10:33:47, 2025-11-25T10:48:16, 2025-11-25T10:49:06, 2025-11-25T13:19:50, 2025-11-25T15:26:45, 2025-11-25T16:03:04]
+
+Logs for key 13_2025-11-25:
+  13 | 2025-11-25 14:07:40 | in
+  13 | 2025-11-25 14:29:08 | out
+  13 | 2025-11-25 16:21:04 | out
+User 13 IN times: [2025-11-25T14:07:40]
+User 13 OUT times: [2025-11-25T14:29:08, 2025-11-25T16:21:04]
+
+Logs for key 1006_2025-11-25:
+  1006 | 2025-11-25 10:31:23 | in
+  1006 | 2025-11-25 11:17:23 | out
+  1006 | 2025-11-25 11:36:39 | in
+  1006 | 2025-11-25 13:03:44 | out
+User 1006 IN times: [2025-11-25T10:31:23, 2025-11-25T11:36:39]
+User 1006 OUT times: [2025-11-25T11:17:23, 2025-11-25T13:03:44]
+
+Logs for key 1002_2025-11-25:
+  1002 | 2025-11-25 07:25:31 | in
+  1002 | 2025-11-25 08:35:43 | out
+  1002 | 2025-11-25 08:56:46 | in
+  1002 | 2025-11-25 09:19:32 | out
+  1002 | 2025-11-25 09:19:40 | in
+  1002 | 2025-11-25 09:30:05 | out
+  1002 | 2025-11-25 09:31:45 | in
+  1002 | 2025-11-25 09:41:59 | out
+  1002 | 2025-11-25 09:45:18 | in
+  1002 | 2025-11-25 09:53:07 | in
+  1002 | 2025-11-25 10:02:20 | out
+  1002 | 2025-11-25 10:14:22 | in
+  1002 | 2025-11-25 10:34:33 | out
+  1002 | 2025-11-25 10:42:50 | in
+  1002 | 2025-11-25 10:46:55 | out
+  1002 | 2025-11-25 10:51:33 | in
+  1002 | 2025-11-25 10:52:00 | out
+  1002 | 2025-11-25 10:53:40 | in
+  1002 | 2025-11-25 10:54:22 | out
+  1002 | 2025-11-25 10:57:19 | in
+  1002 | 2025-11-25 11:04:37 | in
+  1002 | 2025-11-25 11:09:08 | out
+  1002 | 2025-11-25 11:14:45 | out
+  1002 | 2025-11-25 11:16:03 | in
+  1002 | 2025-11-25 11:16:36 | out
+  1002 | 2025-11-25 11:17:40 | in
+  1002 | 2025-11-25 11:17:56 | out
+  1002 | 2025-11-25 11:27:01 | out
+  1002 | 2025-11-25 11:29:03 | in
+  1002 | 2025-11-25 11:43:09 | out
+  1002 | 2025-11-25 11:44:12 | in
+  1002 | 2025-11-25 11:44:37 | out
+  1002 | 2025-11-25 11:46:04 | in
+  1002 | 2025-11-25 11:48:16 | out
+  1002 | 2025-11-25 11:49:15 | in
+  1002 | 2025-11-25 11:49:32 | out
+  1002 | 2025-11-25 12:14:18 | in
+  1002 | 2025-11-25 12:14:51 | out
+  1002 | 2025-11-25 12:29:11 | in
+  1002 | 2025-11-25 12:37:19 | in
+  1002 | 2025-11-25 12:41:22 | out
+  1002 | 2025-11-25 13:05:31 | in
+  1002 | 2025-11-25 13:08:06 | out
+  1002 | 2025-11-25 13:29:56 | in
+  1002 | 2025-11-25 14:05:25 | out
+  1002 | 2025-11-25 15:03:55 | in
+  1002 | 2025-11-25 15:04:18 | out
+  1002 | 2025-11-25 15:09:08 | in
+  1002 | 2025-11-25 15:30:21 | in
+  1002 | 2025-11-25 15:36:16 | out
+  1002 | 2025-11-25 15:37:26 | in
+  1002 | 2025-11-25 15:38:18 | out
+  1002 | 2025-11-25 16:02:45 | in
+  1002 | 2025-11-25 16:39:53 | out
+  1002 | 2025-11-25 16:48:19 | in
+User 1002 IN times: [2025-11-25T07:25:31, 2025-11-25T08:56:46, 2025-11-25T09:19:40, 2025-11-25T09:31:45, 2025-11-25T09:45:18, 2025-11-25T09:53:07, 2025-11-25T10:14:22, 2025-11-25T10:42:50, 2025-11-25T10:51:33, 2025-11-25T10:53:40, 2025-11-25T10:57:19, 2025-11-25T11:04:37, 2025-11-25T11:16:03, 2025-11-25T11:17:40, 2025-11-25T11:29:03, 2025-11-25T11:44:12, 2025-11-25T11:46:04, 2025-11-25T11:49:15, 2025-11-25T12:14:18, 2025-11-25T12:29:11, 2025-11-25T12:37:19, 2025-11-25T13:05:31, 2025-11-25T13:29:56, 2025-11-25T15:03:55, 2025-11-25T15:09:08, 2025-11-25T15:30:21, 2025-11-25T15:37:26, 2025-11-25T16:02:45, 2025-11-25T16:48:19]
+User 1002 OUT times: [2025-11-25T08:35:43, 2025-11-25T09:19:32, 2025-11-25T09:30:05, 2025-11-25T09:41:59, 2025-11-25T10:02:20, 2025-11-25T10:34:33, 2025-11-25T10:46:55, 2025-11-25T10:52, 2025-11-25T10:54:22, 2025-11-25T11:09:08, 2025-11-25T11:14:45, 2025-11-25T11:16:36, 2025-11-25T11:17:56, 2025-11-25T11:27:01, 2025-11-25T11:43:09, 2025-11-25T11:44:37, 2025-11-25T11:48:16, 2025-11-25T11:49:32, 2025-11-25T12:14:51, 2025-11-25T12:41:22, 2025-11-25T13:08:06, 2025-11-25T14:05:25, 2025-11-25T15:04:18, 2025-11-25T15:36:16, 2025-11-25T15:38:18, 2025-11-25T16:39:53]
+
+Logs for key 21_2025-11-25:
+  21 | 2025-11-25 09:20:04 | in
+  21 | 2025-11-25 10:47:28 | out
+  21 | 2025-11-25 10:47:40 | out
+  21 | 2025-11-25 11:04:23 | in
+  21 | 2025-11-25 13:20:56 | out
+  21 | 2025-11-25 13:56:27 | in
+  21 | 2025-11-25 16:02:55 | out
+  21 | 2025-11-25 16:05:08 | in
+  21 | 2025-11-25 16:06:01 | out
+  21 | 2025-11-25 16:07:33 | in
+  21 | 2025-11-25 16:08:04 | out
+  21 | 2025-11-25 16:13:21 | in
+  21 | 2025-11-25 16:15:48 | out
+  21 | 2025-11-25 16:25:03 | in
+User 21 IN times: [2025-11-25T09:20:04, 2025-11-25T11:04:23, 2025-11-25T13:56:27, 2025-11-25T16:05:08, 2025-11-25T16:07:33, 2025-11-25T16:13:21, 2025-11-25T16:25:03]
+User 21 OUT times: [2025-11-25T10:47:28, 2025-11-25T10:47:40, 2025-11-25T13:20:56, 2025-11-25T16:02:55, 2025-11-25T16:06:01, 2025-11-25T16:08:04, 2025-11-25T16:15:48]
+
+Logs for key 1004_2025-11-25:
+  1004 | 2025-11-25 08:29:11 | in
+  1004 | 2025-11-25 11:00:10 | out
+  1004 | 2025-11-25 11:00:36 | in
+  1004 | 2025-11-25 12:35:53 | out
+  1004 | 2025-11-25 12:53:16 | in
+  1004 | 2025-11-25 13:49:39 | out
+  1004 | 2025-11-25 15:27:02 | in
+  1004 | 2025-11-25 16:39:30 | out
+User 1004 IN times: [2025-11-25T08:29:11, 2025-11-25T11:00:36, 2025-11-25T12:53:16, 2025-11-25T15:27:02]
+User 1004 OUT times: [2025-11-25T11:00:10, 2025-11-25T12:35:53, 2025-11-25T13:49:39, 2025-11-25T16:39:30]
+
+Processed Attendance Records:
+15 | Unknown User | 2025-11-25T10:55:27 | 2025-11-25T16:07:44 | 4.4833333333333325
+7 | Unknown User | 2025-11-25T09:00:20 | 2025-11-25T15:55:41 | 5.883333333333334
+10 | AREDDULA NAVEEN KUMAR | 2025-11-25T10:12:36 | 2025-11-25T13:42 | 2.6333333333333333
+5 | Unknown User | 2025-11-25T09:12:38 | 2025-11-25T16:47:24 | -4.75
+2 | Gnanarathinam.C | 2025-11-25T08:38:15 | 2025-11-25T15:17:13 | 5.833333333333333
+12 | Unknown User | 2025-11-25T08:37:29 | 2025-11-25T16:23:16 | 8.233333333333333
+1001 | Senthil Kumar | 2025-11-25T09:46:56 | 2025-11-25T16:30:37 | 6.5166666666666675
+30 | Unknown User | 2025-11-25T10:49:42 | 2025-11-25T16:23:06 | 4.666666666666666
+1009 | Unknown User | 2025-11-25T13:05:18 | 2025-11-25T14:37:40 | 0.11666666666666665
+14 | Unknown User | 2025-11-25T10:09:18 | 2025-11-25T16:23:50 | 4.733333333333333
+16 | Unknown User | 2025-11-25T09:12:43 | 2025-11-25T16:16 | 7.2
+1003 | Unknown User | 2025-11-25T07:36:41 | null | 0.0
+8 | AAKASH P | 2025-11-25T08:29:06 | 2025-11-25T14:58:10 | 5.566666666666667
+1 | Gayathri V | 2025-11-25T10:41:50 | 2025-11-25T16:03:04 | -6.683333333333334
+13 | Unknown User | 2025-11-25T14:07:40 | 2025-11-25T16:21:04 | 0.35
+1006 | Unknown User | 2025-11-25T10:31:23 | 2025-11-25T13:03:44 | 2.216666666666667
+1002 | Unknown User | 2025-11-25T07:25:31 | 2025-11-25T16:39:53 | 10.116666666666667
+21 | Unknown User | 2025-11-25T09:20:04 | 2025-11-25T16:15:48 | 0.31666666666666665
+1004 | Unknown User | 2025-11-25T08:29:11 | 2025-11-25T16:39:30 | 6.216666666666667
+SOAP Response:
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetTransactionsLogResponse xmlns="http://tempuri.org/"><GetTransactionsLogResult>Logs Count:222</GetTransactionsLogResult><strDataList>1	2025-11-25 08:38:10	in
+1	2025-11-25 10:33:47	out
+1	2025-11-25 10:41:50	in
+1	2025-11-25 10:48:16	out
+1	2025-11-25 10:49:06	out
+1	2025-11-25 11:04:33	in
+1	2025-11-25 13:19:50	out
+1	2025-11-25 13:56:38	in
+1	2025-11-25 15:26:45	out
+1	2025-11-25 15:32:33	in
+1	2025-11-25 16:03:04	out
+1	2025-11-25 16:25:13	in
+10	2025-11-25 10:12:36	in
+10	2025-11-25 11:29:15	out
+10	2025-11-25 12:19:03	in
+10	2025-11-25 13:42:00	out
+10	2025-11-25 14:10:10	in
+10	2025-11-25 16:06:54	in
+1001	2025-11-25 09:46:56	in
+1001	2025-11-25 10:16:47	out
+1001	2025-11-25 10:19:59	in
+1001	2025-11-25 11:11:33	out
+1001	2025-11-25 11:13:50	in
+1001	2025-11-25 12:06:49	out
+1001	2025-11-25 12:08:27	in
+1001	2025-11-25 13:18:36	out
+1001	2025-11-25 13:20:29	in
+1001	2025-11-25 14:35:07	out
+1001	2025-11-25 14:35:37	in
+1001	2025-11-25 15:08:23	in
+1001	2025-11-25 16:30:37	out
+1001	2025-11-25 16:31:12	in
+1002	2025-11-25 07:25:31	in
+1002	2025-11-25 08:35:43	out
+1002	2025-11-25 08:56:46	in
+1002	2025-11-25 09:19:32	out
+1002	2025-11-25 09:19:40	in
+1002	2025-11-25 09:30:05	out
+1002	2025-11-25 09:31:45	in
+1002	2025-11-25 09:41:59	out
+1002	2025-11-25 09:45:18	in
+1002	2025-11-25 09:53:07	in
+1002	2025-11-25 10:02:20	out
+1002	2025-11-25 10:14:22	in
+1002	2025-11-25 10:34:33	out
+1002	2025-11-25 10:42:50	in
+1002	2025-11-25 10:46:55	out
+1002	2025-11-25 10:51:33	in
+1002	2025-11-25 10:52:00	out
+1002	2025-11-25 10:53:40	in
+1002	2025-11-25 10:54:22	out
+1002	2025-11-25 10:57:19	in
+1002	2025-11-25 11:04:37	in
+1002	2025-11-25 11:09:08	out
+1002	2025-11-25 11:14:45	out
+1002	2025-11-25 11:16:03	in
+1002	2025-11-25 11:16:36	out
+1002	2025-11-25 11:17:40	in
+1002	2025-11-25 11:17:56	out
+1002	2025-11-25 11:27:01	out
+1002	2025-11-25 11:29:03	in
+1002	2025-11-25 11:43:09	out
+1002	2025-11-25 11:44:12	in
+1002	2025-11-25 11:44:37	out
+1002	2025-11-25 11:46:04	in
+1002	2025-11-25 11:48:16	out
+1002	2025-11-25 11:49:15	in
+1002	2025-11-25 11:49:32	out
+1002	2025-11-25 12:14:18	in
+1002	2025-11-25 12:14:51	out
+1002	2025-11-25 12:29:11	in
+1002	2025-11-25 12:37:19	in
+1002	2025-11-25 12:41:22	out
+1002	2025-11-25 13:05:31	in
+1002	2025-11-25 13:08:06	out
+1002	2025-11-25 13:29:56	in
+1002	2025-11-25 14:05:25	out
+1002	2025-11-25 15:03:55	in
+1002	2025-11-25 15:04:18	out
+1002	2025-11-25 15:09:08	in
+1002	2025-11-25 15:30:21	in
+1002	2025-11-25 15:36:16	out
+1002	2025-11-25 15:37:26	in
+1002	2025-11-25 15:38:18	out
+1002	2025-11-25 16:02:45	in
+1002	2025-11-25 16:39:53	out
+1002	2025-11-25 16:48:19	in
+1003	2025-11-25 07:36:41	in
+1004	2025-11-25 08:29:11	in
+1004	2025-11-25 11:00:10	out
+1004	2025-11-25 11:00:36	in
+1004	2025-11-25 12:35:53	out
+1004	2025-11-25 12:53:16	in
+1004	2025-11-25 13:49:39	out
+1004	2025-11-25 15:27:02	in
+1004	2025-11-25 16:39:30	out
+1006	2025-11-25 10:31:23	in
+1006	2025-11-25 11:17:23	out
+1006	2025-11-25 11:36:39	in
+1006	2025-11-25 13:03:44	out
+1009	2025-11-25 13:05:18	in
+1009	2025-11-25 13:16:57	out
+1009	2025-11-25 14:37:40	out
+1009	2025-11-25 14:41:53	in
+12	2025-11-25 08:37:29	in
+12	2025-11-25 10:48:28	out
+12	2025-11-25 11:00:59	in
+12	2025-11-25 13:56:41	in
+12	2025-11-25 14:39:42	out
+12	2025-11-25 14:43:45	in
+12	2025-11-25 16:23:16	out
+13	2025-11-25 14:07:40	in
+13	2025-11-25 14:29:08	out
+13	2025-11-25 16:21:04	out
+14	2025-11-25 10:09:18	in
+14	2025-11-25 10:47:01	out
+14	2025-11-25 11:01:03	in
+14	2025-11-25 11:01:38	out
+14	2025-11-25 11:04:41	in
+14	2025-11-25 12:18:35	out
+14	2025-11-25 12:31:57	in
+14	2025-11-25 13:21:02	out
+14	2025-11-25 13:26:22	in
+14	2025-11-25 14:35:11	out
+14	2025-11-25 15:06:32	in
+14	2025-11-25 16:01:40	out
+14	2025-11-25 16:21:24	in
+14	2025-11-25 16:23:50	out
+14	2025-11-25 16:26:28	in
+15	2025-11-25 10:55:27	in
+15	2025-11-25 13:34:43	out
+15	2025-11-25 13:39:01	in
+15	2025-11-25 13:41:55	out
+15	2025-11-25 14:10:05	in
+15	2025-11-25 14:42:35	out
+15	2025-11-25 14:44:58	in
+15	2025-11-25 15:57:45	out
+15	2025-11-25 16:03:19	in
+15	2025-11-25 16:07:44	out
+16	2025-11-25 09:12:43	in
+16	2025-11-25 09:24:12	out
+16	2025-11-25 09:29:15	in
+16	2025-11-25 09:29:18	in
+16	2025-11-25 10:47:16	out
+16	2025-11-25 10:47:56	out
+16	2025-11-25 11:04:28	in
+16	2025-11-25 13:20:35	out
+16	2025-11-25 13:56:15	in
+16	2025-11-25 16:02:59	out
+16	2025-11-25 16:04:57	in
+16	2025-11-25 16:06:04	out
+16	2025-11-25 16:13:27	in
+16	2025-11-25 16:16:00	out
+16	2025-11-25 16:25:09	in
+2	2025-11-25 08:38:15	in
+2	2025-11-25 09:48:09	out
+2	2025-11-25 09:50:11	in
+2	2025-11-25 11:20:46	out
+2	2025-11-25 11:28:30	in
+2	2025-11-25 13:20:03	out
+2	2025-11-25 13:56:34	in
+2	2025-11-25 15:17:13	out
+2	2025-11-25 15:25:11	in
+21	2025-11-25 09:20:04	in
+21	2025-11-25 10:47:28	out
+21	2025-11-25 10:47:40	out
+21	2025-11-25 11:04:23	in
+21	2025-11-25 13:20:56	out
+21	2025-11-25 13:56:27	in
+21	2025-11-25 16:02:55	out
+21	2025-11-25 16:05:08	in
+21	2025-11-25 16:06:01	out
+21	2025-11-25 16:07:33	in
+21	2025-11-25 16:08:04	out
+21	2025-11-25 16:13:21	in
+21	2025-11-25 16:15:48	out
+21	2025-11-25 16:25:03	in
+30	2025-11-25 10:49:42	in
+30	2025-11-25 11:29:43	out
+30	2025-11-25 11:36:56	in
+30	2025-11-25 13:19:54	out
+30	2025-11-25 13:56:23	in
+30	2025-11-25 15:48:30	out
+30	2025-11-25 15:49:40	in
+30	2025-11-25 15:54:18	out
+30	2025-11-25 16:00:42	in
+30	2025-11-25 16:23:06	out
+5	2025-11-25 09:12:38	in
+5	2025-11-25 11:03:00	out
+5	2025-11-25 11:18:39	out
+5	2025-11-25 11:25:21	in
+5	2025-11-25 11:57:59	out
+5	2025-11-25 12:29:14	out
+5	2025-11-25 12:31:44	out
+5	2025-11-25 13:18:07	out
+5	2025-11-25 13:20:54	out
+5	2025-11-25 13:58:05	in
+5	2025-11-25 14:38:11	in
+5	2025-11-25 14:53:39	in
+5	2025-11-25 16:47:24	out
+7	2025-11-25 09:00:20	in
+7	2025-11-25 10:08:12	out
+7	2025-11-25 10:13:33	in
+7	2025-11-25 10:47:45	out
+7	2025-11-25 11:06:59	in
+7	2025-11-25 13:19:59	out
+7	2025-11-25 13:56:21	in
+7	2025-11-25 15:55:41	out
+7	2025-11-25 16:04:41	in
+7	2025-11-25 16:25:16	in
+7	2025-11-25 16:25:18	in
+8	2025-11-25 08:29:06	in
+8	2025-11-25 09:01:01	out
+8	2025-11-25 09:03:07	in
+8	2025-11-25 10:06:41	out
+8	2025-11-25 10:09:24	in
+8	2025-11-25 11:18:23	out
+8	2025-11-25 11:28:33	in
+8	2025-11-25 13:19:45	out
+8	2025-11-25 13:56:44	in
+8	2025-11-25 14:58:10	out
+8	2025-11-25 15:02:24	in
+</strDataList></GetTransactionsLogResponse></soap:Body></soap:Envelope>
+Added to group: UserId=1, TimeStamp=2025-11-25 10:33:47, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 10:41:50, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 10:48:16, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 10:49:06, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 11:04:33, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 13:19:50, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 13:56:38, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 15:26:45, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 15:32:33, Direction=in
+Added to group: UserId=1, TimeStamp=2025-11-25 16:03:04, Direction=out
+Added to group: UserId=1, TimeStamp=2025-11-25 16:25:13, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 10:12:36, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 11:29:15, Direction=out
+Added to group: UserId=10, TimeStamp=2025-11-25 12:19:03, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 13:42:00, Direction=out
+Added to group: UserId=10, TimeStamp=2025-11-25 14:10:10, Direction=in
+Added to group: UserId=10, TimeStamp=2025-11-25 16:06:54, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 09:46:56, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 10:16:47, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 10:19:59, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 11:11:33, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 11:13:50, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 12:06:49, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 12:08:27, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 13:18:36, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 13:20:29, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 14:35:07, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 14:35:37, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 15:08:23, Direction=in
+Added to group: UserId=1001, TimeStamp=2025-11-25 16:30:37, Direction=out
+Added to group: UserId=1001, TimeStamp=2025-11-25 16:31:12, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 07:25:31, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 08:35:43, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 08:56:46, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:19:32, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:19:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:30:05, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:31:45, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:41:59, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:45:18, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 09:53:07, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:02:20, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:14:22, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:34:33, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:42:50, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:46:55, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:51:33, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:52:00, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:53:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:54:22, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 10:57:19, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:04:37, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:09:08, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:14:45, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:16:03, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:16:36, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:17:40, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:17:56, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:27:01, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:29:03, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:43:09, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:44:12, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:44:37, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:46:04, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:48:16, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:49:15, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 11:49:32, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:14:18, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:14:51, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:29:11, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:37:19, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 12:41:22, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:05:31, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:08:06, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 13:29:56, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 14:05:25, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:03:55, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:04:18, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:09:08, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:30:21, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:36:16, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:37:26, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 15:38:18, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:02:45, Direction=in
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:39:53, Direction=out
+Added to group: UserId=1002, TimeStamp=2025-11-25 16:48:19, Direction=in
+Added to group: UserId=1003, TimeStamp=2025-11-25 07:36:41, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 08:29:11, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 11:00:10, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 11:00:36, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 12:35:53, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 12:53:16, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 13:49:39, Direction=out
+Added to group: UserId=1004, TimeStamp=2025-11-25 15:27:02, Direction=in
+Added to group: UserId=1004, TimeStamp=2025-11-25 16:39:30, Direction=out
+Added to group: UserId=1006, TimeStamp=2025-11-25 10:31:23, Direction=in
+Added to group: UserId=1006, TimeStamp=2025-11-25 11:17:23, Direction=out
+Added to group: UserId=1006, TimeStamp=2025-11-25 11:36:39, Direction=in
+Added to group: UserId=1006, TimeStamp=2025-11-25 13:03:44, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 13:05:18, Direction=in
+Added to group: UserId=1009, TimeStamp=2025-11-25 13:16:57, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 14:37:40, Direction=out
+Added to group: UserId=1009, TimeStamp=2025-11-25 14:41:53, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 08:37:29, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 10:48:28, Direction=out
+Added to group: UserId=12, TimeStamp=2025-11-25 11:00:59, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 13:56:41, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 14:39:42, Direction=out
+Added to group: UserId=12, TimeStamp=2025-11-25 14:43:45, Direction=in
+Added to group: UserId=12, TimeStamp=2025-11-25 16:23:16, Direction=out
+Added to group: UserId=13, TimeStamp=2025-11-25 14:07:40, Direction=in
+Added to group: UserId=13, TimeStamp=2025-11-25 14:29:08, Direction=out
+Added to group: UserId=13, TimeStamp=2025-11-25 16:21:04, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 10:09:18, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 10:47:01, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 11:01:03, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 11:01:38, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 11:04:41, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 12:18:35, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 12:31:57, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 13:21:02, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 13:26:22, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 14:35:11, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 15:06:32, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 16:01:40, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 16:21:24, Direction=in
+Added to group: UserId=14, TimeStamp=2025-11-25 16:23:50, Direction=out
+Added to group: UserId=14, TimeStamp=2025-11-25 16:26:28, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 10:55:27, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 13:34:43, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 13:39:01, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 13:41:55, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 14:10:05, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 14:42:35, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 14:44:58, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 15:57:45, Direction=out
+Added to group: UserId=15, TimeStamp=2025-11-25 16:03:19, Direction=in
+Added to group: UserId=15, TimeStamp=2025-11-25 16:07:44, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 09:12:43, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 09:24:12, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 09:29:15, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 09:29:18, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 10:47:16, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 10:47:56, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 11:04:28, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 13:20:35, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 13:56:15, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:02:59, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:04:57, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:06:04, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:13:27, Direction=in
+Added to group: UserId=16, TimeStamp=2025-11-25 16:16:00, Direction=out
+Added to group: UserId=16, TimeStamp=2025-11-25 16:25:09, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 08:38:15, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 09:48:09, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 09:50:11, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 11:20:46, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 11:28:30, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 13:20:03, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 13:56:34, Direction=in
+Added to group: UserId=2, TimeStamp=2025-11-25 15:17:13, Direction=out
+Added to group: UserId=2, TimeStamp=2025-11-25 15:25:11, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 09:20:04, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 10:47:28, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 10:47:40, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 11:04:23, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 13:20:56, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 13:56:27, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:02:55, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:05:08, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:06:01, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:07:33, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:08:04, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:13:21, Direction=in
+Added to group: UserId=21, TimeStamp=2025-11-25 16:15:48, Direction=out
+Added to group: UserId=21, TimeStamp=2025-11-25 16:25:03, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 10:49:42, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 11:29:43, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 11:36:56, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 13:19:54, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 13:56:23, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 15:48:30, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 15:49:40, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 15:54:18, Direction=out
+Added to group: UserId=30, TimeStamp=2025-11-25 16:00:42, Direction=in
+Added to group: UserId=30, TimeStamp=2025-11-25 16:23:06, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 09:12:38, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 11:03:00, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 11:18:39, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 11:25:21, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 11:57:59, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 12:29:14, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 12:31:44, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:18:07, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:20:54, Direction=out
+Added to group: UserId=5, TimeStamp=2025-11-25 13:58:05, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 14:38:11, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 14:53:39, Direction=in
+Added to group: UserId=5, TimeStamp=2025-11-25 16:47:24, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 09:00:20, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 10:08:12, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 10:13:33, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 10:47:45, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 11:06:59, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 13:19:59, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 13:56:21, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 15:55:41, Direction=out
+Added to group: UserId=7, TimeStamp=2025-11-25 16:04:41, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 16:25:16, Direction=in
+Added to group: UserId=7, TimeStamp=2025-11-25 16:25:18, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 08:29:06, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 09:01:01, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 09:03:07, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 10:06:41, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 10:09:24, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 11:18:23, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 11:28:33, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 13:19:45, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 13:56:44, Direction=in
+Added to group: UserId=8, TimeStamp=2025-11-25 14:58:10, Direction=out
+Added to group: UserId=8, TimeStamp=2025-11-25 15:02:24, Direction=in
+
+Logs for key 15_2025-11-25:
+  15 | 2025-11-25 10:55:27 | in
+  15 | 2025-11-25 13:34:43 | out
+  15 | 2025-11-25 13:39:01 | in
+  15 | 2025-11-25 13:41:55 | out
+  15 | 2025-11-25 14:10:05 | in
+  15 | 2025-11-25 14:42:35 | out
+  15 | 2025-11-25 14:44:58 | in
+  15 | 2025-11-25 15:57:45 | out
+  15 | 2025-11-25 16:03:19 | in
+  15 | 2025-11-25 16:07:44 | out
+User 15 IN times: [2025-11-25T10:55:27, 2025-11-25T13:39:01, 2025-11-25T14:10:05, 2025-11-25T14:44:58, 2025-11-25T16:03:19]
+User 15 OUT times: [2025-11-25T13:34:43, 2025-11-25T13:41:55, 2025-11-25T14:42:35, 2025-11-25T15:57:45, 2025-11-25T16:07:44]
+
+Logs for key 7_2025-11-25:
+  7 | 2025-11-25 09:00:20 | in
+  7 | 2025-11-25 10:08:12 | out
+  7 | 2025-11-25 10:13:33 | in
+  7 | 2025-11-25 10:47:45 | out
+  7 | 2025-11-25 11:06:59 | in
+  7 | 2025-11-25 13:19:59 | out
+  7 | 2025-11-25 13:56:21 | in
+  7 | 2025-11-25 15:55:41 | out
+  7 | 2025-11-25 16:04:41 | in
+  7 | 2025-11-25 16:25:16 | in
+  7 | 2025-11-25 16:25:18 | in
+User 7 IN times: [2025-11-25T09:00:20, 2025-11-25T10:13:33, 2025-11-25T11:06:59, 2025-11-25T13:56:21, 2025-11-25T16:04:41, 2025-11-25T16:25:16, 2025-11-25T16:25:18]
+User 7 OUT times: [2025-11-25T10:08:12, 2025-11-25T10:47:45, 2025-11-25T13:19:59, 2025-11-25T15:55:41]
+
+Logs for key 10_2025-11-25:
+  10 | 2025-11-25 10:12:36 | in
+  10 | 2025-11-25 11:29:15 | out
+  10 | 2025-11-25 12:19:03 | in
+  10 | 2025-11-25 13:42:00 | out
+  10 | 2025-11-25 14:10:10 | in
+  10 | 2025-11-25 16:06:54 | in
+User 10 IN times: [2025-11-25T10:12:36, 2025-11-25T12:19:03, 2025-11-25T14:10:10, 2025-11-25T16:06:54]
+User 10 OUT times: [2025-11-25T11:29:15, 2025-11-25T13:42]
+
+Logs for key 5_2025-11-25:
+  5 | 2025-11-25 09:12:38 | in
+  5 | 2025-11-25 11:03:00 | out
+  5 | 2025-11-25 11:18:39 | out
+  5 | 2025-11-25 11:25:21 | in
+  5 | 2025-11-25 11:57:59 | out
+  5 | 2025-11-25 12:29:14 | out
+  5 | 2025-11-25 12:31:44 | out
+  5 | 2025-11-25 13:18:07 | out
+  5 | 2025-11-25 13:20:54 | out
+  5 | 2025-11-25 13:58:05 | in
+  5 | 2025-11-25 14:38:11 | in
+  5 | 2025-11-25 14:53:39 | in
+  5 | 2025-11-25 16:47:24 | out
+User 5 IN times: [2025-11-25T09:12:38, 2025-11-25T11:25:21, 2025-11-25T13:58:05, 2025-11-25T14:38:11, 2025-11-25T14:53:39]
+User 5 OUT times: [2025-11-25T11:03, 2025-11-25T11:18:39, 2025-11-25T11:57:59, 2025-11-25T12:29:14, 2025-11-25T12:31:44, 2025-11-25T13:18:07, 2025-11-25T13:20:54, 2025-11-25T16:47:24]
+
+Logs for key 2_2025-11-25:
+  2 | 2025-11-25 08:38:15 | in
+  2 | 2025-11-25 09:48:09 | out
+  2 | 2025-11-25 09:50:11 | in
+  2 | 2025-11-25 11:20:46 | out
+  2 | 2025-11-25 11:28:30 | in
+  2 | 2025-11-25 13:20:03 | out
+  2 | 2025-11-25 13:56:34 | in
+  2 | 2025-11-25 15:17:13 | out
+  2 | 2025-11-25 15:25:11 | in
+User 2 IN times: [2025-11-25T08:38:15, 2025-11-25T09:50:11, 2025-11-25T11:28:30, 2025-11-25T13:56:34, 2025-11-25T15:25:11]
+User 2 OUT times: [2025-11-25T09:48:09, 2025-11-25T11:20:46, 2025-11-25T13:20:03, 2025-11-25T15:17:13]
+
+Logs for key 12_2025-11-25:
+  12 | 2025-11-25 08:37:29 | in
+  12 | 2025-11-25 10:48:28 | out
+  12 | 2025-11-25 11:00:59 | in
+  12 | 2025-11-25 13:56:41 | in
+  12 | 2025-11-25 14:39:42 | out
+  12 | 2025-11-25 14:43:45 | in
+  12 | 2025-11-25 16:23:16 | out
+User 12 IN times: [2025-11-25T08:37:29, 2025-11-25T11:00:59, 2025-11-25T13:56:41, 2025-11-25T14:43:45]
+User 12 OUT times: [2025-11-25T10:48:28, 2025-11-25T14:39:42, 2025-11-25T16:23:16]
+
+Logs for key 1001_2025-11-25:
+  1001 | 2025-11-25 09:46:56 | in
+  1001 | 2025-11-25 10:16:47 | out
+  1001 | 2025-11-25 10:19:59 | in
+  1001 | 2025-11-25 11:11:33 | out
+  1001 | 2025-11-25 11:13:50 | in
+  1001 | 2025-11-25 12:06:49 | out
+  1001 | 2025-11-25 12:08:27 | in
+  1001 | 2025-11-25 13:18:36 | out
+  1001 | 2025-11-25 13:20:29 | in
+  1001 | 2025-11-25 14:35:07 | out
+  1001 | 2025-11-25 14:35:37 | in
+  1001 | 2025-11-25 15:08:23 | in
+  1001 | 2025-11-25 16:30:37 | out
+  1001 | 2025-11-25 16:31:12 | in
+User 1001 IN times: [2025-11-25T09:46:56, 2025-11-25T10:19:59, 2025-11-25T11:13:50, 2025-11-25T12:08:27, 2025-11-25T13:20:29, 2025-11-25T14:35:37, 2025-11-25T15:08:23, 2025-11-25T16:31:12]
+User 1001 OUT times: [2025-11-25T10:16:47, 2025-11-25T11:11:33, 2025-11-25T12:06:49, 2025-11-25T13:18:36, 2025-11-25T14:35:07, 2025-11-25T16:30:37]
+
+Logs for key 30_2025-11-25:
+  30 | 2025-11-25 10:49:42 | in
+  30 | 2025-11-25 11:29:43 | out
+  30 | 2025-11-25 11:36:56 | in
+  30 | 2025-11-25 13:19:54 | out
+  30 | 2025-11-25 13:56:23 | in
+  30 | 2025-11-25 15:48:30 | out
+  30 | 2025-11-25 15:49:40 | in
+  30 | 2025-11-25 15:54:18 | out
+  30 | 2025-11-25 16:00:42 | in
+  30 | 2025-11-25 16:23:06 | out
+User 30 IN times: [2025-11-25T10:49:42, 2025-11-25T11:36:56, 2025-11-25T13:56:23, 2025-11-25T15:49:40, 2025-11-25T16:00:42]
+User 30 OUT times: [2025-11-25T11:29:43, 2025-11-25T13:19:54, 2025-11-25T15:48:30, 2025-11-25T15:54:18, 2025-11-25T16:23:06]
+
+Logs for key 1009_2025-11-25:
+  1009 | 2025-11-25 13:05:18 | in
+  1009 | 2025-11-25 13:16:57 | out
+  1009 | 2025-11-25 14:37:40 | out
+  1009 | 2025-11-25 14:41:53 | in
+User 1009 IN times: [2025-11-25T13:05:18, 2025-11-25T14:41:53]
+User 1009 OUT times: [2025-11-25T13:16:57, 2025-11-25T14:37:40]
+
+Logs for key 14_2025-11-25:
+  14 | 2025-11-25 10:09:18 | in
+  14 | 2025-11-25 10:47:01 | out
+  14 | 2025-11-25 11:01:03 | in
+  14 | 2025-11-25 11:01:38 | out
+  14 | 2025-11-25 11:04:41 | in
+  14 | 2025-11-25 12:18:35 | out
+  14 | 2025-11-25 12:31:57 | in
+  14 | 2025-11-25 13:21:02 | out
+  14 | 2025-11-25 13:26:22 | in
+  14 | 2025-11-25 14:35:11 | out
+  14 | 2025-11-25 15:06:32 | in
+  14 | 2025-11-25 16:01:40 | out
+  14 | 2025-11-25 16:21:24 | in
+  14 | 2025-11-25 16:23:50 | out
+  14 | 2025-11-25 16:26:28 | in
+User 14 IN times: [2025-11-25T10:09:18, 2025-11-25T11:01:03, 2025-11-25T11:04:41, 2025-11-25T12:31:57, 2025-11-25T13:26:22, 2025-11-25T15:06:32, 2025-11-25T16:21:24, 2025-11-25T16:26:28]
+User 14 OUT times: [2025-11-25T10:47:01, 2025-11-25T11:01:38, 2025-11-25T12:18:35, 2025-11-25T13:21:02, 2025-11-25T14:35:11, 2025-11-25T16:01:40, 2025-11-25T16:23:50]
+
+Logs for key 16_2025-11-25:
+  16 | 2025-11-25 09:12:43 | in
+  16 | 2025-11-25 09:24:12 | out
+  16 | 2025-11-25 09:29:15 | in
+  16 | 2025-11-25 09:29:18 | in
+  16 | 2025-11-25 10:47:16 | out
+  16 | 2025-11-25 10:47:56 | out
+  16 | 2025-11-25 11:04:28 | in
+  16 | 2025-11-25 13:20:35 | out
+  16 | 2025-11-25 13:56:15 | in
+  16 | 2025-11-25 16:02:59 | out
+  16 | 2025-11-25 16:04:57 | in
+  16 | 2025-11-25 16:06:04 | out
+  16 | 2025-11-25 16:13:27 | in
+  16 | 2025-11-25 16:16:00 | out
+  16 | 2025-11-25 16:25:09 | in
+User 16 IN times: [2025-11-25T09:12:43, 2025-11-25T09:29:15, 2025-11-25T09:29:18, 2025-11-25T11:04:28, 2025-11-25T13:56:15, 2025-11-25T16:04:57, 2025-11-25T16:13:27, 2025-11-25T16:25:09]
+User 16 OUT times: [2025-11-25T09:24:12, 2025-11-25T10:47:16, 2025-11-25T10:47:56, 2025-11-25T13:20:35, 2025-11-25T16:02:59, 2025-11-25T16:06:04, 2025-11-25T16:16]
+
+Logs for key 1003_2025-11-25:
+  1003 | 2025-11-25 07:36:41 | in
+User 1003 IN times: [2025-11-25T07:36:41]
+User 1003 OUT times: []
+
+Logs for key 8_2025-11-25:
+  8 | 2025-11-25 08:29:06 | in
+  8 | 2025-11-25 09:01:01 | out
+  8 | 2025-11-25 09:03:07 | in
+  8 | 2025-11-25 10:06:41 | out
+  8 | 2025-11-25 10:09:24 | in
+  8 | 2025-11-25 11:18:23 | out
+  8 | 2025-11-25 11:28:33 | in
+  8 | 2025-11-25 13:19:45 | out
+  8 | 2025-11-25 13:56:44 | in
+  8 | 2025-11-25 14:58:10 | out
+  8 | 2025-11-25 15:02:24 | in
+User 8 IN times: [2025-11-25T08:29:06, 2025-11-25T09:03:07, 2025-11-25T10:09:24, 2025-11-25T11:28:33, 2025-11-25T13:56:44, 2025-11-25T15:02:24]
+User 8 OUT times: [2025-11-25T09:01:01, 2025-11-25T10:06:41, 2025-11-25T11:18:23, 2025-11-25T13:19:45, 2025-11-25T14:58:10]
+
+Logs for key 1_2025-11-25:
+  1 | 2025-11-25 10:33:47 | out
+  1 | 2025-11-25 10:41:50 | in
+  1 | 2025-11-25 10:48:16 | out
+  1 | 2025-11-25 10:49:06 | out
+  1 | 2025-11-25 11:04:33 | in
+  1 | 2025-11-25 13:19:50 | out
+  1 | 2025-11-25 13:56:38 | in
+  1 | 2025-11-25 15:26:45 | out
+  1 | 2025-11-25 15:32:33 | in
+  1 | 2025-11-25 16:03:04 | out
+  1 | 2025-11-25 16:25:13 | in
+User 1 IN times: [2025-11-25T10:41:50, 2025-11-25T11:04:33, 2025-11-25T13:56:38, 2025-11-25T15:32:33, 2025-11-25T16:25:13]
+User 1 OUT times: [2025-11-25T10:33:47, 2025-11-25T10:48:16, 2025-11-25T10:49:06, 2025-11-25T13:19:50, 2025-11-25T15:26:45, 2025-11-25T16:03:04]
+
+Logs for key 13_2025-11-25:
+  13 | 2025-11-25 14:07:40 | in
+  13 | 2025-11-25 14:29:08 | out
+  13 | 2025-11-25 16:21:04 | out
+User 13 IN times: [2025-11-25T14:07:40]
+User 13 OUT times: [2025-11-25T14:29:08, 2025-11-25T16:21:04]
+
+Logs for key 1006_2025-11-25:
+  1006 | 2025-11-25 10:31:23 | in
+  1006 | 2025-11-25 11:17:23 | out
+  1006 | 2025-11-25 11:36:39 | in
+  1006 | 2025-11-25 13:03:44 | out
+User 1006 IN times: [2025-11-25T10:31:23, 2025-11-25T11:36:39]
+User 1006 OUT times: [2025-11-25T11:17:23, 2025-11-25T13:03:44]
+
+Logs for key 1002_2025-11-25:
+  1002 | 2025-11-25 07:25:31 | in
+  1002 | 2025-11-25 08:35:43 | out
+  1002 | 2025-11-25 08:56:46 | in
+  1002 | 2025-11-25 09:19:32 | out
+  1002 | 2025-11-25 09:19:40 | in
+  1002 | 2025-11-25 09:30:05 | out
+  1002 | 2025-11-25 09:31:45 | in
+  1002 | 2025-11-25 09:41:59 | out
+  1002 | 2025-11-25 09:45:18 | in
+  1002 | 2025-11-25 09:53:07 | in
+  1002 | 2025-11-25 10:02:20 | out
+  1002 | 2025-11-25 10:14:22 | in
+  1002 | 2025-11-25 10:34:33 | out
+  1002 | 2025-11-25 10:42:50 | in
+  1002 | 2025-11-25 10:46:55 | out
+  1002 | 2025-11-25 10:51:33 | in
+  1002 | 2025-11-25 10:52:00 | out
+  1002 | 2025-11-25 10:53:40 | in
+  1002 | 2025-11-25 10:54:22 | out
+  1002 | 2025-11-25 10:57:19 | in
+  1002 | 2025-11-25 11:04:37 | in
+  1002 | 2025-11-25 11:09:08 | out
+  1002 | 2025-11-25 11:14:45 | out
+  1002 | 2025-11-25 11:16:03 | in
+  1002 | 2025-11-25 11:16:36 | out
+  1002 | 2025-11-25 11:17:40 | in
+  1002 | 2025-11-25 11:17:56 | out
+  1002 | 2025-11-25 11:27:01 | out
+  1002 | 2025-11-25 11:29:03 | in
+  1002 | 2025-11-25 11:43:09 | out
+  1002 | 2025-11-25 11:44:12 | in
+  1002 | 2025-11-25 11:44:37 | out
+  1002 | 2025-11-25 11:46:04 | in
+  1002 | 2025-11-25 11:48:16 | out
+  1002 | 2025-11-25 11:49:15 | in
+  1002 | 2025-11-25 11:49:32 | out
+  1002 | 2025-11-25 12:14:18 | in
+  1002 | 2025-11-25 12:14:51 | out
+  1002 | 2025-11-25 12:29:11 | in
+  1002 | 2025-11-25 12:37:19 | in
+  1002 | 2025-11-25 12:41:22 | out
+  1002 | 2025-11-25 13:05:31 | in
+  1002 | 2025-11-25 13:08:06 | out
+  1002 | 2025-11-25 13:29:56 | in
+  1002 | 2025-11-25 14:05:25 | out
+  1002 | 2025-11-25 15:03:55 | in
+  1002 | 2025-11-25 15:04:18 | out
+  1002 | 2025-11-25 15:09:08 | in
+  1002 | 2025-11-25 15:30:21 | in
+  1002 | 2025-11-25 15:36:16 | out
+  1002 | 2025-11-25 15:37:26 | in
+  1002 | 2025-11-25 15:38:18 | out
+  1002 | 2025-11-25 16:02:45 | in
+  1002 | 2025-11-25 16:39:53 | out
+  1002 | 2025-11-25 16:48:19 | in
+User 1002 IN times: [2025-11-25T07:25:31, 2025-11-25T08:56:46, 2025-11-25T09:19:40, 2025-11-25T09:31:45, 2025-11-25T09:45:18, 2025-11-25T09:53:07, 2025-11-25T10:14:22, 2025-11-25T10:42:50, 2025-11-25T10:51:33, 2025-11-25T10:53:40, 2025-11-25T10:57:19, 2025-11-25T11:04:37, 2025-11-25T11:16:03, 2025-11-25T11:17:40, 2025-11-25T11:29:03, 2025-11-25T11:44:12, 2025-11-25T11:46:04, 2025-11-25T11:49:15, 2025-11-25T12:14:18, 2025-11-25T12:29:11, 2025-11-25T12:37:19, 2025-11-25T13:05:31, 2025-11-25T13:29:56, 2025-11-25T15:03:55, 2025-11-25T15:09:08, 2025-11-25T15:30:21, 2025-11-25T15:37:26, 2025-11-25T16:02:45, 2025-11-25T16:48:19]
+User 1002 OUT times: [2025-11-25T08:35:43, 2025-11-25T09:19:32, 2025-11-25T09:30:05, 2025-11-25T09:41:59, 2025-11-25T10:02:20, 2025-11-25T10:34:33, 2025-11-25T10:46:55, 2025-11-25T10:52, 2025-11-25T10:54:22, 2025-11-25T11:09:08, 2025-11-25T11:14:45, 2025-11-25T11:16:36, 2025-11-25T11:17:56, 2025-11-25T11:27:01, 2025-11-25T11:43:09, 2025-11-25T11:44:37, 2025-11-25T11:48:16, 2025-11-25T11:49:32, 2025-11-25T12:14:51, 2025-11-25T12:41:22, 2025-11-25T13:08:06, 2025-11-25T14:05:25, 2025-11-25T15:04:18, 2025-11-25T15:36:16, 2025-11-25T15:38:18, 2025-11-25T16:39:53]
+
+Logs for key 21_2025-11-25:
+  21 | 2025-11-25 09:20:04 | in
+  21 | 2025-11-25 10:47:28 | out
+  21 | 2025-11-25 10:47:40 | out
+  21 | 2025-11-25 11:04:23 | in
+  21 | 2025-11-25 13:20:56 | out
+  21 | 2025-11-25 13:56:27 | in
+  21 | 2025-11-25 16:02:55 | out
+  21 | 2025-11-25 16:05:08 | in
+  21 | 2025-11-25 16:06:01 | out
+  21 | 2025-11-25 16:07:33 | in
+  21 | 2025-11-25 16:08:04 | out
+  21 | 2025-11-25 16:13:21 | in
+  21 | 2025-11-25 16:15:48 | out
+  21 | 2025-11-25 16:25:03 | in
+User 21 IN times: [2025-11-25T09:20:04, 2025-11-25T11:04:23, 2025-11-25T13:56:27, 2025-11-25T16:05:08, 2025-11-25T16:07:33, 2025-11-25T16:13:21, 2025-11-25T16:25:03]
+User 21 OUT times: [2025-11-25T10:47:28, 2025-11-25T10:47:40, 2025-11-25T13:20:56, 2025-11-25T16:02:55, 2025-11-25T16:06:01, 2025-11-25T16:08:04, 2025-11-25T16:15:48]
+
+Logs for key 1004_2025-11-25:
+  1004 | 2025-11-25 08:29:11 | in
+  1004 | 2025-11-25 11:00:10 | out
+  1004 | 2025-11-25 11:00:36 | in
+  1004 | 2025-11-25 12:35:53 | out
+  1004 | 2025-11-25 12:53:16 | in
+  1004 | 2025-11-25 13:49:39 | out
+  1004 | 2025-11-25 15:27:02 | in
+  1004 | 2025-11-25 16:39:30 | out
+User 1004 IN times: [2025-11-25T08:29:11, 2025-11-25T11:00:36, 2025-11-25T12:53:16, 2025-11-25T15:27:02]
+User 1004 OUT times: [2025-11-25T11:00:10, 2025-11-25T12:35:53, 2025-11-25T13:49:39, 2025-11-25T16:39:30]
+
+Processed Attendance Records:
+15 | Unknown User | 2025-11-25T10:55:27 | 2025-11-25T16:07:44 | 4.4833333333333325
+7 | Unknown User | 2025-11-25T09:00:20 | 2025-11-25T15:55:41 | 5.883333333333334
+10 | AREDDULA NAVEEN KUMAR | 2025-11-25T10:12:36 | 2025-11-25T13:42 | 2.6333333333333333
+5 | Unknown User | 2025-11-25T09:12:38 | 2025-11-25T16:47:24 | -4.75
+2 | Gnanarathinam.C | 2025-11-25T08:38:15 | 2025-11-25T15:17:13 | 5.833333333333333
+12 | Unknown User | 2025-11-25T08:37:29 | 2025-11-25T16:23:16 | 8.233333333333333
+1001 | Senthil Kumar | 2025-11-25T09:46:56 | 2025-11-25T16:30:37 | 6.5166666666666675
+30 | Unknown User | 2025-11-25T10:49:42 | 2025-11-25T16:23:06 | 4.666666666666666
+1009 | Unknown User | 2025-11-25T13:05:18 | 2025-11-25T14:37:40 | 0.11666666666666665
+14 | Unknown User | 2025-11-25T10:09:18 | 2025-11-25T16:23:50 | 4.733333333333333
+16 | Unknown User | 2025-11-25T09:12:43 | 2025-11-25T16:16 | 7.2
+1003 | Unknown User | 2025-11-25T07:36:41 | null | 0.0
+8 | AAKASH P | 2025-11-25T08:29:06 | 2025-11-25T14:58:10 | 5.566666666666667
+1 | Gayathri V | 2025-11-25T10:41:50 | 2025-11-25T16:03:04 | -6.683333333333334
+13 | Unknown User | 2025-11-25T14:07:40 | 2025-11-25T16:21:04 | 0.35
+1006 | Unknown User | 2025-11-25T10:31:23 | 2025-11-25T13:03:44 | 2.216666666666667
+1002 | Unknown User | 2025-11-25T07:25:31 | 2025-11-25T16:39:53 | 10.116666666666667
+21 | Unknown User | 2025-11-25T09:20:04 | 2025-11-25T16:15:48 | 0.31666666666666665
+1004 | Unknown User | 2025-11-25T08:29:11 | 2025-11-25T16:39:30 | 6.216666666666667
