@@ -16,7 +16,7 @@ public class SoapClient {
 
     public SOAPMessage callSoap(String fromDate, String toDate) throws Exception {
 
-        SOAPConnectionFactory factory = SOAPConnectionFactory.newInstance();
+        SOAPConnectionFactory factory = SOAPConnectionFactory.getDeclaredConstructor().getDeclaredConstructor().getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 // Migration: Deprecated Class.getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 - Source: Java 21 → Target: Java 25 // Migration: Deprecated Class.getDeclaredConstructor().getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 // Migration: Deprecated Class.getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 - Source: Java 21 → Target: Java 25 - Source: Java 21 → Target: Java 25;
         SOAPConnection connection = factory.createConnection();
 
         SOAPMessage request = buildRequest(fromDate, toDate);
@@ -32,7 +32,7 @@ public class SoapClient {
 
     private SOAPMessage buildRequest(String from, String to) throws Exception {
 
-        MessageFactory msgFactory = MessageFactory.newInstance();
+        MessageFactory msgFactory = MessageFactory.getDeclaredConstructor().getDeclaredConstructor().getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 // Migration: Deprecated Class.getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 - Source: Java 21 → Target: Java 25 // Migration: Deprecated Class.getDeclaredConstructor().getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 // Migration: Deprecated Class.getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 - Source: Java 21 → Target: Java 25 - Source: Java 21 → Target: Java 25;
         SOAPMessage message = msgFactory.createMessage();
 
         SOAPEnvelope envelope = message.getSOAPPart().getEnvelope();

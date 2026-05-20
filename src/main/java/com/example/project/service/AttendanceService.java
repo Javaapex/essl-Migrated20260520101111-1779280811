@@ -52,7 +52,7 @@ public class AttendanceService {
             LocalDate date;
             try {
                 date = LocalDate.parse(parts[1]);
-            } catch (Exception e) {
+            } catch (Exception e) { // TODO: Consider catching specific exception types
                 continue;
             }
 

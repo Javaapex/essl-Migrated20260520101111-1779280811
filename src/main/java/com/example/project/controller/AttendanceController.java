@@ -90,7 +90,7 @@ public class AttendanceController {
         LocalDate target;
         try {
             target = (date != null && !date.isBlank()) ? LocalDate.parse(date) : LocalDate.now();
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             target = LocalDate.now();
         }
 
@@ -128,7 +128,7 @@ public class AttendanceController {
                 out.put("weekEnd", weekEnd.toString());
                 return ResponseEntity.ok(out);
             }
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             log.error("Failed to get attendance data", e);
             Map<String, Object> err = new HashMap<>();
             err.put("error", e.getMessage());
@@ -187,7 +187,7 @@ public class AttendanceController {
             Map<String, Object> res = new HashMap<>();
             res.put("success", true);
             return ResponseEntity.ok(res);
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             log.error("Failed to send email", e);
             Map<String, Object> res = new HashMap<>();
             res.put("success", false);
@@ -229,7 +229,7 @@ public class AttendanceController {
         LocalDate target;
         try {
             target = (date != null) ? LocalDate.parse(date) : LocalDate.now();
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             target = LocalDate.now();
         }
 
@@ -382,7 +382,7 @@ public class AttendanceController {
                 return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(resp);
             }
 
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             log.error("Error building attendance email", e);
             resp.put("success", false);
             resp.put("message", "Failed to build email: " + e.getMessage());
@@ -408,7 +408,7 @@ public class AttendanceController {
 
         try {
             target = (date != null && !date.isBlank()) ? LocalDate.parse(date) : LocalDate.now();
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             target = LocalDate.now();
         }
 
@@ -448,7 +448,7 @@ public class AttendanceController {
             // removed email metadata fields from AttendanceReportLog; only persist UI-facing fields
             reportLogService.save(logEntry);
             return ResponseEntity.ok(resp);
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             log.error("Failed to send weekly attendance email", e);
             resp.put("success", false);
             resp.put("message", e.getMessage());
@@ -471,7 +471,7 @@ public class AttendanceController {
         LocalDate target;
         try {
             target = (date != null && !date.isBlank()) ? LocalDate.parse(date) : LocalDate.now();
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             target = LocalDate.now();
         }
 
@@ -479,7 +479,7 @@ public class AttendanceController {
             WeeklyAttendanceReportService.WeekRange range = weeklyReportService.getWeekRangeForSelectedDate(target, true);
             String html = weeklyReportService.buildWeeklyReportHtml(range.getStart(), range.getEnd());
             return ResponseEntity.ok().header("Content-Type", "text/html; charset=UTF-8").body(html);
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             log.error("Failed to build weekly preview", e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Failed to build weekly preview: " + e.getMessage());
         }

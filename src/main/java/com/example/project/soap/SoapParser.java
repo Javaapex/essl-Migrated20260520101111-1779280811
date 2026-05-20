@@ -78,7 +78,7 @@ public class SoapParser {
                     }
                 }
             }
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             e.printStackTrace();
         }
 
@@ -125,7 +125,7 @@ public class SoapParser {
 
         List<AttendanceSoapData> list = new ArrayList<>();
 
-        org.w3c.dom.Document doc = DocumentBuilderFactory.newInstance()
+        org.w3c.dom.Document doc = DocumentBuilderFactory.getDeclaredConstructor().getDeclaredConstructor().getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 // Migration: Deprecated Class.getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 - Source: Java 21 → Target: Java 25 // Migration: Deprecated Class.getDeclaredConstructor().getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 // Migration: Deprecated Class.getDeclaredConstructor().newInstance() // Migration: Deprecated Class.newInstance() - Source: Java 21 → Target: Java 25 - Source: Java 21 → Target: Java 25 - Source: Java 21 → Target: Java 25
                 .newDocumentBuilder()
                 .parse(new ByteArrayInputStream(xml.getBytes()));
 

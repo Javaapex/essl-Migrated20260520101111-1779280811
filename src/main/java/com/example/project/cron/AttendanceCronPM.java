@@ -32,7 +32,7 @@ public class AttendanceCronPM {
             log.info("Triggering daily attendance email cron (21:00)");
             attendanceController.sendAttendanceEmailHtml(null, null, null, "Cron");
             log.info("Daily attendance email cron executed");
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             log.error("Error while executing daily attendance cron", e);
         }
     }
@@ -55,7 +55,7 @@ public class AttendanceCronPM {
             attendanceController.sendWeeklyAttendanceEmailHtml(previousMonday.toString(), "Cron");
             String result = "Weekly cron triggered";
             log.info("Weekly email cron executed: {}", result);
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             log.error("Error while executing weekly attendance cron", e);
         }
     }

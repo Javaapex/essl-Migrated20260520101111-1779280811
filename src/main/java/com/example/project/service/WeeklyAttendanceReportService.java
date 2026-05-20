@@ -210,7 +210,7 @@ public class WeeklyAttendanceReportService {
             emailService.sendHtmlEmail(toRecipients, ccRecipients, bccRecipients, subject, html.toString());
             // Consider the send successful for all recipients if no exception
             sent = totalRecipients;
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             log.error("Failed to send weekly attendance email in bulk", e);
             // Fallback: try per-To recipient (preserve CC/BCC as empty for per-recipient sends)
             sent = 0;
@@ -296,7 +296,7 @@ public class WeeklyAttendanceReportService {
             }
 
             return hours + "hr " + minutes + "m";
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             return "0hr 0m";
         }
     }
@@ -309,7 +309,7 @@ public class WeeklyAttendanceReportService {
             int h = Integer.parseInt(parts[0]);
             int m = Integer.parseInt(parts[1]);
             return (h * 60) + m;
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             return 0;
         }
     }

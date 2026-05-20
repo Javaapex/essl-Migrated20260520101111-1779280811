@@ -1,0 +1,91 @@
+name: Deploy To Render
+
+on:
+  push:
+    branches: ["main", "master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve metadata
+        id: meta
+        shell: bash
+        run: |
+          set -euo pipefail
+          REPO_NAME="${GITHUB_REPOSITORY##*/}"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          echo "repo_name=$REPO_NAME" >> "$GITHUB_OUTPUT"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+
+      - name: Ensure Render service exists and trigger deploy
+        shell: bash
+        env:
+          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+          RENDER_API_KEY_VAR: ${{ vars.RENDER_API_KEY }}
+          RENDER_OWNER_ID: ${{ secrets.RENDER_OWNER_ID }}
+          RENDER_OWNER_ID_VAR: ${{ vars.RENDER_OWNER_ID }}
+          RENDER_OWNERID: ${{ secrets.RENDER_OWNERID }}
+          REPO_NAME: ${{ steps.meta.outputs.repo_name }}
+          BRANCH: ${{ steps.meta.outputs.branch }}
+          REPO_URL: https://github.com/${{ github.repository }}
+        run: |
+          set -euo pipefail
+          RENDER_API_KEY="${RENDER_API_KEY:-${RENDER_API_KEY_VAR:-}}"
+          RENDER_OWNER_ID="${RENDER_OWNER_ID:-${RENDER_OWNER_ID_VAR:-${RENDER_OWNERID:-}}}"
+          if [[ -z "$RENDER_API_KEY" ]]; then
+            echo "Missing Render API key. Configure one of: secret RENDER_API_KEY or variable RENDER_API_KEY."
+            exit 1
+          fi
+
+          if [[ -z "$RENDER_OWNER_ID" ]]; then
+            OWNERS_JSON=$(curl -sS -H "Authorization: Bearer $RENDER_API_KEY" -H "Accept: application/json" "https://api.render.com/v1/owners")
+            RENDER_OWNER_ID=$(echo "$OWNERS_JSON" | jq -r '.[0].owner.id // .[0].id // empty')
+          fi
+
+          if [[ -z "$RENDER_OWNER_ID" ]]; then
+            echo "Unable to resolve Render owner. Configure one of: secret RENDER_OWNER_ID, secret RENDER_OWNERID, or variable RENDER_OWNER_ID."
+            exit 1
+          fi
+
+          SERVICE_NAME=$(echo "$REPO_NAME" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9-]/-/g' | sed 's/-\+/-/g' | sed 's/^-//;s/-$//' | cut -c1-56)
+          [[ -n "$SERVICE_NAME" ]] || SERVICE_NAME="javaapex-generated-service"
+          SERVICE_NAME="$SERVICE_NAME"
+
+          SERVICES_JSON=$(curl -sS -H "Authorization: Bearer $RENDER_API_KEY" -H "Accept: application/json" "https://api.render.com/v1/services")
+          SERVICE_ID=$(echo "$SERVICES_JSON" | jq -r --arg n "$SERVICE_NAME" '.[] | select(.name==$n) | .service.id // .id' | head -n1)
+
+          if [[ -z "$SERVICE_ID" || "$SERVICE_ID" == "null" ]]; then
+            echo "Creating Render service: $SERVICE_NAME"
+            CREATE_PAYLOAD=$(jq -n \
+              --arg owner "$RENDER_OWNER_ID" \
+              --arg name "$SERVICE_NAME" \
+              --arg repo "$REPO_URL" \
+              --arg branch "$BRANCH" \
+              '{type:"web_service",ownerId:$owner,name:$name,repo:$repo,branch:$branch,autoDeploy:"yes",serviceDetails:{runtime:"docker",plan:"free"}}')
+            CREATE_RESP=$(curl -sS -X POST "https://api.render.com/v1/services" \
+              -H "Authorization: Bearer $RENDER_API_KEY" \
+              -H "Content-Type: application/json" \
+              -H "Accept: application/json" \
+              -d "$CREATE_PAYLOAD")
+            SERVICE_ID=$(echo "$CREATE_RESP" | jq -r '.service.id // .id')
+            if [[ -z "$SERVICE_ID" || "$SERVICE_ID" == "null" ]]; then
+              echo "Failed to create service. Response: $CREATE_RESP"
+              exit 1
+            fi
+          fi
+
+          echo "Triggering deploy for service id: $SERVICE_ID"
+          DEPLOY_RESP=$(curl -sS -X POST "https://api.render.com/v1/services/$SERVICE_ID/deploys" \
+            -H "Authorization: Bearer $RENDER_API_KEY" \
+            -H "Content-Type: application/json" \
+            -H "Accept: application/json" \
+            -d '{}')
+          echo "Deploy triggered: $DEPLOY_RESP"
